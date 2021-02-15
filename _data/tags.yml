@@ -14,3 +14,19 @@ getting-started:
   name: getting-started
   description: False
   cover: False
+programming:
+  name: programming
+  description: Progress of my programming study
+  cover: False
+pencils:
+  name: pencils
+  description: pencils. made of wood and graphite
+  cover: False
+leadholder:
+  name: leadholder
+  description: leadholder. a versatil tool for writing and drawing
+  cover: false
+writing:
+  name: writing
+  description: writing. written by ecrire06 with pencils & pens
+  cover: false

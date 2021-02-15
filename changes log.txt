@@ -1,0 +1,65 @@
+changes log
+
+2021-02-12
+
+_data\authors.yml
+ecrire06 -> Ecrire06
+junha hwang -> Ecrire06
+
+_posts\
+add files
+jekyll 입문 markdown delete
+
+2021-02-13
+
+_data\tags.yml
+tags 추가
+
+extract_08.pdf
+extract_07.pdf
+extract_06.pdf
+extract_05.pdf
+extract_04.pdf
+extract_03.pdf
+extract_02.pdf
+extract_01.pdf
+text 이동 완료
+
+_post\
+tags 별로 폴더 생성해줌.
+
+markdown 형식 html 형식으로 바꿔주기
+
+2021-02-14
+markdown을 html로 문서 전환하기
+
+programming\2021 폴더에 들어있는 파일들 제거.
+
+published: true추가하기
+
+2021-02-15
+writing에 '블로그 플랫폼'관련 글 작성
+
+/pencils/2019 사진정리 완료
+/leadholder/2020 사진정리 완료
+
+2021-02-16
+
+
+-----------------------------------
+
+/pencils/2020
+/pencils/2021
+programming/2021
+writing/2020
+writing/2021
+
+cover 사진 수정 및 본문 사진 수정하기_Google Drive 사진 업로드로!
+
+기존 _posts 삭제하고 수정한 파일로 대체하기
+
+GitHub에 commit & push 한 후에 Naver Blog에
+'이 글은 다음 링크에서 보시는게 더 편리합니다 <링크>'
+추가해주기
+
+published true/false ruby cmd 설정하기

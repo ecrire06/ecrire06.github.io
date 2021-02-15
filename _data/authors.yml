@@ -1,15 +1,14 @@
 ecrire06:
-  username: ecrire06
-  name: junha hwang
+  username: Ecrire06
+  name: Ecrire06
   location: Seoul, South Korea
   url_full: https://ecrire06.github.io
   url: ecrire06.github.io
   bio: Pencils & Pens & Study
-  picture: assets/images/ghost.png
+  picture: assets/images/ecrire06.png
   facebook: juneha2002
   twitter: ecrire06
   cover: False
-
 ghost:
   username: ghost
   name: Ghost
