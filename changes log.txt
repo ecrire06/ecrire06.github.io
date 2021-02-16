@@ -43,9 +43,17 @@ writing에 '블로그 플랫폼'관련 글 작성
 /pencils/2019 사진정리 완료
 /leadholder/2020 사진정리 완료
 
+기존 _posts 삭제하고 수정한 파일로 대체하기
+
+published true/false ruby cmd 설정하기
+
 2021-02-16
 
+cover 사진 수정 및 본문 사진 수정하기_Google Drive 사진 업로드로!
 kohinoor1900까지 image 정리 완료
+technograph 777까지 image 정리 완료
+
+2021-02-17
 
 -----------------------------------
 
@@ -55,12 +63,13 @@ programming/2021
 writing/2020
 writing/2021
 
-cover 사진 수정 및 본문 사진 수정하기_Google Drive 사진 업로드로!
-
-기존 _posts 삭제하고 수정한 파일로 대체하기
-
 GitHub에 commit & push 한 후에 Naver Blog에
 '이 글은 다음 링크에서 보시는게 더 편리합니다 <링크>'
 추가해주기
 
-published true/false ruby cmd 설정하기
+네이버 링크를 jekyll 내부 링크로 수정하기
+
+jekyll 블로그에 페이지 추가하기
+-> 기본 테마로는 로딩 속도가 너무 오래걸려ㅜㅜ
+
+
