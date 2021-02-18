@@ -6,6 +6,7 @@ var livereload = require('gulp-livereload');
 var postcss = require('gulp-postcss');
 var sourcemaps = require('gulp-sourcemaps');
 var zip = require('gulp-zip');
+var imagemin = require('gulp-imagemin');
 
 // postcss plugins
 var autoprefixer = require('autoprefixer');
@@ -23,6 +24,12 @@ var swallowError = function swallowError(error) {
 var nodemonServerInit = function () {
     livereload.listen(1234);
 };
+
+gulp.task('images', function() {
+    return gulp.src('assets/images/*')
+        .pipe(imagemin())
+        .pipe(gulp.dest('assets/built/images/'))
+});
 
 gulp.task('build', ['css'], function (/* cb */) {
     return nodemonServerInit();
