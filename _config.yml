@@ -5,10 +5,10 @@ markdown: kramdown
 
 # MyData
 owner:
-  name:           SungHoon Moon
+  name:           ecrire06
   avatar:         rainbow.jpg
   bio:            "Pencils & Pens & Study"
-  email:          juneha2002@gmail.com
+  email:          ecrire06@naver.com
   # Social networking links used in footer. Update and remove as you like.
   twitter:        ecrire06
   facebook:       juneha2002
@@ -118,7 +118,7 @@ permalink: /:title
 
 # gems and other configs
 plugins_dir: [_plugins]
-plugins: [jekyll-paginate, jekyll-feed, jekyll-gist]
+plugins: [jekyll-paginate, jekyll-feed]
 
 feed:
   path: feed.xml
@@ -156,7 +156,7 @@ branch: master
 # 사용할 branch명
 
 relative_source:
-destination: ./output/
+destination:
 # compile된 결과가 생성되는 폴더
 # 이 폴더안의 내용이 우리가 운영하는 블로그 내용이 컴파일되서 들어간다.
 # 이 폴더안의 내용을 github repository(https://username.github.io)에 push
