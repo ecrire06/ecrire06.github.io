@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
   <link href="http://localhost:4000/author/ecrire06/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2021-02-18T23:02:19+09:00</updated>
+  <updated>2021-02-18T23:26:12+09:00</updated>
   <id>http://localhost:4000/author/ecrire06/feed.xml</id>
 
   
@@ -124,7 +124,7 @@
 &lt;!--수정할 수 있는 파일들, 사실 처음부터 좋은 테마를 고르는게 고생을 덜 수 있다..--&gt;
 &lt;a title=&quot;HTML을 이용한 폰트 및 글씨 색 변경&quot; href=&quot;#&quot;&gt;HTML을 이용한 폰트 및 글씨 색 변경&lt;/a&gt;&lt;br /&gt;
 
-&lt;h2 id=&quot;이제 추가 기능을 넣어볼까?&quot;&gt;이제 추가 기능을 넣어볼까?&lt;/h2&gt;&quot;
+&lt;h2 id=&quot;이제 추가 기능을 넣어볼까?&quot;&gt;이제 추가 기능을 넣어볼까?&lt;/h2&gt;
 &lt;a title=&quot;comment(댓글)을 달아보자&quot; href=&quot;#&quot;&gt;comment(댓글)을 달아보자&lt;/a&gt;
 &lt;!--선택지는 다양. Disqus / Facebook Add-in / Open Source--&gt;
 &lt;a title=&quot;SNS을 블로그에 연결해보자&quot; href=&quot;#&quot;&gt;SNS을 블로그에 연결해보자&lt;/a&gt;
