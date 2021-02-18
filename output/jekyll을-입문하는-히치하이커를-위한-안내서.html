@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <!-- Document Settings -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- Base Meta -->
+    <!-- dynamically fixing the title for tag/author pages -->
+
+
+
+    <title>Jekyll을 입문하는 히치하이커를 위한 안내서</title>
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Styles'n'Scripts -->
+    <link rel="stylesheet" type="text/css" href="/assets/built/screen.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/built/screen.edited.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/built/syntax.css" />
+    <!-- highlight.js -->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
+    <style>.hljs { background: none; }</style>
+
+    <!--[if IE]>
+        <style>
+            p, ol, ul{
+                width: 100%;
+            }
+            blockquote{
+                width: 100%;
+            }
+        </style>
+    <![endif]-->
+    
+    <!-- This tag outputs SEO meta+structured data and other important settings -->
+    <meta name="description" content="Pencils & Pens & Study" />
+    <link rel="shortcut icon" href="http://localhost:4000/assets/images/favicon.png" type="image/png" />
+    <link rel="canonical" href="http://localhost:4000/jekyll%EC%9D%84-%EC%9E%85%EB%AC%B8%ED%95%98%EB%8A%94-%ED%9E%88%EC%B9%98%ED%95%98%EC%9D%B4%EC%BB%A4%EB%A5%BC-%EC%9C%84%ED%95%9C-%EC%95%88%EB%82%B4%EC%84%9C" />
+    <meta name="referrer" content="no-referrer-when-downgrade" />
+
+     <!--title below is coming from _includes/dynamic_title-->
+    <meta property="og:site_name" content="Ecrire06" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Jekyll을 입문하는 히치하이커를 위한 안내서" />
+    <meta property="og:description" content="Jekyll을 입문하는 히치하이커를 위한 안내서 이 글을 읽는 사람들을 아마도 다른 Blog를 사용해보다가 'Jekyll에 도전해볼까?'라는 생각을 가진 사람들일 것이다. 나 또한 Naver에서 Ecrire06이라는 닉네임으로 1년이 조금 넘는 기간동안 블로그를 운영해왔다. Naver Blog의 이웃 기능이나 에디터는 정말 직관적이고 마음에 들었다. 하지만, HTML이나 CSS를 완전히 수정할 수는 없어서 나만의 blog customization은 불가능하다는" />
+    <meta property="og:url" content="http://localhost:4000/jekyll%EC%9D%84-%EC%9E%85%EB%AC%B8%ED%95%98%EB%8A%94-%ED%9E%88%EC%B9%98%ED%95%98%EC%9D%B4%EC%BB%A4%EB%A5%BC-%EC%9C%84%ED%95%9C-%EC%95%88%EB%82%B4%EC%84%9C" />
+    <meta property="og:image" content="http://localhost:4000/assets/images/design.jpg" />
+    <meta property="article:publisher" content="https://www.facebook.com/juneha2002" />
+    <meta property="article:author" content="https://www.facebook.com/juneha2002" />
+    <meta property="article:published_time" content="2021-02-13T05:27:00+09:00" />
+    <meta property="article:modified_time" content="2021-02-13T05:27:00+09:00" />
+    <meta property="article:tag" content="Programming" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Jekyll을 입문하는 히치하이커를 위한 안내서" />
+    <meta name="twitter:description" content="Jekyll을 입문하는 히치하이커를 위한 안내서 이 글을 읽는 사람들을 아마도 다른 Blog를 사용해보다가 'Jekyll에 도전해볼까?'라는 생각을 가진 사람들일 것이다. 나 또한 Naver에서 Ecrire06이라는 닉네임으로 1년이 조금 넘는 기간동안 블로그를 운영해왔다. Naver Blog의 이웃 기능이나 에디터는 정말 직관적이고 마음에 들었다. 하지만, HTML이나 CSS를 완전히 수정할 수는 없어서 나만의 blog customization은 불가능하다는" />
+    <meta name="twitter:url" content="http://localhost:4000/" />
+    <meta name="twitter:image" content="http://localhost:4000/assets/images/design.jpg" />
+    <meta name="twitter:label1" content="Written by" />
+    <meta name="twitter:data1" content="Ecrire06" />
+    <meta name="twitter:label2" content="Filed under" />
+    <meta name="twitter:data2" content="Programming" />
+    <meta name="twitter:site" content="@ecrire06" />
+    <meta name="twitter:creator" content="@ecrire06" />
+    <meta property="og:image:width" content="1400" />
+    <meta property="og:image:height" content="933" />
+
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Website",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Ecrire06",
+        "logo": "http://localhost:4000/assets/images/blog-icon.png"
+    },
+    "url": "http://localhost:4000/jekyll%EC%9D%84-%EC%9E%85%EB%AC%B8%ED%95%98%EB%8A%94-%ED%9E%88%EC%B9%98%ED%95%98%EC%9D%B4%EC%BB%A4%EB%A5%BC-%EC%9C%84%ED%95%9C-%EC%95%88%EB%82%B4%EC%84%9C",
+    "image": {
+        "@type": "ImageObject",
+        "url": "http://localhost:4000/assets/images/design.jpg",
+        "width": 2000,
+        "height": 666
+    },
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "http://localhost:4000/jekyll%EC%9D%84-%EC%9E%85%EB%AC%B8%ED%95%98%EB%8A%94-%ED%9E%88%EC%B9%98%ED%95%98%EC%9D%B4%EC%BB%A4%EB%A5%BC-%EC%9C%84%ED%95%9C-%EC%95%88%EB%82%B4%EC%84%9C"
+    },
+    "description": "Jekyll을 입문하는 히치하이커를 위한 안내서 이 글을 읽는 사람들을 아마도 다른 Blog를 사용해보다가 'Jekyll에 도전해볼까?'라는 생각을 가진 사람들일 것이다. 나 또한 Naver에서 Ecrire06이라는 닉네임으로 1년이 조금 넘는 기간동안 블로그를 운영해왔다. Naver Blog의 이웃 기능이나 에디터는 정말 직관적이고 마음에 들었다. 하지만, HTML이나 CSS를 완전히 수정할 수는 없어서 나만의 blog customization은 불가능하다는"
+}
+    </script>
+
+    <!-- <script type="text/javascript" src="https://demo.ghost.io/public/ghost-sdk.min.js?v=724281a32e"></script>
+    <script type="text/javascript">
+    ghost.init({
+    	clientId: "ghost-frontend",
+    	clientSecret: "f84a07a72b17"
+    });
+    </script> -->
+
+    <meta name="generator" content="Jekyll 3.6.2" />
+    <link rel="alternate" type="application/rss+xml" title="Jekyll을 입문하는 히치하이커를 위한 안내서" href="/feed.xml" />
+
+
+</head>
+<body class="post-template">
+
+    <div class="site-wrapper">
+        <!-- All the main content gets inserted here, index.hbs, post.hbs, etc -->
+        <!-- default -->
+
+<!-- The tag above means: insert everything in this file
+into the {body} of the default.hbs template -->
+
+<header class="site-header outer">
+    <div class="inner">
+        <nav class="site-nav">
+    <div class="site-nav-left">
+        
+            
+                <a class="site-nav-logo" href="http://localhost:4000/"><img src="/assets/images/blog-icon.png" alt="Ecrire06" /></a>
+            
+        
+        
+            <ul class="nav" role="menu">
+    <li class="nav-home" role="menuitem"><a href="/">Home</a></li>
+    <li class="nav-about" role="menuitem"><a href="/about/">About</a></li>
+    <li class="nav-getting-started" role="menuitem"><a href="/tag/getting-started/">Getting Started</a></li>
+    <li class="nav-try-ghost" role="menuitem"><a href="https://ghost.org">Try Ghost</a></li>
+</ul>
+
+        
+    </div>
+    <div class="site-nav-right">
+        <div class="social-links">
+            
+                <a class="social-link social-link-fb" href="https://facebook.com/juneha2002" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M19 6h5V0h-5c-3.86 0-7 3.14-7 7v3H8v6h4v16h6V16h5l1-6h-6V7c0-.542.458-1 1-1z"/></svg>
+</a>
+            
+            
+                <a class="social-link social-link-tw" href="https://twitter.com/ecrire06" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M30.063 7.313c-.813 1.125-1.75 2.125-2.875 2.938v.75c0 1.563-.188 3.125-.688 4.625a15.088 15.088 0 0 1-2.063 4.438c-.875 1.438-2 2.688-3.25 3.813a15.015 15.015 0 0 1-4.625 2.563c-1.813.688-3.75 1-5.75 1-3.25 0-6.188-.875-8.875-2.625.438.063.875.125 1.375.125 2.688 0 5.063-.875 7.188-2.5-1.25 0-2.375-.375-3.375-1.125s-1.688-1.688-2.063-2.875c.438.063.813.125 1.125.125.5 0 1-.063 1.5-.25-1.313-.25-2.438-.938-3.313-1.938a5.673 5.673 0 0 1-1.313-3.688v-.063c.813.438 1.688.688 2.625.688a5.228 5.228 0 0 1-1.875-2c-.5-.875-.688-1.813-.688-2.75 0-1.063.25-2.063.75-2.938 1.438 1.75 3.188 3.188 5.25 4.25s4.313 1.688 6.688 1.813a5.579 5.579 0 0 1 1.5-5.438c1.125-1.125 2.5-1.688 4.125-1.688s3.063.625 4.188 1.813a11.48 11.48 0 0 0 3.688-1.375c-.438 1.375-1.313 2.438-2.563 3.188 1.125-.125 2.188-.438 3.313-.875z"/></svg>
+</a>
+            
+        </div>
+        
+            <a class="subscribe-button" href="#subscribe">Subscribe</a>
+        
+    </div>
+</nav>
+
+    </div>
+</header>
+
+<!-- Everything inside the #post tags pulls data from the post -->
+<!-- #post -->
+
+<main id="site-main" class="site-main outer" role="main">
+    <div class="inner">
+
+        <article class="post-full  tag-programming post ">
+
+            <header class="post-full-header">
+                <section class="post-full-meta">
+                    <time class="post-full-meta-date" datetime="13 February 2021">13 February 2021</time>
+                    
+                        <span class="date-divider">/</span>
+                        
+                            
+                               <a href='/tag/programming/'>PROGRAMMING</a>
+                            
+                        
+                    
+                </section>
+                <h1 class="post-full-title">Jekyll을 입문하는 히치하이커를 위한 안내서</h1>
+            </header>
+
+            
+            <figure class="post-full-image" style="background-image: url(/assets/images/design.jpg)">
+            </figure>
+            
+
+            <section class="post-full-content">
+                <div class="kg-card-markdown">
+                    <!--
+    To Add Title...
+    <h2 id="#">#</h2>
+-->
+
+<!--
+    To Add Hyperlink...
+    <a title="#" href="#">#</a>
+-->
+
+
+<p>Jekyll을 입문하는 히치하이커를 위한 안내서</p>
+
+<p>이 글을 읽는 사람들을 아마도 다른 Blog를 사용해보다가 'Jekyll에 도전해볼까?'라는 생각을 가진 사람들일 것이다. 나 또한 Naver에서 <a title="Ecrire06" href="https://blog.naver.com/ecrire06">Ecrire06</a>이라는 닉네임으로 1년이 조금 넘는 기간동안 블로그를 운영해왔다. Naver Blog의 이웃 기능이나 에디터는 정말 직관적이고 마음에 들었다. 하지만, HTML이나 CSS를 완전히 수정할 수는 없어서 나만의 blog customization은 불가능하다는 한계점을 갖고 있었다. 아쉬움을 느낀 나는 다른 Blog 플랫폼을 찾던 중 Jekyll에 입문해보기로 했다.</p>
+
+<p>사실 나는 프로그래밍 전문가는 아니고, 이제 막 배워가는 Novice Programmer일 뿐이다. 혹시 나처럼 프로그램밍 전문가는 아니지만 Jekyll 블로그에 도전하려는 분들을 위해 글을 작성해봐야겠다는 생각이 들기 시작했다. 목차에 해당하는 항목별로 하나하나씩 글을 작성해갈 예정이다. 앞으로 작성할 글의 목록인 동시에 앞으로 알아가고 나아갈 방향이라고 생각된다.</p>
+
+
+<!--
+    To Add Title...
+    <h2 id="#">#</h2>
+-->
+
+<!--
+    To Add Hyperlink...
+    <a title="#" href="#">#</a>
+-->
+
+<!--
+    To Add Photo from Google Drive
+    add the following html code...s
+    <center><img src="https://drive.google.com/uc?export=view&id=#" width="100%" height="100%"></center>
+-->
+
+<h2 id="나는 어떤 블로그를 만들 것인가?">나는 어떤 블로그를 만들 것인가?</h2>
+<a title="Blog 플랫폼 선택하기" href="#">Blog 플랫폼 선택하기</a>
+<!--naver tistory wordpress jekyll 필자가 생각하기에 장단점, 특징들 정리-->
+<a title="Blog 구상하기" href="#">블로그 구상하기</a><br />
+<!--Blog의 Identity, 주제, 글 분량, 업로드 주기 계획하기-->
+
+<h2 id="Jekyll Blog 구축하기">Jekyll Blog 구축하기</h2>
+<a title="Git, Ruby 설치하고 설정하기" href="#">Git, Ruby 설치하고 설정하기</a>
+<!--어쩌면 가장 큰 난관. 참고 차근차근 따라오시라!-->
+<a title="Template 쇼핑하기" href="#">Template 쇼핑하기</a>
+<!--설치하느라 수고 많았다.이제는 즐거운 쇼핑타임~ -->
+<a title="GitHub 가입하고 Fork로 테마 가져오기" href="#">GitHub 가입하고 Fork로 테마 가져오기</a>
+<!--남들이 일궈놓은 작품을 한번에 Fork로 콕콕 집어오기-->
+<a title="내 컴퓨터에 Jekyll 설치하고 서버 구동하기" href="#">내 컴퓨터에 Jekyll 설치하고 서버 구동하기</a>
+<!--Ruby를 몰라도. 할 수 있습니다. 파이팅!!-->
+<a title="Git Bash Commit & Push로 업로드" href="#">Git Bash Commit & Push로 업로드</a><br />
+<!--자주 사용할 save/upload 기능-->
+
+<h2 id="Jekyll에 글(Post)을 올려보자!">Jekyll에 글(Post)을 올려보자!</h2>
+<a title="글은 어떻게 쓸까?" href="#">글은 어떻게 쓸까?</a>
+<!--editor 선택. 개인적으로 Visual Studio Code 강추-->
+<a title="Markdown 문법을 알아보자" href="#">Markdown 문법을 알아보자</a>
+<!--자세한건 공식 홈페이지에서. 나는 자주 사용하는 문법만-->
+<a title="YAML파일 수정해볼까아...?" href="#">YAML 수정해볼까아...?</a>
+<!--Tag, Title, Date 등등 수정하기-->
+<a title="글 쓰기를 마친 후에 GitHub에 업로드하는 방법(feat.Batch File)" href="#">글 쓰기를 마친 후에 GitHub에 업로드하는 방법(feat.Batch File)</a>
+<!--매번 type할거냐... Git Bash Commit & Push 자동화!! 귀차니즘은 세상을 바꾼다!-->
+<a title="HTML 문법을 알아보자" href="#">HTML 문법을 알아보자</a>
+<!--자세한건 공식 홈페이지에서. 나는 자주 사용하는 문법만. 사진올리기. 하이퍼링크. 문단 작성하기-->
+<a title="Google Drive의 사진 가져오기" href="#">Google Drive의 사진 가져오기</a>
+<!--GitHub의 용량제한 우회하는 법. 1GB제한... Google Drive은 사실상 트래픽이 무제한이다!!!-->
+<a title="임시저장글(비밀글) 만드는 방법" href="#">임시저장글(비밀글) 만드는 방법</a><br />
+<!--공식으로 글을 올리기 전이라면 유용할 기능!-->
+
+<h2 id="입맛에 맞게 블로그 Customization!">입맛에 맞게 블로그 Customization!</h2>
+<a title="테마 마음대로 바꾸는 방법" href="#">테마 마음대로 바꾸는 방법</a>
+<!--수정할 수 있는 파일들, 사실 처음부터 좋은 테마를 고르는게 고생을 덜 수 있다..-->
+<a title="HTML을 이용한 폰트 및 글씨 색 변경" href="#">HTML을 이용한 폰트 및 글씨 색 변경</a><br />
+
+<h2 id="이제 추가 기능을 넣어볼까?">이제 추가 기능을 넣어볼까?</h2>"
+<a title="comment(댓글)을 달아보자" href="#">comment(댓글)을 달아보자</a>
+<!--선택지는 다양. Disqus / Facebook Add-in / Open Source-->
+<a title="SNS을 블로그에 연결해보자" href="#">SNS을 블로그에 연결해보자</a>
+<!--SNS 추가로 더 연결되는 세상-->
+<a title="Google Analytics로 유입 분석하기" href="#">Google Analytics로 유입 분석하기</a>
+<!--소통을 위해서는 사람들이 원하는 컨텐츠를 제작해야 한다.-->
+<a title="RSS 기능은 무엇일까?" href="">RSS 기능은 무엇일까?</a>
+<!--Internet Bot들이내 블로그를 쓸어갈 수 있도록 설정하기-->
+<a title="Naver 이웃커넥트 Jekyll에 추가하기 가능한가?" href="">Naver 이웃커넥트 Jekyll에 추가하기 가능한가?</a>
+<!--기존의 이웃들에게 실시간으로 소실 전해드리기-->
+<a title="Naver Blog의 글을 Jekyll로 이사하기 (feat.노가다)" href="">Naver Blog의 글을 Jekyll로 이사하기 (feat.노가다)</a><br />
+<!--내가 Naver Blog에서 Jekyll로 늦기전에 넘어온 이유-->
+                </div>
+            </section>
+
+            <!-- Email subscribe form at the bottom of the page -->
+            
+                <section class="subscribe-form">
+                    <h3 class="subscribe-form-title">Subscribe to Ecrire06</h3>
+                    <p>Get the latest posts delivered right to your inbox</p>
+                    <form method="post" action="/subscribe/" class="">
+    <input class="confirm" type="hidden" name="confirm"  /><input class="location" type="hidden" name="location"  /><input class="referrer" type="hidden" name="referrer"  />
+
+    <div class="form-group">
+        <input class="subscribe-email" type="email" name="email"  placeholder="youremail@example.com" />
+    </div>
+    <button class="" type="submit" disabled><span>Subscribe</span></button>
+    <script type="text/javascript">(function(g,h,o,s,t){h[o]('.location')[s]=h[o]('.location')[s] || g.location.href;h[o]('.referrer')[s]=h[o]('.referrer')[s] || h.referrer;})(window,document,'querySelector','value');</script>
+</form>
+
+                </section>
+            
+
+            <footer class="post-full-footer">
+                <!-- Everything inside the #author tags pulls data from the author -->
+                <!-- #author-->
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                <!-- /author  -->
+            </footer>
+
+            <!-- If you use Disqus comments, just uncomment this block.
+            The only thing you need to change is "test-apkdzgmqhj" - which
+            should be replaced with your own Disqus site-id. -->
+            
+                <section class="post-full-comments">
+                    <div id="disqus_thread"></div>
+                    <script>
+                        var disqus_config = function () {
+                            this.page.url = 'http://localhost:4000/jekyll%EC%9D%84-%EC%9E%85%EB%AC%B8%ED%95%98%EB%8A%94-%ED%9E%88%EC%B9%98%ED%95%98%EC%9D%B4%EC%BB%A4%EB%A5%BC-%EC%9C%84%ED%95%9C-%EC%95%88%EB%82%B4%EC%84%9C';
+                            this.page.identifier = '/jekyll을-입문하는-히치하이커를-위한-안내서';
+                            this.page.title = 'Jekyll을 입문하는 히치하이커를 위한 안내서';
+                        };
+                        (function() {
+                            var d = document, s = d.createElement('script');
+                            s.src = 'https://https-ecrire06-github-io.disqus.com/embed.js';
+                            s.setAttribute('data-timestamp', +new Date());
+                            (d.head || d.body).appendChild(s);
+                        })();
+                    </script>
+                </section>
+            
+
+        </article>
+
+    </div>
+</main>
+
+<!-- Links to Previous/Next posts -->
+<aside class="read-next outer">
+    <div class="inner">
+        <div class="read-next-feed">
+            
+                
+                
+                
+                
+            
+
+            <!-- If there's a next post, display it using the same markup included from - partials/post-card.hbs -->
+            
+
+            <!-- If there's a previous post, display it using the same markup included from - partials/post-card.hbs -->
+            
+                
+
+    <article class="post-card post-template">
+        
+            <a class="post-card-image-link" href="/%EB%B3%84%EC%9D%B4-%EB%B9%9B%EB%82%98%EB%8A%94-%EB%B0%A4%EC%97%90">
+                <div class="post-card-image" style="background-image: url(/assets/images/orion.jpg)"></div>
+            </a>
+        
+        <div class="post-card-content">
+            <a class="post-card-content-link" href="/%EB%B3%84%EC%9D%B4-%EB%B9%9B%EB%82%98%EB%8A%94-%EB%B0%A4%EC%97%90">
+                <header class="post-card-header">
+                    
+                        
+                            
+                                <span class="post-card-tags">Writing</span>
+                            
+                        
+                    
+
+                    <h2 class="post-card-title">별이 빛나는 밤에</h2>
+                </header>
+                <section class="post-card-excerpt">
+                    
+                        <p></p>
+                    
+                </section>
+            </a>
+            <footer class="post-card-meta">
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                <span class="reading-time">
+                    
+                    
+                      1 min read
+                    
+                </span>
+            </footer>
+        </div>
+    </article>
+
+            
+
+        </div>
+    </div>
+</aside>
+
+<!-- Floating header which appears on-scroll, included from includes/floating-header.hbs -->
+<div class="floating-header">
+    <div class="floating-header-logo">
+        <a href="http://localhost:4000/">
+            
+                <img src="/assets/images/favicon.png" alt="Ecrire06 icon" />
+            
+            <span>Ecrire06</span>
+        </a>
+    </div>
+    <span class="floating-header-divider">&mdash;</span>
+    <div class="floating-header-title">Jekyll을 입문하는 히치하이커를 위한 안내서</div>
+    <div class="floating-header-share">
+        <div class="floating-header-share-label">Share this <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+    <path d="M7.5 15.5V4a1.5 1.5 0 1 1 3 0v4.5h2a1 1 0 0 1 1 1h2a1 1 0 0 1 1 1H18a1.5 1.5 0 0 1 1.5 1.5v3.099c0 .929-.13 1.854-.385 2.748L17.5 23.5h-9c-1.5-2-5.417-8.673-5.417-8.673a1.2 1.2 0 0 1 1.76-1.605L7.5 15.5zm6-6v2m-3-3.5v3.5m6-1v2"/>
+</svg>
+</div>
+        <a class="floating-header-share-tw" href="https://twitter.com/share?text=Jekyll%EC%9D%84+%EC%9E%85%EB%AC%B8%ED%95%98%EB%8A%94+%ED%9E%88%EC%B9%98%ED%95%98%EC%9D%B4%EC%BB%A4%EB%A5%BC+%EC%9C%84%ED%95%9C+%EC%95%88%EB%82%B4%EC%84%9C&amp;url=https://ecrire06.github.io/jekyll%EC%9D%84-%EC%9E%85%EB%AC%B8%ED%95%98%EB%8A%94-%ED%9E%88%EC%B9%98%ED%95%98%EC%9D%B4%EC%BB%A4%EB%A5%BC-%EC%9C%84%ED%95%9C-%EC%95%88%EB%82%B4%EC%84%9C"
+            onclick="window.open(this.href, 'share-twitter', 'width=550,height=235');return false;">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M30.063 7.313c-.813 1.125-1.75 2.125-2.875 2.938v.75c0 1.563-.188 3.125-.688 4.625a15.088 15.088 0 0 1-2.063 4.438c-.875 1.438-2 2.688-3.25 3.813a15.015 15.015 0 0 1-4.625 2.563c-1.813.688-3.75 1-5.75 1-3.25 0-6.188-.875-8.875-2.625.438.063.875.125 1.375.125 2.688 0 5.063-.875 7.188-2.5-1.25 0-2.375-.375-3.375-1.125s-1.688-1.688-2.063-2.875c.438.063.813.125 1.125.125.5 0 1-.063 1.5-.25-1.313-.25-2.438-.938-3.313-1.938a5.673 5.673 0 0 1-1.313-3.688v-.063c.813.438 1.688.688 2.625.688a5.228 5.228 0 0 1-1.875-2c-.5-.875-.688-1.813-.688-2.75 0-1.063.25-2.063.75-2.938 1.438 1.75 3.188 3.188 5.25 4.25s4.313 1.688 6.688 1.813a5.579 5.579 0 0 1 1.5-5.438c1.125-1.125 2.5-1.688 4.125-1.688s3.063.625 4.188 1.813a11.48 11.48 0 0 0 3.688-1.375c-.438 1.375-1.313 2.438-2.563 3.188 1.125-.125 2.188-.438 3.313-.875z"/></svg>
+
+        </a>
+        <a class="floating-header-share-fb" href="https://www.facebook.com/sharer/sharer.php?u=https://ecrire06.github.io/jekyll%EC%9D%84-%EC%9E%85%EB%AC%B8%ED%95%98%EB%8A%94-%ED%9E%88%EC%B9%98%ED%95%98%EC%9D%B4%EC%BB%A4%EB%A5%BC-%EC%9C%84%ED%95%9C-%EC%95%88%EB%82%B4%EC%84%9C"
+            onclick="window.open(this.href, 'share-facebook','width=580,height=296');return false;">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M19 6h5V0h-5c-3.86 0-7 3.14-7 7v3H8v6h4v16h6V16h5l1-6h-6V7c0-.542.458-1 1-1z"/></svg>
+
+        </a>
+    </div>
+    <progress class="progress" value="0">
+        <div class="progress-container">
+            <span class="progress-bar"></span>
+        </div>
+    </progress>
+</div>
+
+
+<!-- /post -->
+
+<!-- The #contentFor helper here will send everything inside it up to the matching #block helper found in default.hbs -->
+
+
+        <!-- Previous/next page links - displayed on every page -->
+        
+
+        <!-- The footer at the very bottom of the screen -->
+        <footer class="site-footer outer">
+            <div class="site-footer-content inner">
+                <section class="copyright"><a href="http://localhost:4000/">Ecrire06</a> &copy; 2021</section>
+                <section class="poweredby">Proudly published with <a href="https://jekyllrb.com/">Jekyll</a> &
+                    <a href="https://pages.github.com/" target="_blank" rel="noopener">GitHub Pages</a> using
+                    <a href="https://github.com/jekyller/jasper2" target="_blank" rel="noopener">Jasper2</a></section>
+                <nav class="site-footer-nav">
+                    <a href="/">Latest Posts</a>
+                    <a href="https://facebook.com/juneha2002" target="_blank" rel="noopener">Facebook</a>
+                    <a href="https://twitter.com/ecrire06" target="_blank" rel="noopener">Twitter</a>
+                    <a href="https://ghost.org" target="_blank" rel="noopener">Ghost</a>
+                </nav>
+            </div>
+        </footer>
+
+    </div>
+
+    <!-- The big email subscribe modal content -->
+    
+        <div id="subscribe" class="subscribe-overlay">
+            <a class="subscribe-overlay-close" href="#"></a>
+            <div class="subscribe-overlay-content">
+                
+                    <img class="subscribe-overlay-logo" src="/assets/images/blog-icon.png" alt="Ecrire06" />
+                
+                <h1 class="subscribe-overlay-title">Subscribe to Ecrire06</h1>
+                <p class="subscribe-overlay-description">Stay up to date! Get all the latest &amp; greatest posts delivered straight to your inbox</p>
+                <form method="post" action="/subscribe/" class="">
+    <input class="confirm" type="hidden" name="confirm"  /><input class="location" type="hidden" name="location"  /><input class="referrer" type="hidden" name="referrer"  />
+
+    <div class="form-group">
+        <input class="subscribe-email" type="email" name="email"  placeholder="youremail@example.com" />
+    </div>
+    <button class="" type="submit" disabled><span>Subscribe</span></button>
+    <script type="text/javascript">(function(g,h,o,s,t){h[o]('.location')[s]=h[o]('.location')[s] || g.location.href;h[o]('.referrer')[s]=h[o]('.referrer')[s] || h.referrer;})(window,document,'querySelector','value');</script>
+</form>
+
+            </div>
+        </div>
+    
+
+    <!-- highlight.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.10.0/components/prism-abap.min.js"></script>
+    <script>$(document).ready(function() {
+      $('pre code').each(function(i, block) {
+        hljs.highlightBlock(block);
+      });
+    });</script>
+
+    <!-- jQuery + Fitvids, which makes all video embeds responsive -->
+    <script
+        src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous">
+    </script>
+    <script type="text/javascript" src="/assets/js/jquery.fitvids.js"></script>
+    <script type="text/javascript" src="https://demo.ghost.io/assets/js/jquery.fitvids.js?v=724281a32e"></script>
+
+
+    <!-- Paginator increased to "infinit" in _config.yml -->
+    <!-- if paginator.posts  -->
+    <!-- <script>
+        var maxPages = parseInt('');
+    </script>
+    <script src="/assets/js/infinitescroll.js"></script> -->
+    <!-- /endif -->
+
+    
+
+
+    <!-- Add Google Analytics  -->
+    <!-- Google Analytics Tracking code -->
+ <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'G-LNRDZQG1HF', 'auto');
+  ga('send', 'pageview');
+
+ </script>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LNRDZQG1HF"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-LNRDZQG1HF');
+</script>
+
+    <!-- The #block helper will pull in data from the #contentFor other template files. In this case, there's some JavaScript which we only want to use in post.hbs, but it needs to be included down here, after jQuery has already loaded. -->
+    
+        <script>
+
+// NOTE: Scroll performance is poor in Safari
+// - this appears to be due to the events firing much more slowly in Safari.
+//   Dropping the scroll event and using only a raf loop results in smoother
+//   scrolling but continuous processing even when not scrolling
+$(document).ready(function () {
+    // Start fitVids
+    var $postContent = $(".post-full-content");
+    $postContent.fitVids();
+    // End fitVids
+
+    var progressBar = document.querySelector('progress');
+    var header = document.querySelector('.floating-header');
+    var title = document.querySelector('.post-full-title');
+
+    var lastScrollY = window.scrollY;
+    var lastWindowHeight = window.innerHeight;
+    var lastDocumentHeight = $(document).height();
+    var ticking = false;
+
+    function onScroll() {
+        lastScrollY = window.scrollY;
+        requestTick();
+    }
+
+    function onResize() {
+        lastWindowHeight = window.innerHeight;
+        lastDocumentHeight = $(document).height();
+        requestTick();
+    }
+
+    function requestTick() {
+        if (!ticking) {
+            requestAnimationFrame(update);
+        }
+        ticking = true;
+    }
+
+    function update() {
+        var trigger = title.getBoundingClientRect().top + window.scrollY;
+        var triggerOffset = title.offsetHeight + 35;
+        var progressMax = lastDocumentHeight - lastWindowHeight;
+
+        // show/hide floating header
+        if (lastScrollY >= trigger + triggerOffset) {
+            header.classList.add('floating-active');
+        } else {
+            header.classList.remove('floating-active');
+        }
+
+        progressBar.setAttribute('max', progressMax);
+        progressBar.setAttribute('value', lastScrollY);
+
+        ticking = false;
+    }
+
+    window.addEventListener('scroll', onScroll, {passive: true});
+    window.addEventListener('resize', onResize, false);
+
+    update();
+});
+</script>
+
+    
+
+    <!-- Ghost outputs important scripts and data with this tag - it should always be the very last thing before the closing body tag -->
+    <!-- ghost_foot -->
+
+</body>
+</html>

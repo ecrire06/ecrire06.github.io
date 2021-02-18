@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" >
+  <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
+  <link href="http://localhost:4000/tag/programming/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="http://localhost:4000/" rel="alternate" type="text/html" />
+  <updated>2021-02-18T21:40:07+09:00</updated>
+  <id>http://localhost:4000/tag/programming/feed.xml</id>
+
+  
+  
+  
+
+  
+    <title type="html">Ecrire06 | </title>
+  
+
+  
+    <subtitle>Pencils &amp; Pens &amp; Study</subtitle>
+  
+
+  
+
+  
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  
+
+  
+  
+
+  
+    <entry>
+      <title type="html">Jekyll을 입문하는 히치하이커를 위한 안내서</title>
+      <link href="http://localhost:4000/jekyll%EC%9D%84-%EC%9E%85%EB%AC%B8%ED%95%98%EB%8A%94-%ED%9E%88%EC%B9%98%ED%95%98%EC%9D%B4%EC%BB%A4%EB%A5%BC-%EC%9C%84%ED%95%9C-%EC%95%88%EB%82%B4%EC%84%9C" rel="alternate" type="text/html" title="Jekyll을 입문하는 히치하이커를 위한 안내서" />
+      <published>2021-02-13T05:27:00+09:00</published>
+      <updated>2021-02-13T05:27:00+09:00</updated>
+      <id>http://localhost:4000/jekyll%EC%9D%84-%EC%9E%85%EB%AC%B8%ED%95%98%EB%8A%94-%ED%9E%88%EC%B9%98%ED%95%98%EC%9D%B4%EC%BB%A4%EB%A5%BC-%EC%9C%84%ED%95%9C-%EC%95%88%EB%82%B4%EC%84%9C</id>
+      <content type="html" xml:base="http://localhost:4000/jekyll%EC%9D%84-%EC%9E%85%EB%AC%B8%ED%95%98%EB%8A%94-%ED%9E%88%EC%B9%98%ED%95%98%EC%9D%B4%EC%BB%A4%EB%A5%BC-%EC%9C%84%ED%95%9C-%EC%95%88%EB%82%B4%EC%84%9C">&lt;!--
+    To Add Title...
+    &lt;h2 id=&quot;#&quot;&gt;#&lt;/h2&gt;
+--&gt;
+
+&lt;!--
+    To Add Hyperlink...
+    &lt;a title=&quot;#&quot; href=&quot;#&quot;&gt;#&lt;/a&gt;
+--&gt;
+
+
+&lt;p&gt;Jekyll을 입문하는 히치하이커를 위한 안내서&lt;/p&gt;
+
+&lt;p&gt;이 글을 읽는 사람들을 아마도 다른 Blog를 사용해보다가 'Jekyll에 도전해볼까?'라는 생각을 가진 사람들일 것이다. 나 또한 Naver에서 &lt;a title=&quot;Ecrire06&quot; href=&quot;https://blog.naver.com/ecrire06&quot;&gt;Ecrire06&lt;/a&gt;이라는 닉네임으로 1년이 조금 넘는 기간동안 블로그를 운영해왔다. Naver Blog의 이웃 기능이나 에디터는 정말 직관적이고 마음에 들었다. 하지만, HTML이나 CSS를 완전히 수정할 수는 없어서 나만의 blog customization은 불가능하다는 한계점을 갖고 있었다. 아쉬움을 느낀 나는 다른 Blog 플랫폼을 찾던 중 Jekyll에 입문해보기로 했다.&lt;/p&gt;
+
+&lt;p&gt;사실 나는 프로그래밍 전문가는 아니고, 이제 막 배워가는 Novice Programmer일 뿐이다. 혹시 나처럼 프로그램밍 전문가는 아니지만 Jekyll 블로그에 도전하려는 분들을 위해 글을 작성해봐야겠다는 생각이 들기 시작했다. 목차에 해당하는 항목별로 하나하나씩 글을 작성해갈 예정이다. 앞으로 작성할 글의 목록인 동시에 앞으로 알아가고 나아갈 방향이라고 생각된다.&lt;/p&gt;
+
+
+&lt;!--
+    To Add Title...
+    &lt;h2 id=&quot;#&quot;&gt;#&lt;/h2&gt;
+--&gt;
+
+&lt;!--
+    To Add Hyperlink...
+    &lt;a title=&quot;#&quot; href=&quot;#&quot;&gt;#&lt;/a&gt;
+--&gt;
+
+&lt;!--
+    To Add Photo from Google Drive
+    add the following html code...s
+    &lt;center&gt;&lt;img src=&quot;https://drive.google.com/uc?export=view&amp;id=#&quot; width=&quot;100%&quot; height=&quot;100%&quot;&gt;&lt;/center&gt;
+--&gt;
+
+&lt;h2 id=&quot;나는 어떤 블로그를 만들 것인가?&quot;&gt;나는 어떤 블로그를 만들 것인가?&lt;/h2&gt;
+&lt;a title=&quot;Blog 플랫폼 선택하기&quot; href=&quot;#&quot;&gt;Blog 플랫폼 선택하기&lt;/a&gt;
+&lt;!--naver tistory wordpress jekyll 필자가 생각하기에 장단점, 특징들 정리--&gt;
+&lt;a title=&quot;Blog 구상하기&quot; href=&quot;#&quot;&gt;블로그 구상하기&lt;/a&gt;&lt;br /&gt;
+&lt;!--Blog의 Identity, 주제, 글 분량, 업로드 주기 계획하기--&gt;
+
+&lt;h2 id=&quot;Jekyll Blog 구축하기&quot;&gt;Jekyll Blog 구축하기&lt;/h2&gt;
+&lt;a title=&quot;Git, Ruby 설치하고 설정하기&quot; href=&quot;#&quot;&gt;Git, Ruby 설치하고 설정하기&lt;/a&gt;
+&lt;!--어쩌면 가장 큰 난관. 참고 차근차근 따라오시라!--&gt;
+&lt;a title=&quot;Template 쇼핑하기&quot; href=&quot;#&quot;&gt;Template 쇼핑하기&lt;/a&gt;
+&lt;!--설치하느라 수고 많았다.이제는 즐거운 쇼핑타임~ --&gt;
+&lt;a title=&quot;GitHub 가입하고 Fork로 테마 가져오기&quot; href=&quot;#&quot;&gt;GitHub 가입하고 Fork로 테마 가져오기&lt;/a&gt;
+&lt;!--남들이 일궈놓은 작품을 한번에 Fork로 콕콕 집어오기--&gt;
+&lt;a title=&quot;내 컴퓨터에 Jekyll 설치하고 서버 구동하기&quot; href=&quot;#&quot;&gt;내 컴퓨터에 Jekyll 설치하고 서버 구동하기&lt;/a&gt;
+&lt;!--Ruby를 몰라도. 할 수 있습니다. 파이팅!!--&gt;
+&lt;a title=&quot;Git Bash Commit &amp; Push로 업로드&quot; href=&quot;#&quot;&gt;Git Bash Commit &amp; Push로 업로드&lt;/a&gt;&lt;br /&gt;
+&lt;!--자주 사용할 save/upload 기능--&gt;
+
+&lt;h2 id=&quot;Jekyll에 글(Post)을 올려보자!&quot;&gt;Jekyll에 글(Post)을 올려보자!&lt;/h2&gt;
+&lt;a title=&quot;글은 어떻게 쓸까?&quot; href=&quot;#&quot;&gt;글은 어떻게 쓸까?&lt;/a&gt;
+&lt;!--editor 선택. 개인적으로 Visual Studio Code 강추--&gt;
+&lt;a title=&quot;Markdown 문법을 알아보자&quot; href=&quot;#&quot;&gt;Markdown 문법을 알아보자&lt;/a&gt;
+&lt;!--자세한건 공식 홈페이지에서. 나는 자주 사용하는 문법만--&gt;
+&lt;a title=&quot;YAML파일 수정해볼까아...?&quot; href=&quot;#&quot;&gt;YAML 수정해볼까아...?&lt;/a&gt;
+&lt;!--Tag, Title, Date 등등 수정하기--&gt;
+&lt;a title=&quot;글 쓰기를 마친 후에 GitHub에 업로드하는 방법(feat.Batch File)&quot; href=&quot;#&quot;&gt;글 쓰기를 마친 후에 GitHub에 업로드하는 방법(feat.Batch File)&lt;/a&gt;
+&lt;!--매번 type할거냐... Git Bash Commit &amp; Push 자동화!! 귀차니즘은 세상을 바꾼다!--&gt;
+&lt;a title=&quot;HTML 문법을 알아보자&quot; href=&quot;#&quot;&gt;HTML 문법을 알아보자&lt;/a&gt;
+&lt;!--자세한건 공식 홈페이지에서. 나는 자주 사용하는 문법만. 사진올리기. 하이퍼링크. 문단 작성하기--&gt;
+&lt;a title=&quot;Google Drive의 사진 가져오기&quot; href=&quot;#&quot;&gt;Google Drive의 사진 가져오기&lt;/a&gt;
+&lt;!--GitHub의 용량제한 우회하는 법. 1GB제한... Google Drive은 사실상 트래픽이 무제한이다!!!--&gt;
+&lt;a title=&quot;임시저장글(비밀글) 만드는 방법&quot; href=&quot;#&quot;&gt;임시저장글(비밀글) 만드는 방법&lt;/a&gt;&lt;br /&gt;
+&lt;!--공식으로 글을 올리기 전이라면 유용할 기능!--&gt;
+
+&lt;h2 id=&quot;입맛에 맞게 블로그 Customization!&quot;&gt;입맛에 맞게 블로그 Customization!&lt;/h2&gt;
+&lt;a title=&quot;테마 마음대로 바꾸는 방법&quot; href=&quot;#&quot;&gt;테마 마음대로 바꾸는 방법&lt;/a&gt;
+&lt;!--수정할 수 있는 파일들, 사실 처음부터 좋은 테마를 고르는게 고생을 덜 수 있다..--&gt;
+&lt;a title=&quot;HTML을 이용한 폰트 및 글씨 색 변경&quot; href=&quot;#&quot;&gt;HTML을 이용한 폰트 및 글씨 색 변경&lt;/a&gt;&lt;br /&gt;
+
+&lt;h2 id=&quot;이제 추가 기능을 넣어볼까?&quot;&gt;이제 추가 기능을 넣어볼까?&lt;/h2&gt;&quot;
+&lt;a title=&quot;comment(댓글)을 달아보자&quot; href=&quot;#&quot;&gt;comment(댓글)을 달아보자&lt;/a&gt;
+&lt;!--선택지는 다양. Disqus / Facebook Add-in / Open Source--&gt;
+&lt;a title=&quot;SNS을 블로그에 연결해보자&quot; href=&quot;#&quot;&gt;SNS을 블로그에 연결해보자&lt;/a&gt;
+&lt;!--SNS 추가로 더 연결되는 세상--&gt;
+&lt;a title=&quot;Google Analytics로 유입 분석하기&quot; href=&quot;#&quot;&gt;Google Analytics로 유입 분석하기&lt;/a&gt;
+&lt;!--소통을 위해서는 사람들이 원하는 컨텐츠를 제작해야 한다.--&gt;
+&lt;a title=&quot;RSS 기능은 무엇일까?&quot; href=&quot;&quot;&gt;RSS 기능은 무엇일까?&lt;/a&gt;
+&lt;!--Internet Bot들이내 블로그를 쓸어갈 수 있도록 설정하기--&gt;
+&lt;a title=&quot;Naver 이웃커넥트 Jekyll에 추가하기 가능한가?&quot; href=&quot;&quot;&gt;Naver 이웃커넥트 Jekyll에 추가하기 가능한가?&lt;/a&gt;
+&lt;!--기존의 이웃들에게 실시간으로 소실 전해드리기--&gt;
+&lt;a title=&quot;Naver Blog의 글을 Jekyll로 이사하기 (feat.노가다)&quot; href=&quot;&quot;&gt;Naver Blog의 글을 Jekyll로 이사하기 (feat.노가다)&lt;/a&gt;&lt;br /&gt;
+&lt;!--내가 Naver Blog에서 Jekyll로 늦기전에 넘어온 이유--&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Ecrire06</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="programming" />
+      
+
+      
+        <summary type="html"></summary>
+      
+
+      
+      
+    </entry>
+  
+</feed>
