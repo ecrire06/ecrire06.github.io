@@ -57,6 +57,12 @@ technograph 777까지 image 정리 완료
 
 -----------------------------------
 
+png files jpg로 바꾸기
+tk의 의미
+수성도료
+html파일도 jpg 확장자로 바꾸기
+1400x900~1000pixels 정도가 적당함 :)
+
 /pencils/2020
 /pencils/2021
 programming/2021
