@@ -1,0 +1,667 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" >
+  <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
+  <link href="http://localhost:4000/author/ecrire06/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="http://localhost:4000/" rel="alternate" type="text/html" />
+  <updated>2021-02-19T22:44:27+09:00</updated>
+  <id>http://localhost:4000/author/ecrire06/feed.xml</id>
+
+  
+  
+  
+
+  
+    <title type="html">Ecrire06 | </title>
+  
+
+  
+    <subtitle>Pencils &amp; Pens &amp; Study</subtitle>
+  
+
+  
+
+  
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  
+
+  
+  
+
+  
+    <entry>
+      <title type="html">Jekyll을 입문하는 히치하이커를 위한 안내서</title>
+      <link href="http://localhost:4000/jekyll%EC%9D%84-%EC%9E%85%EB%AC%B8%ED%95%98%EB%8A%94-%ED%9E%88%EC%B9%98%ED%95%98%EC%9D%B4%EC%BB%A4%EB%A5%BC-%EC%9C%84%ED%95%9C-%EC%95%88%EB%82%B4%EC%84%9C" rel="alternate" type="text/html" title="Jekyll을 입문하는 히치하이커를 위한 안내서" />
+      <published>2021-02-13T05:27:00+09:00</published>
+      <updated>2021-02-13T05:27:00+09:00</updated>
+      <id>http://localhost:4000/jekyll%EC%9D%84-%EC%9E%85%EB%AC%B8%ED%95%98%EB%8A%94-%ED%9E%88%EC%B9%98%ED%95%98%EC%9D%B4%EC%BB%A4%EB%A5%BC-%EC%9C%84%ED%95%9C-%EC%95%88%EB%82%B4%EC%84%9C</id>
+      <content type="html" xml:base="http://localhost:4000/jekyll%EC%9D%84-%EC%9E%85%EB%AC%B8%ED%95%98%EB%8A%94-%ED%9E%88%EC%B9%98%ED%95%98%EC%9D%B4%EC%BB%A4%EB%A5%BC-%EC%9C%84%ED%95%9C-%EC%95%88%EB%82%B4%EC%84%9C">&lt;!--
+    To Add Title...
+    &lt;h2 id=&quot;#&quot;&gt;#&lt;/h2&gt;
+--&gt;
+
+&lt;!--
+    To Add Hyperlink...
+    &lt;a title=&quot;#&quot; href=&quot;#&quot;&gt;#&lt;/a&gt;
+--&gt;
+
+
+&lt;p&gt;Jekyll을 입문하는 히치하이커를 위한 안내서&lt;/p&gt;
+
+&lt;p&gt;이 글을 읽는 사람들을 아마도 다른 Blog를 사용해보다가 'Jekyll에 도전해볼까?'라는 생각을 가진 사람들일 것이다. 나 또한 Naver에서 &lt;a title=&quot;Ecrire06&quot; href=&quot;https://blog.naver.com/ecrire06&quot;&gt;Ecrire06&lt;/a&gt;이라는 닉네임으로 1년이 조금 넘는 기간동안 블로그를 운영해왔다. Naver Blog의 이웃 기능이나 에디터는 정말 직관적이고 마음에 들었다. 하지만, HTML이나 CSS를 완전히 수정할 수는 없어서 나만의 blog customization은 불가능하다는 한계점을 갖고 있었다. 아쉬움을 느낀 나는 다른 Blog 플랫폼을 찾던 중 Jekyll에 입문해보기로 했다.&lt;/p&gt;
+
+&lt;p&gt;사실 나는 프로그래밍 전문가는 아니고, 이제 막 배워가는 Novice Programmer일 뿐이다. 혹시 나처럼 프로그램밍 전문가는 아니지만 Jekyll 블로그에 도전하려는 분들을 위해 글을 작성해봐야겠다는 생각이 들기 시작했다. 목차에 해당하는 항목별로 하나하나씩 글을 작성해갈 예정이다. 앞으로 작성할 글의 목록인 동시에 앞으로 알아가고 나아갈 방향이라고 생각된다.&lt;/p&gt;
+
+
+&lt;!--
+    To Add Title...
+    &lt;h2 id=&quot;#&quot;&gt;#&lt;/h2&gt;
+--&gt;
+
+&lt;!--
+    To Add Hyperlink...
+    &lt;a title=&quot;#&quot; href=&quot;#&quot;&gt;#&lt;/a&gt;
+--&gt;
+
+&lt;!--
+    To Add Photo from Google Drive
+    add the following html code...s
+    &lt;center&gt;&lt;img src=&quot;https://drive.google.com/uc?export=view&amp;id=#&quot; width=&quot;100%&quot; height=&quot;100%&quot;&gt;&lt;/center&gt;
+--&gt;
+
+&lt;h2 id=&quot;나는 어떤 블로그를 만들 것인가?&quot;&gt;나는 어떤 블로그를 만들 것인가?&lt;/h2&gt;
+&lt;a title=&quot;Blog 플랫폼 선택하기&quot; href=&quot;#&quot;&gt;Blog 플랫폼 선택하기&lt;/a&gt;
+&lt;!--naver tistory wordpress jekyll 필자가 생각하기에 장단점, 특징들 정리--&gt;
+&lt;a title=&quot;Blog 구상하기&quot; href=&quot;#&quot;&gt;블로그 구상하기&lt;/a&gt;&lt;br /&gt;
+&lt;!--Blog의 Identity, 주제, 글 분량, 업로드 주기 계획하기--&gt;
+
+&lt;h2 id=&quot;Jekyll Blog 구축하기&quot;&gt;Jekyll Blog 구축하기&lt;/h2&gt;
+&lt;a title=&quot;Git, Ruby 설치하고 설정하기&quot; href=&quot;#&quot;&gt;Git, Ruby 설치하고 설정하기&lt;/a&gt;
+&lt;!--어쩌면 가장 큰 난관. 참고 차근차근 따라오시라!--&gt;
+&lt;a title=&quot;Template 쇼핑하기&quot; href=&quot;#&quot;&gt;Template 쇼핑하기&lt;/a&gt;
+&lt;!--설치하느라 수고 많았다.이제는 즐거운 쇼핑타임~ --&gt;
+&lt;a title=&quot;GitHub 가입하고 Fork로 테마 가져오기&quot; href=&quot;#&quot;&gt;GitHub 가입하고 Fork로 테마 가져오기&lt;/a&gt;
+&lt;!--남들이 일궈놓은 작품을 한번에 Fork로 콕콕 집어오기--&gt;
+&lt;a title=&quot;내 컴퓨터에 Jekyll 설치하고 서버 구동하기&quot; href=&quot;#&quot;&gt;내 컴퓨터에 Jekyll 설치하고 서버 구동하기&lt;/a&gt;
+&lt;!--Ruby를 몰라도. 할 수 있습니다. 파이팅!!--&gt;
+&lt;a title=&quot;Git Bash Commit &amp; Push로 업로드&quot; href=&quot;#&quot;&gt;Git Bash Commit &amp; Push로 업로드&lt;/a&gt;&lt;br /&gt;
+&lt;!--자주 사용할 save/upload 기능--&gt;
+
+&lt;h2 id=&quot;Jekyll에 글(Post)을 올려보자!&quot;&gt;Jekyll에 글(Post)을 올려보자!&lt;/h2&gt;
+&lt;a title=&quot;글은 어떻게 쓸까?&quot; href=&quot;#&quot;&gt;글은 어떻게 쓸까?&lt;/a&gt;
+&lt;!--editor 선택. 개인적으로 Visual Studio Code 강추--&gt;
+&lt;a title=&quot;Markdown 문법을 알아보자&quot; href=&quot;#&quot;&gt;Markdown 문법을 알아보자&lt;/a&gt;
+&lt;!--자세한건 공식 홈페이지에서. 나는 자주 사용하는 문법만--&gt;
+&lt;a title=&quot;YAML파일 수정해볼까아...?&quot; href=&quot;#&quot;&gt;YAML 수정해볼까아...?&lt;/a&gt;
+&lt;!--Tag, Title, Date 등등 수정하기--&gt;
+&lt;a title=&quot;글 쓰기를 마친 후에 GitHub에 업로드하는 방법(feat.Batch File)&quot; href=&quot;#&quot;&gt;글 쓰기를 마친 후에 GitHub에 업로드하는 방법(feat.Batch File)&lt;/a&gt;
+&lt;!--매번 type할거냐... Git Bash Commit &amp; Push 자동화!! 귀차니즘은 세상을 바꾼다!--&gt;
+&lt;a title=&quot;HTML 문법을 알아보자&quot; href=&quot;#&quot;&gt;HTML 문법을 알아보자&lt;/a&gt;
+&lt;!--자세한건 공식 홈페이지에서. 나는 자주 사용하는 문법만. 사진올리기. 하이퍼링크. 문단 작성하기--&gt;
+&lt;a title=&quot;Google Drive의 사진 가져오기&quot; href=&quot;#&quot;&gt;Google Drive의 사진 가져오기&lt;/a&gt;
+&lt;!--GitHub의 용량제한 우회하는 법. 1GB제한... Google Drive은 사실상 트래픽이 무제한이다!!!--&gt;
+&lt;a title=&quot;임시저장글(비밀글) 만드는 방법&quot; href=&quot;#&quot;&gt;임시저장글(비밀글) 만드는 방법&lt;/a&gt;&lt;br /&gt;
+&lt;!--공식으로 글을 올리기 전이라면 유용할 기능!--&gt;
+
+&lt;h2 id=&quot;입맛에 맞게 블로그 Customization!&quot;&gt;입맛에 맞게 블로그 Customization!&lt;/h2&gt;
+&lt;a title=&quot;테마 마음대로 바꾸는 방법&quot; href=&quot;#&quot;&gt;테마 마음대로 바꾸는 방법&lt;/a&gt;
+&lt;!--수정할 수 있는 파일들, 사실 처음부터 좋은 테마를 고르는게 고생을 덜 수 있다..--&gt;
+&lt;a title=&quot;HTML을 이용한 폰트 및 글씨 색 변경&quot; href=&quot;#&quot;&gt;HTML을 이용한 폰트 및 글씨 색 변경&lt;/a&gt;&lt;br /&gt;
+
+&lt;h2 id=&quot;이제 추가 기능을 넣어볼까?&quot;&gt;이제 추가 기능을 넣어볼까?&lt;/h2&gt;
+&lt;a title=&quot;comment(댓글)을 달아보자&quot; href=&quot;#&quot;&gt;comment(댓글)을 달아보자&lt;/a&gt;
+&lt;!--선택지는 다양. Disqus / Facebook Add-in / Open Source--&gt;
+&lt;a title=&quot;SNS을 블로그에 연결해보자&quot; href=&quot;#&quot;&gt;SNS을 블로그에 연결해보자&lt;/a&gt;
+&lt;!--SNS 추가로 더 연결되는 세상--&gt;
+&lt;a title=&quot;Google Analytics로 유입 분석하기&quot; href=&quot;#&quot;&gt;Google Analytics로 유입 분석하기&lt;/a&gt;
+&lt;!--소통을 위해서는 사람들이 원하는 컨텐츠를 제작해야 한다.--&gt;
+&lt;a title=&quot;RSS 기능은 무엇일까?&quot; href=&quot;&quot;&gt;RSS 기능은 무엇일까?&lt;/a&gt;
+&lt;!--Internet Bot들이내 블로그를 쓸어갈 수 있도록 설정하기--&gt;
+&lt;a title=&quot;Naver 이웃커넥트 Jekyll에 추가하기 가능한가?&quot; href=&quot;&quot;&gt;Naver 이웃커넥트 Jekyll에 추가하기 가능한가?&lt;/a&gt;
+&lt;!--기존의 이웃들에게 실시간으로 소실 전해드리기--&gt;
+&lt;a title=&quot;Naver Blog의 글을 Jekyll로 이사하기 (feat.노가다)&quot; href=&quot;&quot;&gt;Naver Blog의 글을 Jekyll로 이사하기 (feat.노가다)&lt;/a&gt;&lt;br /&gt;
+&lt;!--내가 Naver Blog에서 Jekyll로 늦기전에 넘어온 이유--&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Ecrire06</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="programming" />
+      
+
+      
+        <summary type="html"></summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">별이 빛나는 밤에</title>
+      <link href="http://localhost:4000/%EB%B3%84%EC%9D%B4-%EB%B9%9B%EB%82%98%EB%8A%94-%EB%B0%A4%EC%97%90" rel="alternate" type="text/html" title="별이 빛나는 밤에" />
+      <published>2021-02-05T09:28:00+09:00</published>
+      <updated>2021-02-05T09:28:00+09:00</updated>
+      <id>http://localhost:4000/%EB%B3%84%EC%9D%B4-%EB%B9%9B%EB%82%98%EB%8A%94-%EB%B0%A4%EC%97%90</id>
+      <content type="html" xml:base="http://localhost:4000/%EB%B3%84%EC%9D%B4-%EB%B9%9B%EB%82%98%EB%8A%94-%EB%B0%A4%EC%97%90">&lt;p&gt;
+많은 눈이 내리고 난 다음날.&lt;br /&gt;
+유난히도 하늘이 맑던 날이었다.&lt;br /&gt;
+서울 식물원에서 산책하며&lt;br /&gt;
+묵묵히 자신을 태우며 반짝이고 있는&lt;br /&gt;
+수많은 별들을 보았다.&lt;br /&gt;
+Vincent Van Gogh도&lt;br /&gt;
+이런 장면을 바라보며&lt;br /&gt;
+Starry Night을 그렸던 걸까...&lt;br /&gt;
+나도 저 별들처럼&lt;br /&gt;
+세상을 비추는&lt;br /&gt;
+사림이 되고 싶다&lt;br /&gt;
+별이 빛나는 밤에&lt;br /&gt;
+&lt;/p&gt;
+&lt;center&gt;&lt;img src=&quot;https://drive.google.com/uc?export=view&amp;id=19tuO4pI7d7KiPsh4PMTYWTwZKz9GYFYy&quot; width=&quot;100%&quot; height=&quot;100%&quot;&gt;&lt;/center&gt;
+&lt;p&gt;
+오리온자리&lt;br /&gt;
+&lt;center&gt;&lt;img src=&quot;https://drive.google.com/uc?export=view&amp;id=187HtlWAzn66xCrmWuYu8PRueHs8z2P4n&quot; width=&quot;100%&quot; height=&quot;100%&quot;&gt;&lt;/center&gt;
+폰카를 집어 들어&lt;br /&gt;
+하늘의 별들을 담았다.&lt;br /&gt;
+내 손안에서도&lt;br /&gt;
+별은 여전히 빛나고 있었다.&lt;br /&gt;
+&lt;/p&gt;
+
+&lt;center&gt;&lt;img src=&quot;https://drive.google.com/uc?export=view&amp;id=1wquVLXhyRIq17fp2gwXqvqXRmlylW-li&quot; width=&quot;100%&quot; height=&quot;100%&quot;&gt;&lt;/center&gt;
+&lt;p&gt;
+카시오페아자리&lt;br /&gt;
+&lt;center&gt;&lt;img src=&quot;https://drive.google.com/uc?export=view&amp;id=1_ZoNlEsYhcWs2Cr3XOAJUvwYbfiUqJam&quot; width=&quot;100%&quot; height=&quot;100%&quot;&gt;&lt;/center&gt;
+카시오페아 자리에서&lt;br /&gt;
+조금 떨어진 자리에&lt;br /&gt;
+북극성이 보인다.&lt;br /&gt;
+항해하는 사람들에게&lt;br /&gt;
+북극을 가리키며&lt;br /&gt;
+갈 길을 알려주었듯&lt;br /&gt;
+내 인생의 나침반이&lt;br /&gt;
+되어주었으면 좋겠다.&lt;br /&gt;
+&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Ecrire06</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="writing" />
+      
+
+      
+        <summary type="html">많은 눈이 내리고 난 다음날. 유난히도 하늘이 맑던 날이었다. 서울 식물원에서 산책하며 묵묵히 자신을 태우며 반짝이고 있는 수많은 별들을 보았다. Vincent Van Gogh도 이런 장면을 바라보며 Starry Night을 그렸던 걸까... 나도 저 별들처럼 세상을 비추는 사림이 되고 싶다 별이 빛나는 밤에 오리온자리 폰카를 집어 들어 하늘의 별들을 담았다. 내 손안에서도 별은 여전히 빛나고 있었다.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Stilus Secolgraf 120 lead holder</title>
+      <link href="http://localhost:4000/stilus-secolgraf-120-lead-holder" rel="alternate" type="text/html" title="Stilus Secolgraf 120 lead holder" />
+      <published>2021-02-04T02:45:00+09:00</published>
+      <updated>2021-02-04T02:45:00+09:00</updated>
+      <id>http://localhost:4000/stilus-secolgraf-120-lead-holder</id>
+      <content type="html" xml:base="http://localhost:4000/stilus-secolgraf-120-lead-holder">&lt;center&gt;&lt;img src=&quot;https://drive.google.com/uc?export=view&amp;id=1A7V4lWGcFDK9ZcFfRtSTm-0QM50tfivS&quot; width=&quot;100%&quot; height=&quot;100%&quot;&gt;&lt;/center&gt;
+&lt;a href=&quot;https://www.bundoki.com/?pid=4221109&quot;&gt;stilus secolgraf 120&lt;/a&gt; 
+&lt;center&gt;&lt;img src=&quot;https://drive.google.com/uc?export=view&amp;id=1u9mA5W5KCVO9EgS_pdLipqMoX6Gd-xX8&quot; width=&quot;100%&quot; height=&quot;100%&quot;&gt;&lt;/center&gt;
+&lt;p&gt;Italy 회사인 Stilus에서 만든 2mm 홀더를 구입했다. Secolgraf 120이라는 모델인데, 구글링해보면 4가지 색이 있다는 것을 쉽게 알 수 있다. 연필 사려고 들어간 문구점에서 우연히 발견해서 데려오게 되었다. 덕분에 Italy산 필기구가 처음 생기게 되었다.&lt;/p&gt;
+&lt;center&gt;&lt;img src=&quot;https://drive.google.com/uc?export=view&amp;id=1-yEtIM2av0B-m5RFY9pque5o5FhI_V8I&quot; width=&quot;100%&quot; height=&quot;100%&quot;&gt;&lt;/center&gt;
+&lt;p&gt;2mm 홀더 치고는 클러치가 큰 편이다. 3.15mm심은 들어가지 않지만, 2mm보다 조금 더 두꺼운 심도 들어갈 것 같다. 3분할 클러치를 사용하는 일반적인 2mm 홀더와는 달리, 4분할 클러치를 가지고 있다. 구조상 특이해 보이지만 실제로 사용하는 데에는 큰 차이가 없다. 어떤 사람들은 더 안정감이 있다고 하던데, 차이를 못 느끼겠다..&lt;/p&gt;
+
+&lt;p&gt;세로로 홈이 파여 있는 그립 부분이 특이하다. 제도용으로 만들어진 홀더들은 손에서 위아래로 미끄러지지 않도록 가로로 홈을 새기는데, 세로로 새기는 건 처음 봤다. 좌우로 흔들리지 않는 특성 때문에 필기할 때에 참 편하게 느껴진다.&lt;/p&gt;
+
+&lt;center&gt;&lt;img src=&quot;https://drive.google.com/uc?export=view&amp;id=1qeKExvMFtkoPMRz3xChZJ3XS7TPmFYU8&quot; width=&quot;100%&quot; height=&quot;100%&quot;&gt;&lt;/center&gt;
+
+&lt;p&gt;(위) Stilus Secolgraf 120 (아래) Koh-i-Noor 5612&lt;/p&gt;
+&lt;a href=&quot;https://www.ebay.com/itm/VINTAGE-KOH-I-NOOR-5612-BROWN-2-0MM-DRAFTING-MECHANICAL-PENCIL-80S/323742128115?hash=item4b6088d7f3:g:X5sAAOSwiBBcj4An&quot;&gt;ebay.com&lt;/a&gt;
+
+&lt;center&gt;&lt;img src=&quot;https://drive.google.com/uc?export=view&amp;id=1oHJWsjEfGeiPXG7QBGJv4fHEjjzFhSpQ&quot; width=&quot;100%&quot; height=&quot;100%&quot;&gt;&lt;/center&gt;
+
+&lt;p&gt;(위) Stilus Secolgraf 151 (아래) Koh-i-Noor 5611 C&lt;/p&gt;
+&lt;a href=&quot;https://www.ebay.com/itm/VINTAGE-KOH-I-NOOR-TECHNIGRAPH-5611-SILVER-2-0MM-DRAFTING-MECHANICAL-PENCIL/264101443579?_trkparms=aid%3D1110006%26algo%3DHOMESPLICE.SIM%26ao%3D1%26asc%3D20201210111314%26meid%3D2c094a0feb7240b2b703594e0ef68118%26pid%3D101195%26rk%3D5%26rkt%3D12%26mehot%3Dlo%26sd%3D264796349295%26itm%3D264101443579%26pmt%3D1%26noa%3D0%26pg%3D2047675%26algv%3DSimplAMLv5PairwiseWebWithDarwoV3BBEV2b&amp;_trksid=p2047675.c101195.m1851&quot;&gt;ebay.com&lt;/a&gt;
+&lt;center&gt;&lt;img src=&quot;https://drive.google.com/uc?export=view&amp;id=#&quot; width=&quot;100%&quot; height=&quot;100%&quot;&gt;&lt;/center&gt;
+
+&lt;p&gt;어디에서 많이 본 느낌이 들어서 찾아보다보니 Italy산 Koh-i-Noor 5612와 형태와 판박이였다. Secolgraf 120의 상위 모델인 151도 Italy산 Koh-i-Noor Technigraph 5611과 형태가 동일하다. 이를 보면 같은 공장을 사용했거나, 외주를 준 것으로 추측해볼 수 있다. 회사의 역사를 고려했을 때 Koh-i-Noor에서 제조하고 Stilus에 납품한 것으로 생각된다. 그래서인지 노브에 내장된 심연기는 현행 Koh-i-Noor의 것과 매우 유사하다. 구멍이 뚫려 있는데 매우 작아서 흑연심을 배출하기 위한 용도보다는 삼켰을 때를 대비한 구멍으로 생각된다.&lt;/p&gt;
+&lt;center&gt;&lt;img src=&quot;https://drive.google.com/uc?export=view&amp;id=19N3BLFKKVjn8K8LVr8DiImleBGp1evnX&quot; width=&quot;100%&quot; height=&quot;100%&quot;&gt;&lt;/center&gt;
+&lt;p&gt;플라스틱 품질은 무난하다. 너무 두껍지도, 얇지도 않다. 사출선이 없도록 플라스틱 만드는게 꽤나 기술력을 필요로 하는데 꽤 정교하게 만들어졌다. 저렴한 모델인데도 유격도 없고 표면 처리도 양호해서 맘에 든다.&lt;/p&gt;
+&lt;center&gt;&lt;img src=&quot;https://drive.google.com/uc?export=view&amp;id=1-w_BusPlhyyf7LQCGAKrgHAK2Ss0x-WK&quot; width=&quot;100%&quot; height=&quot;100%&quot;&gt;&lt;/center&gt;
+&lt;p&gt;분해한 모습은 위와 같다. lead holder답게 아주 단출한 구성을 보인다. 스프링은 내부 앞쪽에 부착되어 있어서 꺼내지 못한다. 경통이 플라스틱이 아닌 금속 재질이었으면 더 좋았을텐데 조금은 아쉽다. 나사선이 닳지 않도록 되도록 분해하지 말고 써야겠다.&lt;/p&gt;
+&lt;center&gt;&lt;img src=&quot;https://drive.google.com/uc?export=view&amp;id=1jfBaDTW5IPak4wGHNTYAXm00ZDLBsnE6&quot; width=&quot;100%&quot; height=&quot;100%&quot;&gt;&lt;/center&gt;
+&lt;p&gt;인터넷 상에서 조금만 찾아보면 국내에서도 판매되었던 흔적이 발견되고, 우보 님의 블로그에서도 Stilus 홀더에 대한 리뷰를 확인할 수 있었다. 이를 보면 옛날에는 한국에 수입되었던 모델인 것 같다. 아마 악성재고로 남으면서 이리저리 떠돌아다니던 녀석을 내가 발견해서 구입한 모양이다. 문구점 사장님도 '이런게 여기 있었어요?' 할 정도니...&lt;/p&gt;
+&lt;center&gt;&lt;img src=&quot;https://drive.google.com/uc?export=view&amp;id=13DRO1JZN0obmV07OsugcHUKdDeKU9enX&quot; width=&quot;100%&quot; height=&quot;100%&quot;&gt;&lt;/center&gt;
+&lt;p&gt;빨간 심을 껴 놓으면 빨간 구두를 신은 것처럼 참 예쁘다..ㅋㅋ 경통이 넓어서 스토퍼가 달린 심도 쉽게 들어가는데 덕분에 Mars Lumograph Blei-Minen심을 사용할 수 있다.? 덕분에 심 끝을 부러뜨려 사용할 일은 없게 되었다.&lt;/p&gt;
+&lt;center&gt;&lt;img src=&quot;https://drive.google.com/uc?export=view&amp;id=1Ix581-cngbiOryAFhNg-sCfb_98hACg3&quot; width=&quot;100%&quot; height=&quot;100%&quot;&gt;&lt;/center&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Ecrire06</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="leadholder" />
+      
+
+      
+        <summary type="html">stilus secolgraf 120 Italy 회사인 Stilus에서 만든 2mm 홀더를 구입했다. Secolgraf 120이라는 모델인데, 구글링해보면 4가지 색이 있다는 것을 쉽게 알 수 있다. 연필 사려고 들어간 문구점에서 우연히 발견해서 데려오게 되었다. 덕분에 Italy산 필기구가 처음 생기게 되었다. 2mm 홀더 치고는 클러치가 큰 편이다. 3.15mm심은 들어가지 않지만, 2mm보다 조금 더 두꺼운 심도 들어갈 것 같다. 3분할 클러치를 사용하는 일반적인 2mm 홀더와는 달리, 4분할 클러치를 가지고 있다. 구조상 특이해 보이지만 실제로 사용하는 데에는 큰 차이가 없다. 어떤 사람들은 더 안정감이 있다고 하던데, 차이를 못 느끼겠다..</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">그릿 Grit 제1부 그릿이란 무엇인가?</title>
+      <link href="http://localhost:4000/%EA%B7%B8%EB%A6%BF-grit-%EC%A0%9C1%EB%B6%80-%EA%B7%B8%EB%A6%BF%EC%9D%B4%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80" rel="alternate" type="text/html" title="그릿 Grit 제1부 그릿이란 무엇인가?" />
+      <published>2021-02-01T03:40:00+09:00</published>
+      <updated>2021-02-01T03:40:00+09:00</updated>
+      <id>http://localhost:4000/%EA%B7%B8%EB%A6%BF-grit-%EC%A0%9C1%EB%B6%80-%EA%B7%B8%EB%A6%BF%EC%9D%B4%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80</id>
+      <content type="html" xml:base="http://localhost:4000/%EA%B7%B8%EB%A6%BF-grit-%EC%A0%9C1%EB%B6%80-%EA%B7%B8%EB%A6%BF%EC%9D%B4%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80">&lt;a href=&quot;https://book.naver.com/bookdb/book_detail.nhn?bid=14524825&quot;&gt;그릿 Grit(Yes24)&lt;/a&gt;
+
+&lt;p&gt;그릿 Grit 제1부: 그릿이란 무엇인가? (21.01.31)&lt;br /&gt;
+오래간만에 집 근처에 있는 yes24 중고매장에 들려 책을 집어 들었다. 전부터 읽고 싶었던 책 ‘그릿(Grit)’. 그릿이라는 용어는 사실 ‘넛지 효과(Nudge Effect)’ 또는 '이기적 유전자’에 나오는 '밈(meme)'만큼이나 널리 쓰이는 용어가 되었다. 나 스스로도 종종 사용하는 단어이면서도 정작 책은 읽어보지 않은 것에 반성하며 이 책을 고르게 되었다. 책은 총 3부로 이루어져 있는데, 오늘(2021.01.31)을 시작으로 하루에 한 부씩 읽어보려 한다. 블로그에는 책을 읽으며 들었던 나의 생각과 책 내용 중에 인상 깊었던 부분들을 남겨보려고 한다.&lt;/p&gt;
+
+&lt;center&gt;&lt;img src=&quot;https://drive.google.com/uc?export=view&amp;id=1ApsfZz4dtA3A3CqtBJ0SxEnKlS29rCXZ&quot; width=&quot;100%&quot; height=&quot;100%&quot;&gt;&lt;/center&gt;
+&lt;p&gt;제1부: 그릿이란 무엇인가?&lt;/p&gt;
+
+&lt;p&gt;&gt;책의 내용&lt;br /&gt;
+Grit은 사실 우리들에게 익숙한 영어 단어는 아니다. 사전을 찾아보면 1번 뜻으로 '모래, 아주 작은 돌’라는 의미를 가지고 있고, 2번 뜻으로 '투지, 기개’라고 나와있다. Angela Duckworth가 말하는 Grit은 바로 2번 뜻을 말한다. 번역자도 grit을 한국어의 한 단어로 명확하게 표현하는 건 쉽지 않은지 투지, 의지 등으로 번역했다고 책에서 언급한다.(p.29) 생소한 개념이기 때문인진 몰라도 저자는 Grit을 직접 소개하지 않고 여러 사례들을 통해 이야기를 풀어간다.&lt;br /&gt;
+Grit의 핵심을 한마디로 표현할 수 있는 공식이 있다. 바로 “재능 x 노력2 = 성취”(p.71) 아마도 저자는 재능을 간과할 수는 없겠지만 노력이 더 중요하다는 생각을 가진 듯하다.&lt;/p&gt;
+
+&lt;p&gt;흥미로운 말들로 저자를 설득시킨 다음 'Grit 척도’를 통해 자신의 Grit 점수를 체크해보라고 한다. 10개의 문항으로 구성되어 있었는데, 나는 5점 만점에 4.3점이 나왔다. 백분위 80% 그러니까 상위 20% 정도라고 한다. &quot;이상하게 들릴지 모르지만 내게는 오랫동안 같은 목표에 일관되게 집중하는 일이 열심히 노력하며 좌절을 딛고 일어서는 일보다 어렵다.(p.88)&quot;라는 저자의 말에 많이 공감되었다. 너무 다양한 분야보다는 한 가지 목표에 집중해서 그릿 점수를 높여봐야겠다.&lt;/p&gt;
+
+&lt;p&gt;책 (p.93)에서는 자신의 '최상위 목표는 무엇인지?'애 대해 묻는다. 다시 말해 '자신의 인생철학’이 무엇인지 명확하게 하라고 말한다. 나는 예전부터 'DO or DO NOT. There is no try. - Star Wars Yoda’라는 인생철학을 가지고 있었는데 궁극적인 목표를 이루기 위해 세부 목표들을 잘 설정해봐야겠다.&lt;/p&gt;
+
+&lt;p&gt;'성적과 지능의 관계’에 대한 나의 생각'&lt;br /&gt;
+“학업 성적이 뛰어난 사람은 머리까지 뛰어난 것일까?” 12년의 학교생활, 입시전쟁을 치르며 품었던 의문이다. 개인적인 견해는 '성적’과 ‘재능’ 사이에는 상관관계가 존재하지만 직접적인 인과관계는 없다는 것이다. 내 생각에 성적은 절대 지능 점수가 아니다. 그것이 착한아이점수이면 모를까… 시험의 본질은 출제자가 제시한 과제에 대해 이상적인 결과(100점 혹은 만점)에 얼마나 근접한지를 평가하는 도구이다. 그런 점수를 가지고 지능을 평가하는 건 nonsence이다.&lt;br /&gt;
+초등학교, 중학교 거쳐 고등학교 생활을 하며 다양한 분야의 사람들을 만나 이야기를 나누어볼 수 있었다. 많은 사람들과 대화를 하며 조금씩 나의 의문에 대한 해답을 찾아갈 수 있었다. 사람들이 상위권이라고 부르는 성적이 우수한 집단이라고해서 지능이 월등히 뛰어난 것은 아니었다. 내가 보고 겪은 바로는 상위권들은 끈질기게 하는 능력을 지녔거나 그냥 어렸을 때부터 학원에서 지식을 주입받은 학생들이었다.&lt;br /&gt;
+문득 어린 왕자(The Little Prince)의 한 구절이 떠오른다.&lt;/p&gt;
+
+&lt;center&gt;&lt;img src=&quot;https://drive.google.com/uc?export=view&amp;id=1HNbqhjtr3VPnFj_8yKSYVD3-MpQiVjPS&quot; width=&quot;100%&quot; height=&quot;100%&quot;&gt;&lt;/center&gt;
+&lt;blockquote&gt;
+    &lt;p&gt;어른들은 숫자를 좋아한다. 새로 사귄 친구들 이야기를 하면 어른들은 제일 중요한 것은 전혀 묻지 않는다. '그 친구의 목소리는 어떠냐? 어떤 놀이를 좋아하느냐? 나비를 수집하느냐?'라는 것은 절대로 물어보지 않는다.&lt;br /&gt;
+    ‘나이는 몇이냐? 형제는 몇이고? 몸무게는 얼마지? 아버지의 수입은 얼마냐?’ 따위만 묻는 것이다. 그래야만 어른들은 그 아이를 잘 알게 됐다고 생각한다.&lt;br /&gt;
+    만일 어른들에게 '창가에는 제라늄 화분이 있고, 지붕 위에는 비둘기가 놀고 있는 장미빛 벽돌로 지은 예쁜 집을 보았어요.'라고 말하면 그들은 그 집이 어떻게 생겼는지 상상해 내지 못한다. 그들에게는 '십만 프랑짜리 집을 보았어요.'라고 말해야 한다.&lt;br /&gt;
+    그러면 그제서야 그들은 '아, 참 좋은 집이구나!'하고 감탄한다.&lt;br /&gt;
+    어린 왕자 - 쌩뗵쥐뼤리 - 청년사&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;성적이나 점수, 즉 숫자만을 중시하는 우리들이 곱씹어 볼 만한 글인 것 같다.&lt;/p&gt;
+
+&lt;p&gt;Grit - Angela Duckworth&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Ecrire06</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="writing" />
+      
+
+      
+        <summary type="html">그릿 Grit(Yes24)</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">목동 교보문고 핫트랙스</title>
+      <link href="http://localhost:4000/%EB%AA%A9%EB%8F%99-%EA%B5%90%EB%B3%B4%EB%AC%B8%EA%B3%A0-%ED%95%AB%ED%8A%B8%EB%9E%99%EC%8A%A4" rel="alternate" type="text/html" title="목동 교보문고 핫트랙스" />
+      <published>2021-01-08T06:20:00+09:00</published>
+      <updated>2021-01-08T06:20:00+09:00</updated>
+      <id>http://localhost:4000/%EB%AA%A9%EB%8F%99-%EA%B5%90%EB%B3%B4%EB%AC%B8%EA%B3%A0-%ED%95%AB%ED%8A%B8%EB%9E%99%EC%8A%A4</id>
+      <content type="html" xml:base="http://localhost:4000/%EB%AA%A9%EB%8F%99-%EA%B5%90%EB%B3%B4%EB%AC%B8%EA%B3%A0-%ED%95%AB%ED%8A%B8%EB%9E%99%EC%8A%A4">&lt;center&gt;&lt;img src=&quot;https://drive.google.com/uc?export=view&amp;id=1KIoQuRxU4j-YeErJ1oK7qB2jePanHs9z&quot; width=&quot;100%&quot; height=&quot;100%&quot;&gt;&lt;/center&gt;
+&lt;p&gt;오랜만에 목동 교보문고를 들려 문구 쇼핑을 했다. 1년 만에 교보문고 핫트랙스를 다시 찾아갔는데 그동안 많은 변화가 있었다. 반일운동 때문인지는 몰라도 국내 제품들의 비중이 많이 늘었고 일본 제품들은 한곳에 모여있었다. 물론 여전히 많은 자리를 차지하고 있었지만... 각양각색의 볼펜들이 즐비하게 늘어서 있었다. 나는 필기할 때 검정과 빨강 두 색만을 써서 별로 흥미가 없었지만, 정말 많은 사람들이 무지개?색의 볼펜 진열대 앞에서 원하는 색을 고르고 있었다.&lt;/p&gt;
+&lt;center&gt;&lt;img src=&quot;https://drive.google.com/uc?export=view&amp;id=18iR2lzw-KdMG0Kl9n8q4vJBBya6InGbZ&quot; width=&quot;100%&quot; height=&quot;100%&quot;&gt;&lt;/center&gt;
+&lt;p&gt;정말 아쉬웠던 부분은 연필을 찾아보기 어렵게 되었다는 것이다. 역시 21세기의 주류 필기구는 볼펜인가 보다. 초등학생들도 샤프를 쓰는 추세이고 사용층이 거의 없어서인지는 몰라도 연필 제품군이 거~의 전멸했다. 1년 전만 해도 MitsuBishi 사의 uni 연필과 9000연필이 경도별로 늘어서 있었는데 이제는 그마저도 사라지고 현행 Tombow Mono J만이 소량 남아있었다. 한 가지 다행인 점은 독일 연필만큼은 그대로 남아있었다. Staedtler와 Faber-Castell 코너의 연필들은 그 자리를 지키고 있었다.&lt;/p&gt;
+&lt;center&gt;&lt;img src=&quot;https://drive.google.com/uc?export=view&amp;id=18fvzSmCP_LOin9DPKo8d6Wu01nxK1fVe&quot; width=&quot;100%&quot; height=&quot;100%&quot;&gt;&lt;/center&gt;
+&lt;p&gt;아무리 연필 사용층이 적다지만 조금은 충격이었다. 구할 수 있는 현행 연필들의 폭은 줄어들고 더 이상 내가 문구점을 방문해야 할 이유도 사라지고 있다. 참 아쉽다. 연필을 사랑하는 사람들이 점점 vintage 연필을 찾아 해외 직구를 시도하는 이유 중 하나이지 않을까? 수요와 공급 법칙에 따른 자연스러운 현상이긴 하지만 자꾸만 안타까운 마음이 남는다.&lt;/p&gt;
+&lt;center&gt;&lt;img src=&quot;https://drive.google.com/uc?export=view&amp;id=18gVt6O-Ww3VDLDNzkVTLLo-4nA2Rt1dd&quot; width=&quot;100%&quot; height=&quot;100%&quot;&gt;&lt;/center&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Ecrire06</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="pencils" />
+      
+
+      
+        <summary type="html">오랜만에 목동 교보문고를 들려 문구 쇼핑을 했다. 1년 만에 교보문고 핫트랙스를 다시 찾아갔는데 그동안 많은 변화가 있었다. 반일운동 때문인지는 몰라도 국내 제품들의 비중이 많이 늘었고 일본 제품들은 한곳에 모여있었다. 물론 여전히 많은 자리를 차지하고 있었지만... 각양각색의 볼펜들이 즐비하게 늘어서 있었다. 나는 필기할 때 검정과 빨강 두 색만을 써서 별로 흥미가 없었지만, 정말 많은 사람들이 무지개?색의 볼펜 진열대 앞에서 원하는 색을 고르고 있었다. 정말 아쉬웠던 부분은 연필을 찾아보기 어렵게 되었다는 것이다. 역시 21세기의 주류 필기구는 볼펜인가 보다. 초등학생들도 샤프를 쓰는 추세이고 사용층이 거의 없어서인지는 몰라도 연필 제품군이 거~의 전멸했다. 1년 전만 해도 MitsuBishi 사의 uni 연필과 9000연필이 경도별로 늘어서 있었는데 이제는 그마저도 사라지고 현행 Tombow Mono J만이 소량 남아있었다. 한 가지 다행인 점은 독일 연필만큼은 그대로 남아있었다. Staedtler와 Faber-Castell 코너의 연필들은 그 자리를 지키고 있었다. 아무리 연필 사용층이 적다지만 조금은 충격이었다. 구할 수 있는 현행 연필들의 폭은 줄어들고 더 이상 내가 문구점을 방문해야 할 이유도 사라지고 있다. 참 아쉽다. 연필을 사랑하는 사람들이 점점 vintage 연필을 찾아 해외 직구를 시도하는 이유 중 하나이지 않을까? 수요와 공급 법칙에 따른 자연스러운 현상이긴 하지만 자꾸만 안타까운 마음이 남는다.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">2020년 연필 몽당이 결산</title>
+      <link href="http://localhost:4000/2020%EB%85%84-%EC%97%B0%ED%95%84-%EB%AA%BD%EB%8B%B9%EC%9D%B4-%EA%B2%B0%EC%82%B0" rel="alternate" type="text/html" title="2020년 연필 몽당이 결산" />
+      <published>2021-01-03T08:57:00+09:00</published>
+      <updated>2021-01-03T08:57:00+09:00</updated>
+      <id>http://localhost:4000/2020%EB%85%84-%EC%97%B0%ED%95%84-%EB%AA%BD%EB%8B%B9%EC%9D%B4-%EA%B2%B0%EC%82%B0</id>
+      <content type="html" xml:base="http://localhost:4000/2020%EB%85%84-%EC%97%B0%ED%95%84-%EB%AA%BD%EB%8B%B9%EC%9D%B4-%EA%B2%B0%EC%82%B0">&lt;center&gt;&lt;img src=&quot;https://drive.google.com/uc?export=view&amp;id=17Frf8ICFtNGXAx7vL2yhcBqBYPgHK4BO&quot; width=&quot;100%&quot; height=&quot;100%&quot;&gt;&lt;/center&gt;
+&lt;p&gt;
+2020년의 해가 저물었다.&lt;br /&gt;
+그리고 나의 고3 수험생활도 마무리되었다.&lt;br /&gt;
+참 많은 생각들이 든다.&lt;br /&gt;
+먼저 정신없었던 한 해를 잘 이겨낸 나 스스로에게 칭찬해 주고 싶다.&lt;br /&gt;
+고3 수험생 신분으로 코로나19 위기를 맞게 되어 정말 혼란스러운 한 해였다.&lt;br /&gt;
+등교가 여러 차례 미뤄지고, 온라인으로 수업을 듣고,&lt;br /&gt;
+자습하던 도중에 갑자기 모두가 집으로 보내지기도 했다.&lt;br /&gt;
+학원은 문을 닫고, 집에서 공부를 했다.&lt;br /&gt;
+마스크를 끼고 시험이 치러지고, 답답한 투명 가림 판이 앞에 설치된 채로 수능을 봤다.&lt;br /&gt;
+정말 힘든 수험생활이었지만, 한 가지 위로가 되어준 건 바로 '연필'이었다.&lt;br /&gt;
+다른 취미들은 시간을 할애하고 노력을 쏟아야 하지만,&lt;br /&gt;
+연필은 공부하면서도 함께 즐길 수 있으니까 ?v
+다양한 연필들을 쓰면서 보는 안목도 생기고 내 취향도 확고해졌다.&lt;br /&gt;
+Ecrire06 블로그가 알차게 되어 기쁘기도 하다.&lt;br /&gt;
+필통에 잘 들어가지 않던 긴 연필들은 어느새 29개의 몽당이가 되었다.&lt;br /&gt;
+몽당이들이 행운을 가져다준 건지 기분 좋은 결과로 수험생활을 마무리했다.&lt;br /&gt;
+2021년에도 즐거운 연필 생활을 기대해본다&lt;br /&gt;
+&lt;center&gt;&lt;img src=&quot;https://drive.google.com/uc?export=view&amp;id=17gqetGFW_YExktDr_fm4yRebejqBf5m_&quot; width=&quot;100%&quot; height=&quot;100%&quot;&gt;&lt;/center&gt;
+의도하지 않았지만 몽당이로 예쁜 무지개가 만들어졌다 :)&lt;br /&gt;
+&lt;/p&gt;
+&lt;center&gt;&lt;img src=&quot;https://drive.google.com/uc?export=view&amp;id=17m_G0x8yf3RuHUK2-aZpWzkF42izisDr&quot; width=&quot;100%&quot; height=&quot;100%&quot;&gt;&lt;/center&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Ecrire06</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="pencils" />
+      
+
+      
+        <summary type="html">2020년의 해가 저물었다. 그리고 나의 고3 수험생활도 마무리되었다. 참 많은 생각들이 든다. 먼저 정신없었던 한 해를 잘 이겨낸 나 스스로에게 칭찬해 주고 싶다. 고3 수험생 신분으로 코로나19 위기를 맞게 되어 정말 혼란스러운 한 해였다. 등교가 여러 차례 미뤄지고, 온라인으로 수업을 듣고, 자습하던 도중에 갑자기 모두가 집으로 보내지기도 했다. 학원은 문을 닫고, 집에서 공부를 했다. 마스크를 끼고 시험이 치러지고, 답답한 투명 가림 판이 앞에 설치된 채로 수능을 봤다. 정말 힘든 수험생활이었지만, 한 가지 위로가 되어준 건 바로 '연필'이었다. 다른 취미들은 시간을 할애하고 노력을 쏟아야 하지만, 연필은 공부하면서도 함께 즐길 수 있으니까 ?v 다양한 연필들을 쓰면서 보는 안목도 생기고 내 취향도 확고해졌다. Ecrire06 블로그가 알차게 되어 기쁘기도 하다. 필통에 잘 들어가지 않던 긴 연필들은 어느새 29개의 몽당이가 되었다. 몽당이들이 행운을 가져다준 건지 기분 좋은 결과로 수험생활을 마무리했다. 2021년에도 즐거운 연필 생활을 기대해본다 의도하지 않았지만 몽당이로 예쁜 무지개가 만들어졌다 :)</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">The Blackfeet Indian Pencil 2</title>
+      <link href="http://localhost:4000/the-blackfeet-indian-pencil-2" rel="alternate" type="text/html" title="The Blackfeet Indian Pencil 2" />
+      <published>2020-12-23T09:09:00+09:00</published>
+      <updated>2020-12-23T09:09:00+09:00</updated>
+      <id>http://localhost:4000/the-blackfeet-indian-pencil-2</id>
+      <content type="html" xml:base="http://localhost:4000/the-blackfeet-indian-pencil-2">&lt;p&gt;It's christmas time! 아이들과 어른들이 모두 신나는 크리스마스가 이틀 앞으로 다가왔다. &lt;a href=&quot;https://blog.naver.com/janet1208&quot;&gt;블로그 이웃 Janet님&lt;/a&gt;으로부터 크리스마스 선물로 연필 꾸러미를 받게 되었다. 오늘 소개할 연필 The Blackfeet Indian Pencil도 그중 하나이다.&lt;/p&gt;
+&lt;center&gt;&lt;img src=&quot;https://drive.google.com/uc?export=view&amp;id=14uV-hcIAbEmLzD5rzNgoQxzfo84eBAyc&quot; width=&quot;100%&quot; height=&quot;100%&quot;&gt;&lt;/center&gt;
+&lt;p&gt;Blackfeet은 이번 기회에 처음 접하게 된 연필이다. 정보를 찾아보니 Montana 주에 있는 Browning 마을의 the Blackfeet Indian Writing Company에서 제조한다고 한다. 그러니 회사 이름이 곧 연필 이름이 된 셈이다. 원주민들이 소유한 회사이기 때문에 재정적 이득이 그들에게 넘어가기 때문에 의미 있는 사업으로 보인다. 아쉽게도 2000년대 초 이
+후로 더 이상 생산하지 않고 회사가 문을 닫은 듯하다. &lt;a href=&quot;https://web.archive.org/web/20090413202334/&quot;&gt;archive.org&lt;/a&gt; &lt;a href=&quot;http://www.indiancountrytoday.com/archive/28200754.html&quot;&gt;indiancountrytoday&lt;/a&gt;&lt;/p&gt;
+&lt;center&gt;&lt;img src=&quot;https://drive.google.com/uc?export=view&amp;id=158K7gUTLJCsGcFiByJpsk_LtH9Hzy9se&quot; width=&quot;100%&quot; height=&quot;100%&quot;&gt;&lt;/center&gt;
+&lt;p&gt;미국 연필 No.2 경도라면 HB인데, 진하기는 전형적인 HB이지만 거친 느낌이다. 종이에 써놓고 보면 분명 HB 정도의 진하기인데, 쓸 때는 H에서 느낄 수 있는 저항감이 있다. 미국 연필에서 푸석푸석함이 매우 강조된 연필이라고 할 수 있겠다.&lt;/p&gt;
+&lt;p&gt;General 사의 연필들과 매우 유사하다. 흑연심이 잘 갈려나가기 때문에 답답한 느낌 없이 시원시원한 필기감을 보여준다. 다만 저항감이 약간 있어서 나도 모르게 또박또박 글씨를 쓰게 된다. 과장하자면 넓은 초원에서 인디언들이 말을 타고 달리는 듯한 투박한 필기감을 가지고 있다. H 계열의 연필을 자주 사용하는 나에게는 적절하지만, B 계열을 선호하는 진심당에게는 버겁게 느껴질지도 모르겠다.&lt;/p&gt;
+&lt;center&gt;&lt;img src=&quot;https://drive.google.com/uc?export=view&amp;id=14ttmNQBEeQkVHJr6sIYRepfLCo8SiRQd&quot; width=&quot;100%&quot; height=&quot;100%&quot;&gt;&lt;/center&gt;
+&lt;p&gt;사용된 나무는 단단한 편이어서 휴대용 연필 깎이로 깎을 때 조금 힘이 든다. 그래도 나무의 질은 좋은지 깎는 과정에서 나무가 떨어져 나가는 현상은 없다. 원목 연필의 코팅이 참 마음에 든다. 나뭇결을 제대로 살리면서도 손으로 잡았을 때 거친 느낌 없이 매끈한 연필. 사실 내가 원목 연필을 그다지 선호하지 않는 이유가 손과 맞닿는 부분이 너무 거칠기 때문이다. 투명한 도료로 이 부분을 잘 해소해 주었다. 다만, 도료가 미끄러운 면이 있다. 손에서 놀아나는 느낌?&lt;/p&gt;
+&lt;center&gt;&lt;img src=&quot;https://drive.google.com/uc?export=view&amp;id=14vCyyVWJM1HTjCdiORU6lXm1TWQu5X1u&quot; width=&quot;100%&quot; height=&quot;100%&quot;&gt;&lt;/center&gt;
+&lt;p&gt;페룰의 색상과 말 타고 있는 인디언 문양으로 시대구분을 할 수 있는 모양이다. 찾아보니&lt;/p&gt;
+&lt;blockquote&gt;
+    &lt;p&gt;'금색+문양 --&gt; 검은색+문양 --&gt; 검은색+문양 x'순으로 바뀐 것으로 추측된다. 해외 연필 블로그에서 '검은색 페룰로 넘어오면서 도료가 얇아져서 잡기에 불편하며 검은색 페룰이 어울리지 않는다'(A later version had a black ferrule and dark pink eraser. Unfortunately, this later version doesn’t maintain the quality of the classic version – the varnish is thinner, making the pencil less pleasant to hold, and the black ferrule doesn’t match the pencil as well, and can distract the eye.)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.penciltalk.org/2005/11/blackfeet-indian-pencils&quot;&gt;출처&lt;/a&gt;)라는 평을 보게 되었다. 아마 나의 느낌과도 비슷할 것이라고 생각된다. 금색 페룰 시절의 도료 느낌이 어땠는지 궁금해진다.&lt;/p&gt;
+&lt;center&gt;&lt;img src=&quot;https://drive.google.com/uc?export=view&amp;id=14mBmaxDzpOYB3DUcWSrg5g1Ki4YnxuBq&quot; width=&quot;100%&quot; height=&quot;100%&quot;&gt;&lt;/center&gt;
+&lt;p&gt;The Blackfeet Indian Pencil이 더 이상 생산되지 않는다는 점은 참 아쉽다. 푸석푸석함과 잘 갈려나가는 전형적인 미국 연필의 특징을 가지고 있는 Blackfeet 연필. Janet 님 덕분에 과거로의 연필 여행을 떠난 것 같아 기분이 좋다. 앞으로 어떤 연필을 접하게 될지 기대된다.&lt;/p&gt;
+&lt;center&gt;&lt;img src=&quot;https://drive.google.com/uc?export=view&amp;id=157p1tEeg4krcKp-cxA7sHOYKk-izIPzy&quot; width=&quot;100%&quot; height=&quot;100%&quot;&gt;&lt;/center&gt;
+&lt;p&gt;The Blackfeet Indian Pencil 2&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Ecrire06</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="pencils" />
+      
+
+      
+        <summary type="html">It's christmas time! 아이들과 어른들이 모두 신나는 크리스마스가 이틀 앞으로 다가왔다. 블로그 이웃 Janet님으로부터 크리스마스 선물로 연필 꾸러미를 받게 되었다. 오늘 소개할 연필 The Blackfeet Indian Pencil도 그중 하나이다. Blackfeet은 이번 기회에 처음 접하게 된 연필이다. 정보를 찾아보니 Montana 주에 있는 Browning 마을의 the Blackfeet Indian Writing Company에서 제조한다고 한다. 그러니 회사 이름이 곧 연필 이름이 된 셈이다. 원주민들이 소유한 회사이기 때문에 재정적 이득이 그들에게 넘어가기 때문에 의미 있는 사업으로 보인다. 아쉽게도 2000년대 초 이 후로 더 이상 생산하지 않고 회사가 문을 닫은 듯하다. archive.org indiancountrytoday 미국 연필 No.2 경도라면 HB인데, 진하기는 전형적인 HB이지만 거친 느낌이다. 종이에 써놓고 보면 분명 HB 정도의 진하기인데, 쓸 때는 H에서 느낄 수 있는 저항감이 있다. 미국 연필에서 푸석푸석함이 매우 강조된 연필이라고 할 수 있겠다. General 사의 연필들과 매우 유사하다. 흑연심이 잘 갈려나가기 때문에 답답한 느낌 없이 시원시원한 필기감을 보여준다. 다만 저항감이 약간 있어서 나도 모르게 또박또박 글씨를 쓰게 된다. 과장하자면 넓은 초원에서 인디언들이 말을 타고 달리는 듯한 투박한 필기감을 가지고 있다. H 계열의 연필을 자주 사용하는 나에게는 적절하지만, B 계열을 선호하는 진심당에게는 버겁게 느껴질지도 모르겠다. 사용된 나무는 단단한 편이어서 휴대용 연필 깎이로 깎을 때 조금 힘이 든다. 그래도 나무의 질은 좋은지 깎는 과정에서 나무가 떨어져 나가는 현상은 없다. 원목 연필의 코팅이 참 마음에 든다. 나뭇결을 제대로 살리면서도 손으로 잡았을 때 거친 느낌 없이 매끈한 연필. 사실 내가 원목 연필을 그다지 선호하지 않는 이유가 손과 맞닿는 부분이 너무 거칠기 때문이다. 투명한 도료로 이 부분을 잘 해소해 주었다. 다만, 도료가 미끄러운 면이 있다. 손에서 놀아나는 느낌? 페룰의 색상과 말 타고 있는 인디언 문양으로 시대구분을 할 수 있는 모양이다. 찾아보니 '금색+문양 --&gt; 검은색+문양 --&gt; 검은색+문양 x'순으로 바뀐 것으로 추측된다. 해외 연필 블로그에서 '검은색 페룰로 넘어오면서 도료가 얇아져서 잡기에 불편하며 검은색 페룰이 어울리지 않는다'(A later version had a black ferrule and dark pink eraser. Unfortunately, this later version doesn’t maintain the quality of the classic version – the varnish is thinner, making the pencil less pleasant to hold, and the black ferrule doesn’t match the pencil as well, and can distract the eye.) 출처)라는 평을 보게 되었다. 아마 나의 느낌과도 비슷할 것이라고 생각된다. 금색 페룰 시절의 도료 느낌이 어땠는지 궁금해진다. The Blackfeet Indian Pencil이 더 이상 생산되지 않는다는 점은 참 아쉽다. 푸석푸석함과 잘 갈려나가는 전형적인 미국 연필의 특징을 가지고 있는 Blackfeet 연필. Janet 님 덕분에 과거로의 연필 여행을 떠난 것 같아 기분이 좋다. 앞으로 어떤 연필을 접하게 될지 기대된다. The Blackfeet Indian Pencil 2</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">연필 by 헨리 페트로스키</title>
+      <link href="http://localhost:4000/%EC%B1%85-%EC%97%B0%ED%95%84-%ED%97%A8%EB%A6%AC-%ED%8E%98%ED%8A%B8%EB%A1%9C%EC%8A%A4%ED%82%A4" rel="alternate" type="text/html" title="연필 by 헨리 페트로스키" />
+      <published>2020-12-22T07:31:00+09:00</published>
+      <updated>2020-12-22T07:31:00+09:00</updated>
+      <id>http://localhost:4000/%EC%B1%85-%EC%97%B0%ED%95%84-%ED%97%A8%EB%A6%AC-%ED%8E%98%ED%8A%B8%EB%A1%9C%EC%8A%A4%ED%82%A4</id>
+      <content type="html" xml:base="http://localhost:4000/%EC%B1%85-%EC%97%B0%ED%95%84-%ED%97%A8%EB%A6%AC-%ED%8E%98%ED%8A%B8%EB%A1%9C%EC%8A%A4%ED%82%A4">&lt;blockquote&gt;
+    &lt;p&gt;가장 작고 사소한 도구지만 &lt;br /&gt;
+    가장 넓은 세계를 만들어낸... (연필)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;헨리 페트로스키&lt;br /&gt;
+헨리 페트로스키가 쓴 책 '연필'. 얼마 전까지만 해도 번역본은 상상을 초월하는 가격을 자랑했고 원서마저도 구하기 쉽지 않던 책이었다. 해외 직구로 원서를 구할까 고민하던 중에 한 출판사에서 책 '연필'을 다듬어 출판한다는 소식을 듣게 되었고, 기분 좋게 한 권을 구입했다.&lt;/p&gt;
+&lt;center&gt;&lt;img src=&quot;https://drive.google.com/uc?export=view&amp;id=14J9p5rs3UccwMxGPSlUbc_vG2KCOJDUQ&quot; width=&quot;100%&quot; height=&quot;100%&quot;&gt;&lt;/center&gt;
+&lt;p&gt;지금은 어느 서점에서든 만나볼 수 있는 책 '연필'. 이 책이 처음 출판될 때에는 알라딘에서 펀딩이 열렸다. 하루빨리 받아보고 싶은 마음에 북펀딩에 참여했던 기억이 난다. 사실 시험공부에 치여서 제대로 읽진 못했지만, 책장에 꽂혀있는 이 책을 볼 때마다 설렘이 가득했다. 책의 맨 뒷장에는 알라딘 북펀드에 참여한 715명의 pencil lovers의 이름이 적혀있는데, 내 이름이 한자리를 차지해서 묘한 기분이 든다.&lt;/p&gt;
+&lt;center&gt;&lt;img src=&quot;https://drive.google.com/uc?export=view&amp;id=14Be5eXpV8caOkyGchIleKYF5eo09FsKN&quot; width=&quot;100%&quot; height=&quot;100%&quot;&gt;&lt;/center&gt;
+&lt;p&gt;VENUS 연필과 함께 한 컷&lt;br /&gt;
+책을 읽다가 VENUS 연필이 등장했는데 반가운 마음에 나도 모르게 VENUS 연필을 꺼내서 함께 사진을 찍었다. 특유의 대리석 문양이 참 멋지게 느껴진다. 4H, 6H 경도라 필기용으로 사용하긴 힘들지만 책 읽을 때 살짝살짝 표시할 때에는 참 좋다. 언젠간 VENUS HB, F를 구해서 써보는 날이 오길 소원을 빌어본다.&lt;/p&gt;
+&lt;center&gt;&lt;img src=&quot;https://drive.google.com/uc?export=view&amp;id=14Bk5FVwplHYZUixqe-UfebwBSj6UnNxT&quot; width=&quot;100%&quot; height=&quot;100%&quot;&gt;&lt;/center&gt;
+&lt;p&gt;사실 포스팅이 늦은 감이 없지 않다. 북펀드로 받아본 게 7월인데 벌써 12월이니.. ㅎ 개인적으로 필기구 회사마다의 특징, 제품군에 대해 자세히 다뤄주길 기대했는데 이 책은 그보다는 연필의 전반적인 역사를 다루고 있다. 역사적 사건에 따른 연필 산업의 변화 과정이 참 흥미로웠다. 다시 한번 읽어보면서 연필의 발전과정의 발자취를 따라가 봐야겠다.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Ecrire06</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="writing" />
+      
+
+      
+        <summary type="html">가장 작고 사소한 도구지만 가장 넓은 세계를 만들어낸... (연필)</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">세르지오 cergio 연필깍지</title>
+      <link href="http://localhost:4000/%EC%84%B8%EB%A5%B4%EC%A7%80%EC%98%A4-cergio-%EC%97%B0%ED%95%84%EA%B9%8D%EC%A7%80" rel="alternate" type="text/html" title="세르지오 cergio 연필깍지" />
+      <published>2020-12-20T03:53:00+09:00</published>
+      <updated>2020-12-20T03:53:00+09:00</updated>
+      <id>http://localhost:4000/%EC%84%B8%EB%A5%B4%EC%A7%80%EC%98%A4-cergio-%EC%97%B0%ED%95%84%EA%B9%8D%EC%A7%80</id>
+      <content type="html" xml:base="http://localhost:4000/%EC%84%B8%EB%A5%B4%EC%A7%80%EC%98%A4-cergio-%EC%97%B0%ED%95%84%EA%B9%8D%EC%A7%80">&lt;center&gt;&lt;img src=&quot;https://drive.google.com/uc?export=view&amp;id=#&quot; width=&quot;100%&quot; height=&quot;100%&quot;&gt;&lt;/center&gt;
+&lt;p&gt;연필은 소모품이다. 흑연이 닳아지면 깎아내고 사용해서 조금씩 조금씩 길이가 짧아진다. 필통에 들어가지 않던 연필은 어느새 손에 딱 맞는 길이가 되고 점점 짧아지면서 몽당이가 되어간다. 몽당이를 만드는 일은 꽤나 인내심을 필요로 한다. 조금만 짧아져도 안 쓰게 되고 애매한 길이로 방치되는 경우가 많다. 연필깍지는 이럴 때 참 유용한 도구이다.&lt;/p&gt;
+&lt;center&gt;&lt;img src=&quot;https://drive.google.com/uc?export=view&amp;id=138k7wJ2tKm0eYaPL22wlkjxv3ik5Jv3p&quot; width=&quot;100%&quot; height=&quot;100%&quot;&gt;&lt;/center&gt;
+&lt;p&gt;나무와 금속이 결합된 연필깍지보다 견고해 보여서 구입해보았다. 손에 쥐었을 때 생각보다 묵직하다. 무게중심이 뒤쪽에 있어서 필기할 때 조금은 불편하다. 무게중심이 적당히 앞에 있는 필기구가 장시간 필기에는 유리하다. 사용법은 간단하다 연필을 끼고 금속 링을 올려서 고정해 주면 된다. 금속 링에는 로렛가공(x자 모양 금속 표면 사선 처리)이 되어 있는데, 아마도 이것을 잡고 필기하라고 만든 듯하다. 허나 실제로 잡고 필기하면 뒤로 밀려서 고정이 풀려버리는 경우가 다반사라 실제로는 연필의 나무 부분을 잡게 된다. 두개로 갈라진 쇠가 고정하는 방식이라 연필을 눌러 상처를 남기게 된다. 상처 낸 다는 점이 마음 아프지만, 하네후지 연필깍지보다는 상처가 덜 나서 용서할 만하다.&lt;/p&gt;
+&lt;center&gt;&lt;img src=&quot;https://drive.google.com/uc?export=view&amp;id=12glh8HDA5tpMjMDU3E20ycHBE_zSCkZc&quot; width=&quot;100%&quot; height=&quot;100%&quot;&gt;&lt;/center&gt;
+&lt;p&gt;얇은 연필에 속하는 Mars Lumograph가 딱 사용하기에 적절하다. 국산 연필과 미국제 연필은 뻑뻑하게 들어가는데, 일본에 연필 중 일부는 도료가 두껍게 발라져 있어 애초에 들어가질 않는다. 스위스우드는 상처를 제대로 낼 각오하고 집어 넣어야 한다. 연필에 상처 나면 눈물이 찔끔 나는 기분이다.. ㅜㅜ&lt;/p&gt;
+&lt;center&gt;&lt;img src=&quot;https://drive.google.com/uc?export=view&amp;id=12aNiDVxA7dAhdgZpEzzt-cdcfIErrVGb&quot; width=&quot;100%&quot; height=&quot;100%&quot;&gt;&lt;/center&gt;
+&lt;p&gt;
+    &lt;center&gt;&lt;img src=&quot;https://drive.google.com/uc?export=view&amp;id=130EEWsBhyrbdiPUwZVvJxbLywdbYfEqn&quot; width=&quot;100%&quot; height=&quot;100%&quot;&gt;&lt;/center&gt;
+    Mars Lumograph 딱 맞게 들어간다.&lt;br /&gt;
+    &lt;center&gt;&lt;img src=&quot;https://drive.google.com/uc?export=view&amp;id=12hg-KmRwLMZA74_XhNRdfu0xFHPxgN3t&quot; width=&quot;100%&quot; height=&quot;100%&quot;&gt;&lt;/center&gt;
+    Tombow 8900 루모보다는 조금 더 끼는 느낌.&lt;br /&gt;
+    &lt;center&gt;&lt;img src=&quot;https://drive.google.com/uc?export=view&amp;id=12yFPi2TyZma7WV_TzRrBUMuhg01U8w2e&quot; width=&quot;100%&quot; height=&quot;100%&quot;&gt;&lt;/center&gt;
+    뒤에 페룰이 달린 연필들은 잘 들어가지 않는다.&lt;br /&gt;
+    &lt;center&gt;&lt;img src=&quot;https://drive.google.com/uc?export=view&amp;id=12x-ELXou5qjkIpVcjI7jkKQ_QJsZrG11&quot; width=&quot;100%&quot; height=&quot;100%&quot;&gt;&lt;/center&gt;
+    두꺼운 편인 Caran d'Ache Swiss Wood는 들어가지 않는다.&lt;br /&gt;
+    &lt;center&gt;&lt;img src=&quot;https://drive.google.com/uc?export=view&amp;id=12oNecfPr7_xrSEviDDtuIaHLdtXy5OZI&quot; width=&quot;100%&quot; height=&quot;100%&quot;&gt;&lt;/center&gt;
+    삼각 연필은 들어가긴 하지만, 상처를 많이 남긴다.&lt;br /&gt;
+
+&lt;/p&gt;
+&lt;center&gt;&lt;img src=&quot;https://drive.google.com/uc?export=view&amp;id=12albvpCxoRhNR3GNKiOoh_6FH9PHAmng&quot; width=&quot;100%&quot; height=&quot;100%&quot;&gt;&lt;/center&gt;
+&lt;p&gt;인터넷을 찾아보다 보니 뒤로도 사용 가능하다는 걸 알게 되었다. 회선형(spiral) 홈을 따라 연필을 돌려 끼우면 된다. 저렴한 연필로 뒤쪽으로 끼우기를 시도했다가 도료를 다 갉아먹은 경험을 한 이후로는 앞쪽으로만 사용한다. 이 깎지의 용도는 필기용보다는 데생용으로 적합한 듯하다. 글씨 쓰듯이 잡으면 쇠링이 손에 걸려서 은근히 신경 쓰인다. 뒤쪽으로 몸통을 잡고 사용하면 안정감 있게 사용 가능하다. 이 점에서는 마음에 드는 제품이다.&lt;/p&gt;
+&lt;center&gt;&lt;img src=&quot;https://drive.google.com/uc?export=view&amp;id=135p2I4pSwZwOy2jefwEl2y9MmfNmAeWA&quot; width=&quot;100%&quot; height=&quot;100%&quot;&gt;&lt;/center&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Ecrire06</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="pencils" />
+      
+
+      
+        <summary type="html">연필은 소모품이다. 흑연이 닳아지면 깎아내고 사용해서 조금씩 조금씩 길이가 짧아진다. 필통에 들어가지 않던 연필은 어느새 손에 딱 맞는 길이가 되고 점점 짧아지면서 몽당이가 되어간다. 몽당이를 만드는 일은 꽤나 인내심을 필요로 한다. 조금만 짧아져도 안 쓰게 되고 애매한 길이로 방치되는 경우가 많다. 연필깍지는 이럴 때 참 유용한 도구이다. 나무와 금속이 결합된 연필깍지보다 견고해 보여서 구입해보았다. 손에 쥐었을 때 생각보다 묵직하다. 무게중심이 뒤쪽에 있어서 필기할 때 조금은 불편하다. 무게중심이 적당히 앞에 있는 필기구가 장시간 필기에는 유리하다. 사용법은 간단하다 연필을 끼고 금속 링을 올려서 고정해 주면 된다. 금속 링에는 로렛가공(x자 모양 금속 표면 사선 처리)이 되어 있는데, 아마도 이것을 잡고 필기하라고 만든 듯하다. 허나 실제로 잡고 필기하면 뒤로 밀려서 고정이 풀려버리는 경우가 다반사라 실제로는 연필의 나무 부분을 잡게 된다. 두개로 갈라진 쇠가 고정하는 방식이라 연필을 눌러 상처를 남기게 된다. 상처 낸 다는 점이 마음 아프지만, 하네후지 연필깍지보다는 상처가 덜 나서 용서할 만하다. 얇은 연필에 속하는 Mars Lumograph가 딱 사용하기에 적절하다. 국산 연필과 미국제 연필은 뻑뻑하게 들어가는데, 일본에 연필 중 일부는 도료가 두껍게 발라져 있어 애초에 들어가질 않는다. 스위스우드는 상처를 제대로 낼 각오하고 집어 넣어야 한다. 연필에 상처 나면 눈물이 찔끔 나는 기분이다.. ㅜㅜ Mars Lumograph 딱 맞게 들어간다. Tombow 8900 루모보다는 조금 더 끼는 느낌. 뒤에 페룰이 달린 연필들은 잘 들어가지 않는다. 두꺼운 편인 Caran d'Ache Swiss Wood는 들어가지 않는다. 삼각 연필은 들어가긴 하지만, 상처를 많이 남긴다.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Staedtler Noris 120</title>
+      <link href="http://localhost:4000/staedtler-noris-120" rel="alternate" type="text/html" title="Staedtler Noris 120" />
+      <published>2020-12-18T21:30:00+09:00</published>
+      <updated>2020-12-18T21:30:00+09:00</updated>
+      <id>http://localhost:4000/staedtler-noris-120</id>
+      <content type="html" xml:base="http://localhost:4000/staedtler-noris-120">&lt;p&gt;'꿀벌 연필'이라는 별명을 가진 Staedtler Noris 120 연필. 누가 지었는지 모르겠지만 참 마음에 드는 이름이다. Staedtler 사의 대표적인 brand에는 Mars Lumograph, Noris, Tradition이 있는데 각각 매력을 가져서 특색이 있다.&lt;/p&gt;
+&lt;center&gt;&lt;img src=&quot;https://drive.google.com/uc?export=view&amp;id=11Ok1tfRPUWfAEyDlNJkeSw0SztzETaBL&quot; width=&quot;100%&quot; height=&quot;100%&quot;&gt;&lt;/center&gt;
+&lt;p&gt;Ebay에서 둘러보다 보면 생각보다 오래전부터 생산되온 것을 확인할 수 있다. 긴 역사를 가진 Staedtler인 만큼 시대별로 디자인이 바뀌어왔다. Stationery wiki에 따르면 처음부터 노란색과 검은색 줄을 가진 디자인으로 생산된 건 아니라고 한다. 초기에는 단색의 도료가 입혀졌지만, 시간이 지나며 Noris 1100 시절에는 주황색과 검은색 줄을 가지게 되었다. 그 이후 주황색이 노란색으로 바뀌어 지금의 형태가 되었다고 한다. 출처:&lt;a href=&quot;https://stationery.wiki/Staedtler_Noris&quot;&gt;Stationery wiki&lt;/a&gt; 구형 Noris의 사진은 &lt;a href=&quot;https://www.lexikaliker.de/2014/04/js-staedtler-noris-1100-no-2/&quot;&gt;Lexikaliker 블로그&lt;/a&gt;를 참고하길 바란다.&lt;/p&gt;
+&lt;center&gt;&lt;img src=&quot;https://drive.google.com/uc?export=view&amp;id=118pNjEsfcCx4m0gBGn_SjuFTG24oaSRR&quot; width=&quot;100%&quot; height=&quot;100%&quot;&gt;&lt;/center&gt;
+&lt;p&gt;편의상 현재 생산되는 연필을 현행, 그전까지 생산되던 것을 준구형이라고 부르겠다. 준구형은 Noris 마크 옆에 120이 적혀있지만, 현행 제품은 바코드 옆에 Art.Nr.120-1이 적힌 것을 확인할 수 있다. 흥미로워서 오래된 catalog를 뒤져봤는데 이전에도 120와 같은 일련번호를 사용하고 있는 것을 확인할 수 있었다. 다만 일련번호를 제품에는 표기하지 않았다. 다만, Art.Nr이라는 표기는 이전에는 찾아볼 수 없었는데, 'Art.Nr.xxx-x' 일련번호 표기 방식은 준구형에서 현행으로의 변화 이후에 추가된 것으로 추정된다.&lt;/p&gt;
+&lt;center&gt;&lt;img src=&quot;https://drive.google.com/uc?export=view&amp;id=1140qUpGUHUjpDGyLa9mlvFsFWsOJmEpG&quot; width=&quot;100%&quot; height=&quot;100%&quot;&gt;&lt;/center&gt;
+&lt;p&gt;각인은 준구형 쪽이 마음에 든다. 연필 한 면을 꽉 채우고 넘칠듯한 큼직큼직한 각인. 특히 ST와 DT가 이어진 글씨체는 언제나 설렌다. '나 구형 연필이야~'하고 속삭이는 느낌이랄까? 앞쪽의 [/S/] 각인은 SV 공법이 적용된 제품임을 알려준다. 떨어뜨려도 내부 심이 깨지는 일이 없도록 심을 나무에 접착할 때 접작체를 첨가하는 공법이라고 한다. 더 자세히 알아보고 SV 공법에 나중에 글을 써봐야겠다.&lt;/p&gt;
+&lt;center&gt;&lt;img src=&quot;https://drive.google.com/uc?export=view&amp;id=115rwuel65dimja1ybXGRJv96mGsTV8M8&quot; width=&quot;100%&quot; height=&quot;100%&quot;&gt;&lt;/center&gt;
+&lt;p&gt;뒤쪽의 꽁지 색깔은 경도에 따라 구분된다. 주황색 2B 검은색 B 빨간색 HB 파란색 H 초록색 2H 순이다. 솔직히 이번 글을 쓰면서 Noris가 2H까지 생산되는 것을 처음 알게 되었다. 보통 국내 문구점에서는 2B, B, HB만 가져다 놓아서 H, 2H Noris는 찾아보기 어렵다. 해외에서는 많이 판매되는 것 같으니 다음에 해외 직구할 때 끼워서 구입해봐야겠다.&lt;/p&gt;
+&lt;center&gt;&lt;img src=&quot;https://drive.google.com/uc?export=view&amp;id=10wYpeDs1tFzAXJiB9JKjGcjXXiFyJhIH&quot; width=&quot;100%&quot; height=&quot;100%&quot;&gt;&lt;/center&gt;
+&lt;p&gt;보유하고 있는 준구형 Noris는 HB이고 현행 Noris는 B이기 때문에, 두 연필의 필기감을 직접 비교하는 건 어렵다. 연필의 필기감 비교는 동일 경도일 때 의미가 있기 때문이다. 다른 경도를 가지고 그 연필을 비교해버리는 건 어리석은 행동이라고 생각된다. 그래도 비교를 해보자면 준구형의 필기감이 마음에 든다. 촉촉하고 담백한 느낌. 필기용으론 이만한 게 없다.&lt;/p&gt;
+&lt;p&gt;제도용이 아닌 딱 필기용 연필. 잘게 갈리는 소리를 속삭이면서 나무 향기를 풍긴다. 요새 일기장을 쓸 때 항상 함께 하는 연필이다. 현행 Noris B를 써보면 이건 OMR 용이다! 생각이 딱 든다. A4 한 장을 채우지 못했는데 뭉뚝해져 버리는 현행 Noris..ㅎㅎ 종이에 녹아버리는 듯한 필기감이다.&lt;/p&gt;
+
+&lt;center&gt;&lt;img src=&quot;https://drive.google.com/uc?export=view&amp;id=1105Cuy5rkqGpIF5V_DxXIOU75G-IzU7h&quot; width=&quot;100%&quot; height=&quot;100%&quot;&gt;&lt;/center&gt;
+&lt;p&gt;Staedtler Noris 120 앞면 (위: 현행, 아래: 준구형)&lt;/p&gt;
+&lt;center&gt;&lt;img src=&quot;https://drive.google.com/uc?export=view&amp;id=10xXc3ujfwi02pMVZXxtG5iEcTdAgF_Q5&quot; width=&quot;100%&quot; height=&quot;100%&quot;&gt;&lt;/center&gt;
+&lt;p&gt;Staedtler Noris 120 뒷면 (위: 현행, 아래: 준구형)&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Ecrire06</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="pencils" />
+      
+
+      
+        <summary type="html">'꿀벌 연필'이라는 별명을 가진 Staedtler Noris 120 연필. 누가 지었는지 모르겠지만 참 마음에 드는 이름이다. Staedtler 사의 대표적인 brand에는 Mars Lumograph, Noris, Tradition이 있는데 각각 매력을 가져서 특색이 있다. Ebay에서 둘러보다 보면 생각보다 오래전부터 생산되온 것을 확인할 수 있다. 긴 역사를 가진 Staedtler인 만큼 시대별로 디자인이 바뀌어왔다. Stationery wiki에 따르면 처음부터 노란색과 검은색 줄을 가진 디자인으로 생산된 건 아니라고 한다. 초기에는 단색의 도료가 입혀졌지만, 시간이 지나며 Noris 1100 시절에는 주황색과 검은색 줄을 가지게 되었다. 그 이후 주황색이 노란색으로 바뀌어 지금의 형태가 되었다고 한다. 출처:Stationery wiki 구형 Noris의 사진은 Lexikaliker 블로그를 참고하길 바란다. 편의상 현재 생산되는 연필을 현행, 그전까지 생산되던 것을 준구형이라고 부르겠다. 준구형은 Noris 마크 옆에 120이 적혀있지만, 현행 제품은 바코드 옆에 Art.Nr.120-1이 적힌 것을 확인할 수 있다. 흥미로워서 오래된 catalog를 뒤져봤는데 이전에도 120와 같은 일련번호를 사용하고 있는 것을 확인할 수 있었다. 다만 일련번호를 제품에는 표기하지 않았다. 다만, Art.Nr이라는 표기는 이전에는 찾아볼 수 없었는데, 'Art.Nr.xxx-x' 일련번호 표기 방식은 준구형에서 현행으로의 변화 이후에 추가된 것으로 추정된다. 각인은 준구형 쪽이 마음에 든다. 연필 한 면을 꽉 채우고 넘칠듯한 큼직큼직한 각인. 특히 ST와 DT가 이어진 글씨체는 언제나 설렌다. '나 구형 연필이야~'하고 속삭이는 느낌이랄까? 앞쪽의 [/S/] 각인은 SV 공법이 적용된 제품임을 알려준다. 떨어뜨려도 내부 심이 깨지는 일이 없도록 심을 나무에 접착할 때 접작체를 첨가하는 공법이라고 한다. 더 자세히 알아보고 SV 공법에 나중에 글을 써봐야겠다. 뒤쪽의 꽁지 색깔은 경도에 따라 구분된다. 주황색 2B 검은색 B 빨간색 HB 파란색 H 초록색 2H 순이다. 솔직히 이번 글을 쓰면서 Noris가 2H까지 생산되는 것을 처음 알게 되었다. 보통 국내 문구점에서는 2B, B, HB만 가져다 놓아서 H, 2H Noris는 찾아보기 어렵다. 해외에서는 많이 판매되는 것 같으니 다음에 해외 직구할 때 끼워서 구입해봐야겠다. 보유하고 있는 준구형 Noris는 HB이고 현행 Noris는 B이기 때문에, 두 연필의 필기감을 직접 비교하는 건 어렵다. 연필의 필기감 비교는 동일 경도일 때 의미가 있기 때문이다. 다른 경도를 가지고 그 연필을 비교해버리는 건 어리석은 행동이라고 생각된다. 그래도 비교를 해보자면 준구형의 필기감이 마음에 든다. 촉촉하고 담백한 느낌. 필기용으론 이만한 게 없다. 제도용이 아닌 딱 필기용 연필. 잘게 갈리는 소리를 속삭이면서 나무 향기를 풍긴다. 요새 일기장을 쓸 때 항상 함께 하는 연필이다. 현행 Noris B를 써보면 이건 OMR 용이다! 생각이 딱 든다. A4 한 장을 채우지 못했는데 뭉뚝해져 버리는 현행 Noris..ㅎㅎ 종이에 녹아버리는 듯한 필기감이다.</summary>
+      
+
+      
+      
+    </entry>
+  
+</feed>
