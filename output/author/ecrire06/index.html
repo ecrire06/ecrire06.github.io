@@ -22,6 +22,13 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/earlyaccess/nanumgothic.css">
     <style>.hljs { background: none; }</style>
 
+    <!-- 웹 폰트 설정 -->
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/earlyaccess/nanumgothic.css">
+
+    <!-- syntax.css -->
+    <link rel="stylesheet" href="/assets/built/syntax.css">
+
     <!--[if IE]>
         <style>
             p, ol, ul{
@@ -1254,20 +1261,32 @@ Q2. 편축이 있는 연필깎이로 깎은 건 몇번일까?
             <a class="subscribe-overlay-close" href="#"></a>
             <div class="subscribe-overlay-content">
                 
-                    <img class="subscribe-overlay-logo" src="/assets/images/blog-icon.png" alt="Ecrire06" />
+                    <img class="subscribe-overlay-logo" 
+                         src="/assets/images/blog-icon.png" 
+                         alt="Ecrire06" />
                 
-                <h1 class="subscribe-overlay-title">Subscribe to Ecrire06</h1>
-                <p class="subscribe-overlay-description">Stay up to date! Get all the latest &amp; greatest posts delivered straight to your inbox</p>
-                <form method="post" action="/subscribe/" class="">
-    <input class="confirm" type="hidden" name="confirm"  /><input class="location" type="hidden" name="location"  /><input class="referrer" type="hidden" name="referrer"  />
+                <h1 class="subscribe-overlay-title">Search Ecrire06</h1>
+                <p class="subscribe-overlay-description">
+                Ecrire06 블로그에서 무엇을 찾고싶나요 </p>
+                <span id="searchform" method="post" action="/subscribe/" class="">
+    <input class="confirm" type="hidden" name="confirm"  />
+    <input class="location" type="hidden" name="location"  />
+    <input class="referrer" type="hidden" name="referrer"  />
 
     <div class="form-group">
-        <input class="subscribe-email" type="email" name="email"  placeholder="youremail@example.com" />
+        <input class="subscribe-email" onkeyup="myFunc()" 
+               id="searchtext" type="text" name="searchtext"  
+               placeholder="Search..." />
     </div>
-    <button class="" type="submit" disabled><span>Subscribe</span></button>
-    <script type="text/javascript">(function(g,h,o,s,t){h[o]('.location')[s]=h[o]('.location')[s] || g.location.href;h[o]('.referrer')[s]=h[o]('.referrer')[s] || h.referrer;})(window,document,'querySelector','value');</script>
-</form>
-
+    <script type="text/javascript">
+        function myFunc() {
+            if(event.keyCode == 13) {
+                var url = encodeURIComponent($("#searchtext").val());
+                location.href = "/search.html?query=" + url;
+            }
+        }
+    </script>
+</span>
             </div>
         </div>
     

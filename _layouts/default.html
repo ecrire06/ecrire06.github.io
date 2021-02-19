@@ -86,11 +86,14 @@
             <a class="subscribe-overlay-close" href="#"></a>
             <div class="subscribe-overlay-content">
                 {% if site.logo %}
-                    <img class="subscribe-overlay-logo" src="{{ site.baseurl }}{{ site.logo }}" alt="{{ site.title }}" />
+                    <img class="subscribe-overlay-logo" 
+                         src="{{ site.baseurl }}{{ site.logo }}" 
+                         alt="{{ site.title }}" />
                 {% endif %}
-                <h1 class="subscribe-overlay-title">Subscribe to {{ site.title }}</h1>
-                <p class="subscribe-overlay-description">Stay up to date! Get all the latest &amp; greatest posts delivered straight to your inbox</p>
-                {% include subscribe-form.html placeholder="youremail@example.com" %}
+                <h1 class="subscribe-overlay-title">Search {{ site.title }}</h1>
+                <p class="subscribe-overlay-description">
+                Ecrire06 블로그에서 무엇을 찾고싶나요 </p>
+                {% include subscribe-form.html placeholder="keyword" %}
             </div>
         </div>
     {% endif %}
