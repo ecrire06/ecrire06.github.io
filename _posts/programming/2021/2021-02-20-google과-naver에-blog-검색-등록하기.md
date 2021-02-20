@@ -45,23 +45,25 @@ robots.txt는 웹(web) 상의 봇(bot)들이 블로그를 읽어들일 수 있�
 {% gist ecrire06/9abccba745caff2826fc820195e66d2e %}
 
 sitemap은 이름에서도 알 수 있듯이 사이트(site)의 지도(map)같은 역할을 한다. 작성된 글(post)에 대한 정보를 담고 있어서 봇(bot)이 쉽게 읽어들일 수 있는 목차의 역할을 해낸다.
-[site:ecrire06.github.io](https://www.google.com/search?q=site%3Aecrire06.github.io&oq=site&aqs=chrome.0.69i59j69i57j69i60l2j69i65l2j69i60j69i61.756j0j7&sourceid=chrome&ie=UTF-8)Google 검색 결과에서 알 수 있듯이 [ecrire06.github.io](https://ecrire06.github.io)의 글이 업로드 되어있는 것을 확인할 수 있다. 현재 시점(2021-02-20 23:48) 기준으로 20개의 글(Post)만 
+[site:ecrire06.github.io](https://www.google.com/search?q=site%3Aecrire06.github.io&oq=site&aqs=chrome.0.69i59j69i57j69i60l2j69i65l2j69i60j69i61.756j0j7&sourceid=chrome&ie=UTF-8)Google 검색 결과에서 알 수 있듯이 [ecrire06.github.io](https://ecrire06.github.io)의 글이 업로드 되어있는 것을 확인할 수 있다. 현재 시점(2021-02-20 23:48) 기준으로 20개의 글(Post)만 검색되는데, 봇(bot)이 계속 읽으면서 검색 결과가 더 많아질 것으로 생각된다.
 
 ## feed.xml
 {% gist ecrire06/957666996d1b9271c5ec626a0a6b5ea0 %}
 
-RSS(Really Simple Syndication)에 대해 들어본 것이 있을지 모르겠다. Feed는 새 
+RSS(Really Simple Syndication)에 대해 들어본 것이 있을지 모르겠다. Feed는 새로운 글이 생겼을 때 쉽게 전달할 수 있도록 만든 파일이라고 한다.
 
 ## _includes/head.html 수정
 {% gist ecrire06/b5603d8b37646f7e0b500a73893e7ed0 %}
 
+마지막으로 _includes/head.html 파일에 위의 내용을 추가해주면 끝!
+
 # Naver Search Advisor 웹마스터 도구
-
-
 
 <center><img src="https://drive.google.com/uc?export=view&id=#" width="100%" height="100%"></center>
 
-파일 추가해주었다. 하루가 지나고 Google과 Naver에서 블로그를 크롤링해서 읽어들이면, 네이버 이웃커넥트 기능을 추가할 예정이다. 기대해주시길!
+Naver Search Advisor의 내 블로그 분석 결과이다. 잘 알맞게 들어간 것을 확인할 수 있다. 하루가 지나고 Google과 Naver에서 블로그를 크롤링해서 읽어들이면, 네이버 이웃커넥트 기능을 추가할 예정이다. 기대해주시길!
 
 # References
-
+- [Google검색센터](https://developers.google.com/search/docs/advanced/robots/create-robots-txt?hl=ko&ref_topic=6061961&visit_id=637493411137158785-933523406&rd=1)
+- [NaverSearchAdvisor](https://searchadvisor.naver.com/)
+- [RSS란?](http://mwultong.blogspot.com/2007/10/rss-rss-feed.html)
