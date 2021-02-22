@@ -71,7 +71,7 @@ production_url: https://ecrire06.github.io/
 source_url: https://github.com/ecrire06/ecrire06.github.io/
 # blogmaker(jekyll source folder)에 대한 github repository
 
-CNAME: #add cname for website to be created
+CNAME: ecrire06.github.io #add cname for website to be created
 
 # Social info
 navigation: True

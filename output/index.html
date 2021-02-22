@@ -41,7 +41,9 @@
     <![endif]-->
     
     <!-- This tag outputs SEO meta+structured data and other important settings -->
-    <meta name="description" content="Pencils & Pens & Study" />
+    <base href="//" />
+
+<meta name="description" content="Pencils & Pens & Study" />
     <link rel="shortcut icon" href="http://localhost:4000/assets/images/favicon.png" type="image/png" />
     <link rel="canonical" href="http://localhost:4000/" />
     <meta name="referrer" content="no-referrer-when-downgrade" />
@@ -100,6 +102,7 @@
 
     <meta name="generator" content="Jekyll 3.6.2" />
     <link rel="alternate" type="application/rss+xml" title="Ecrire06" href="/feed.xml" />
+    <link rel="alternate" type="application/rss+xml" href="https://ecrire06.github.io/feed.xml" title="Ecrire06">
 
 
 </head>
@@ -128,9 +131,7 @@ into the {body} of the default.hbs template -->
         
             <ul class="nav" role="menu">
     <li class="nav-home" role="menuitem"><a href="/">Home</a></li>
-    <li class="nav-about" role="menuitem"><a href="/about/">About</a></li>
-    <li class="nav-getting-started" role="menuitem"><a href="/tag/getting-started/">Getting Started</a></li>
-    <li class="nav-try-ghost" role="menuitem"><a href="https://ghost.org">Try Ghost</a></li>
+    <li class="nav-about" role="menuitem"><a href="//about/">About</a></li>
     <li class="nav-pencils" role="menuiten"><a href="/tag/pencils/">Pencils</a></li>
     <li class="nav-leadholder" role="menuiten"><a href="/tag/leadholder/">Leadholder</a></li>
     <li class="nav-programming" role="menuiten"><a href="/tag/programming/">Programming</a></li>
@@ -148,18 +149,23 @@ into the {body} of the default.hbs template -->
     <div class="site-nav-right">
         <div class="social-links">
             
-                <a class="social-link social-link-fb" 
-                   href="https://facebook.com/juneha2002" 
-                   target="_blank" 
-                   rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M19 6h5V0h-5c-3.86 0-7 3.14-7 7v3H8v6h4v16h6V16h5l1-6h-6V7c0-.542.458-1 1-1z"/></svg>
+                <a class="social-link social-link" href="https://facebook.com/juneha2002" target="_blank" rel="noopener"><svg width="30" height="auto" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;" version="1.1" viewBox="0 0 512 512" preserveAspectRatio="xMidYMid meet" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:serif="http://www.serif.com/" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M374.244,285.825l14.105,-91.961l-88.233,0l0,-59.677c0,-25.159 12.325,-49.682 51.845,-49.682l40.116,0l0,-78.291c0,0 -36.407,-6.214 -71.213,-6.214c-72.67,0 -120.165,44.042 -120.165,123.775l0,70.089l-80.777,0l0,91.961l80.777,0l0,222.31c16.197,2.541 32.798,3.865 49.709,3.865c16.911,0 33.511,-1.324 49.708,-3.865l0,-222.31l74.128,0Z" style="fill-rule:nonzero;"/></svg>
 </a>
             
             
-                <a class="social-link social-link-tw" 
-                   href="https://twitter.com/ecrire06" 
-                   target="_blank" 
-                   rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M30.063 7.313c-.813 1.125-1.75 2.125-2.875 2.938v.75c0 1.563-.188 3.125-.688 4.625a15.088 15.088 0 0 1-2.063 4.438c-.875 1.438-2 2.688-3.25 3.813a15.015 15.015 0 0 1-4.625 2.563c-1.813.688-3.75 1-5.75 1-3.25 0-6.188-.875-8.875-2.625.438.063.875.125 1.375.125 2.688 0 5.063-.875 7.188-2.5-1.25 0-2.375-.375-3.375-1.125s-1.688-1.688-2.063-2.875c.438.063.813.125 1.125.125.5 0 1-.063 1.5-.25-1.313-.25-2.438-.938-3.313-1.938a5.673 5.673 0 0 1-1.313-3.688v-.063c.813.438 1.688.688 2.625.688a5.228 5.228 0 0 1-1.875-2c-.5-.875-.688-1.813-.688-2.75 0-1.063.25-2.063.75-2.938 1.438 1.75 3.188 3.188 5.25 4.25s4.313 1.688 6.688 1.813a5.579 5.579 0 0 1 1.5-5.438c1.125-1.125 2.5-1.688 4.125-1.688s3.063.625 4.188 1.813a11.48 11.48 0 0 0 3.688-1.375c-.438 1.375-1.313 2.438-2.563 3.188 1.125-.125 2.188-.438 3.313-.875z"/></svg>
+                <a class="social-link social-link" href="https://twitter.com/ecrire06" target="_blank" rel="noopener"><svg width="30" height="auto" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;" version="1.1" viewBox="0 0 512 512" preserveAspectRatio="xMidYMid meet" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:serif="http://www.serif.com/" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M161.014,464.013c193.208,0 298.885,-160.071 298.885,-298.885c0,-4.546 0,-9.072 -0.307,-13.578c20.558,-14.871 38.305,-33.282 52.408,-54.374c-19.171,8.495 -39.51,14.065 -60.334,16.527c21.924,-13.124 38.343,-33.782 46.182,-58.102c-20.619,12.235 -43.18,20.859 -66.703,25.498c-19.862,-21.121 -47.602,-33.112 -76.593,-33.112c-57.682,0 -105.145,47.464 -105.145,105.144c0,8.002 0.914,15.979 2.722,23.773c-84.418,-4.231 -163.18,-44.161 -216.494,-109.752c-27.724,47.726 -13.379,109.576 32.522,140.226c-16.715,-0.495 -33.071,-5.005 -47.677,-13.148l0,1.331c0.014,49.814 35.447,93.111 84.275,102.974c-15.464,4.217 -31.693,4.833 -47.431,1.802c13.727,42.685 53.311,72.108 98.14,72.95c-37.19,29.227 -83.157,45.103 -130.458,45.056c-8.358,-0.016 -16.708,-0.522 -25.006,-1.516c48.034,30.825 103.94,47.18 161.014,47.104" style="fill-rule:nonzero;"/></svg>
 </a>
+            
+            
+            
+            
+                <a class="social-link social-link" href="https://github.com/ecrire06" target="_blank" rel="noopener"><svg width="30" height="auto" enable-background="new 0 0 30 30" id="Github" version="1.1" viewBox="0 0 30 30" preserveAspectRatio="xMidYMid meet" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path clip-rule="evenodd" d="M19,30h-3.996h-4c0,0,0.011-2.372,0-4  c-5.473,1.178-7-3-7-3c-1-2-2-3-2-3c-2-1.188,0-1,0-1c2,0,3,2,3,2c1.755,2.981,4.878,2.501,6,2c0-1,0.438-2.512,1-3  C7.636,19.508,4,17,4,12s1.004-6,2.004-7C5.802,4.507,4.965,2.685,6.035,0C6.035,0,8,0,10,3c0.991-0.991,4-1,5.001-1  C16,2,19.009,2.009,20,3c2-3,3.969-3,3.969-3c1.07,2.685,0.233,4.507,0.031,5c1,1,2,2,2,7s-3.632,7.508-8,8c0.562,0.488,1,2.21,1,3  V30z" fill-rule="evenodd" id="Cat"/></svg>
+</a>
+            
+            
+                <a class="social-link social-link" href="https://instagram.com/juneha2002" target="_blank" rel="noopener"><svg width="30" height="auto" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;" version="1.1" viewBox="0 0 600 600" preserveAspectRatio="xMidYMid meet" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:serif="http://www.serif.com/" xmlns:xlink="http://www.w3.org/1999/xlink"><g transform="matrix(1.01619,0,0,1.01619,44,43.8384)"><path d="M251.921,0.159C183.503,0.159 174.924,0.449 148.054,1.675C121.24,2.899 102.927,7.157 86.902,13.385C70.336,19.823 56.287,28.437 42.282,42.442C28.277,56.447 19.663,70.496 13.225,87.062C6.997,103.086 2.739,121.399 1.515,148.213C0.289,175.083 0,183.662 0,252.08C0,320.497 0.289,329.076 1.515,355.946C2.739,382.76 6.997,401.073 13.225,417.097C19.663,433.663 28.277,447.712 42.282,461.718C56.287,475.723 70.336,484.337 86.902,490.775C102.927,497.002 121.24,501.261 148.054,502.484C174.924,503.71 183.503,504 251.921,504C320.338,504 328.917,503.71 355.787,502.484C382.601,501.261 400.914,497.002 416.938,490.775C433.504,484.337 447.553,475.723 461.559,461.718C475.564,447.712 484.178,433.663 490.616,417.097C496.843,401.073 501.102,382.76 502.325,355.946C503.551,329.076 503.841,320.497 503.841,252.08C503.841,183.662 503.551,175.083 502.325,148.213C501.102,121.399 496.843,103.086 490.616,87.062C484.178,70.496 475.564,56.447 461.559,42.442C447.553,28.437 433.504,19.823 416.938,13.385C400.914,7.157 382.601,2.899 355.787,1.675C328.917,0.449 320.338,0.159 251.921,0.159ZM251.921,45.551C319.186,45.551 327.154,45.807 353.718,47.019C378.28,48.14 391.619,52.244 400.496,55.693C412.255,60.263 420.647,65.723 429.462,74.538C438.278,83.353 443.737,91.746 448.307,103.504C451.757,112.381 455.861,125.72 456.981,150.282C458.193,176.846 458.45,184.814 458.45,252.08C458.45,319.345 458.193,327.313 456.981,353.877C455.861,378.439 451.757,391.778 448.307,400.655C443.737,412.414 438.278,420.806 429.462,429.621C420.647,438.437 412.255,443.896 400.496,448.466C391.619,451.916 378.28,456.02 353.718,457.14C327.158,458.352 319.191,458.609 251.921,458.609C184.65,458.609 176.684,458.352 150.123,457.14C125.561,456.02 112.222,451.916 103.345,448.466C91.586,443.896 83.194,438.437 74.378,429.621C65.563,420.806 60.103,412.414 55.534,400.655C52.084,391.778 47.98,378.439 46.859,353.877C45.647,327.313 45.391,319.345 45.391,252.08C45.391,184.814 45.647,176.846 46.859,150.282C47.98,125.72 52.084,112.381 55.534,103.504C60.103,91.746 65.563,83.353 74.378,74.538C83.194,65.723 91.586,60.263 103.345,55.693C112.222,52.244 125.561,48.14 150.123,47.019C176.687,45.807 184.655,45.551 251.921,45.551Z" style="fill-rule:nonzero;"/><path d="M251.921,336.053C205.543,336.053 167.947,298.457 167.947,252.08C167.947,205.702 205.543,168.106 251.921,168.106C298.298,168.106 335.894,205.702 335.894,252.08C335.894,298.457 298.298,336.053 251.921,336.053ZM251.921,122.715C180.474,122.715 122.556,180.633 122.556,252.08C122.556,323.526 180.474,381.444 251.921,381.444C323.367,381.444 381.285,323.526 381.285,252.08C381.285,180.633 323.367,122.715 251.921,122.715Z" style="fill-rule:nonzero;"/><path d="M416.627,117.604C416.627,134.3 403.092,147.834 386.396,147.834C369.701,147.834 356.166,134.3 356.166,117.604C356.166,100.908 369.701,87.374 386.396,87.374C403.092,87.374 416.627,100.908 416.627,117.604Z" style="fill-rule:nonzero;"/></g></svg>
+</a>
+            
             
         </div>
         
@@ -179,6 +185,285 @@ into the {body} of the default.hbs template -->
             <!-- The tag below includes the markup for each post - partials/post-card.hbs -->
             
 
+
+    <article class="post-card home-template">
+        
+            <a class="post-card-image-link" href="/naver-%EC%9D%B4%EC%9B%83%EC%BB%A4%EB%84%A5%ED%8A%B8%EC%97%90-%EB%8C%80%ED%95%9C-%EA%B3%A0%EC%B0%B0">
+                <div class="post-card-image" style="background-image: url(/assets/images/welcome.jpg)"></div>
+            </a>
+        
+        <div class="post-card-content">
+            <a class="post-card-content-link" href="/naver-%EC%9D%B4%EC%9B%83%EC%BB%A4%EB%84%A5%ED%8A%B8%EC%97%90-%EB%8C%80%ED%95%9C-%EA%B3%A0%EC%B0%B0">
+                <header class="post-card-header">
+                    
+                        
+                            
+                                <span class="post-card-tags">Programming</span>
+                            
+                        
+                    
+
+                    <h2 class="post-card-title">Naver 이웃커넥트에 대한 고찰</h2>
+                </header>
+                <section class="post-card-excerpt">
+                    
+                        <p>
+
+</p>
+                    
+                </section>
+            </a>
+            <footer class="post-card-meta">
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                <span class="reading-time">
+                    
+                    
+                      1 min read
+                    
+                </span>
+            </footer>
+        </div>
+    </article>
+
+    <article class="post-card home-template">
+        
+            <a class="post-card-image-link" href="/naver-%EC%9D%B4%EC%9B%83%EC%BB%A4%EB%84%A5%ED%8A%B8-%EC%9C%84%EC%A0%AF-test">
+                <div class="post-card-image" style="background-image: url(/assets/images/design.jpg)"></div>
+            </a>
+        
+        <div class="post-card-content">
+            <a class="post-card-content-link" href="/naver-%EC%9D%B4%EC%9B%83%EC%BB%A4%EB%84%A5%ED%8A%B8-%EC%9C%84%EC%A0%AF-test">
+                <header class="post-card-header">
+                    
+                        
+                            
+                                <span class="post-card-tags">Programming</span>
+                            
+                        
+                    
+
+                    <h2 class="post-card-title">Naver 이웃커넥트 위젯 test</h2>
+                </header>
+                <section class="post-card-excerpt">
+                    
+                        <p>Naver 이웃커넥트 위젯
+
+</p>
+                    
+                </section>
+            </a>
+            <footer class="post-card-meta">
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                <span class="reading-time">
+                    
+                    
+                      1 min read
+                    
+                </span>
+            </footer>
+        </div>
+    </article>
+
+    <article class="post-card home-template">
+        
+            <a class="post-card-image-link" href="/google%EA%B3%BC-naver%EC%97%90-blog-%EA%B2%80%EC%83%89-%EB%93%B1%EB%A1%9D%ED%95%98%EA%B8%B0">
+                <div class="post-card-image" style="background-image: url(/assets/images/writing.jpg)"></div>
+            </a>
+        
+        <div class="post-card-content">
+            <a class="post-card-content-link" href="/google%EA%B3%BC-naver%EC%97%90-blog-%EA%B2%80%EC%83%89-%EB%93%B1%EB%A1%9D%ED%95%98%EA%B8%B0">
+                <header class="post-card-header">
+                    
+                        
+                            
+                                <span class="post-card-tags">Programming</span>
+                            
+                        
+                    
+
+                    <h2 class="post-card-title">Google과 Naver에 Blog 검색 등록하기</h2>
+                </header>
+                <section class="post-card-excerpt">
+                    
+                        <p>
+
+</p>
+                    
+                </section>
+            </a>
+            <footer class="post-card-meta">
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                <span class="reading-time">
+                    
+                    
+                      2 min read
+                    
+                </span>
+            </footer>
+        </div>
+    </article>
+
+    <article class="post-card home-template">
+        
+            <a class="post-card-image-link" href="/gist-test">
+                <div class="post-card-image" style="background-image: url(/assets/images/advanced.jpg)"></div>
+            </a>
+        
+        <div class="post-card-content">
+            <a class="post-card-content-link" href="/gist-test">
+                <header class="post-card-header">
+                    
+                        
+                            
+                                <span class="post-card-tags">Programming</span>
+                            
+                        
+                    
+
+                    <h2 class="post-card-title">gist test</h2>
+                </header>
+                <section class="post-card-excerpt">
+                    
+                        <p>github상에 gistfile1.txt파일을 public으로 게시해두었다. gist를 가져와보자. GitHub상에서 Embed 내용은 다음과 같다.
+
+</p>
+                    
+                </section>
+            </a>
+            <footer class="post-card-meta">
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                <span class="reading-time">
+                    
+                    
+                      1 min read
+                    
+                </span>
+            </footer>
+        </div>
+    </article>
+
+    <article class="post-card home-template">
+        
+            <a class="post-card-image-link" href="/rough%EC%9D%84-%EC%9D%B4%EC%9A%A9%ED%95%9C-syntax-highlighting-test">
+                <div class="post-card-image" style="background-image: url(/assets/images/advanced.jpg)"></div>
+            </a>
+        
+        <div class="post-card-content">
+            <a class="post-card-content-link" href="/rough%EC%9D%84-%EC%9D%B4%EC%9A%A9%ED%95%9C-syntax-highlighting-test">
+                <header class="post-card-header">
+                    
+                        
+                            
+                                <span class="post-card-tags">Programming</span>
+                            
+                        
+                    
+
+                    <h2 class="post-card-title">rough을 이용한 syntax highlighting test</h2>
+                </header>
+                <section class="post-card-excerpt">
+                    
+                        <p>function syntaxHighlight(code) {
+    var foo = 'Hello World';
+    var bar = 100;
+}
+
+
+</p>
+                    
+                </section>
+            </a>
+            <footer class="post-card-meta">
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                <span class="reading-time">
+                    
+                    
+                      1 min read
+                    
+                </span>
+            </footer>
+        </div>
+    </article>
 
     <article class="post-card home-template">
         
@@ -235,1027 +520,6 @@ into the {body} of the default.hbs template -->
         </div>
     </article>
 
-    <article class="post-card home-template">
-        
-            <a class="post-card-image-link" href="/%EB%B3%84%EC%9D%B4-%EB%B9%9B%EB%82%98%EB%8A%94-%EB%B0%A4%EC%97%90">
-                <div class="post-card-image" style="background-image: url(/assets/images/orion.jpg)"></div>
-            </a>
-        
-        <div class="post-card-content">
-            <a class="post-card-content-link" href="/%EB%B3%84%EC%9D%B4-%EB%B9%9B%EB%82%98%EB%8A%94-%EB%B0%A4%EC%97%90">
-                <header class="post-card-header">
-                    
-                        
-                            
-                                <span class="post-card-tags">Writing</span>
-                            
-                        
-                    
-
-                    <h2 class="post-card-title">별이 빛나는 밤에</h2>
-                </header>
-                <section class="post-card-excerpt">
-                    
-                        <p>많은 눈이 내리고 난 다음날. 유난히도 하늘이 맑던 날이었다. 서울 식물원에서 산책하며 묵묵히 자신을 태우며 반짝이고 있는 수많은 별들을 보았다. Vincent Van Gogh도 이런 장면을 바라보며 Starry Night을 그렸던 걸까... 나도 저 별들처럼</p>
-                    
-                </section>
-            </a>
-            <footer class="post-card-meta">
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                <span class="reading-time">
-                    
-                    
-                      1 min read
-                    
-                </span>
-            </footer>
-        </div>
-    </article>
-
-    <article class="post-card home-template">
-        
-            <a class="post-card-image-link" href="/stilus-secolgraf-120-lead-holder">
-                <div class="post-card-image" style="background-image: url(/assets/images/secolgraf120.jpg)"></div>
-            </a>
-        
-        <div class="post-card-content">
-            <a class="post-card-content-link" href="/stilus-secolgraf-120-lead-holder">
-                <header class="post-card-header">
-                    
-                        
-                            
-                                <span class="post-card-tags">Leadholder</span>
-                            
-                        
-                    
-
-                    <h2 class="post-card-title">Stilus Secolgraf 120 lead holder</h2>
-                </header>
-                <section class="post-card-excerpt">
-                    
-                        <p>stilus secolgraf 120 Italy 회사인 Stilus에서 만든 2mm 홀더를 구입했다. Secolgraf 120이라는 모델인데, 구글링해보면 4가지 색이 있다는 것을 쉽게 알 수 있다. 연필 사려고 들어간 문구점에서 우연히 발견해서 데려오게 되었다. 덕분에 Italy산 필기구가</p>
-                    
-                </section>
-            </a>
-            <footer class="post-card-meta">
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                <span class="reading-time">
-                    
-                    
-                      1 min read
-                    
-                </span>
-            </footer>
-        </div>
-    </article>
-
-    <article class="post-card home-template">
-        
-            <a class="post-card-image-link" href="/%EA%B7%B8%EB%A6%BF-grit-%EC%A0%9C1%EB%B6%80-%EA%B7%B8%EB%A6%BF%EC%9D%B4%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80">
-                <div class="post-card-image" style="background-image: url(/assets/images/grit.jpg)"></div>
-            </a>
-        
-        <div class="post-card-content">
-            <a class="post-card-content-link" href="/%EA%B7%B8%EB%A6%BF-grit-%EC%A0%9C1%EB%B6%80-%EA%B7%B8%EB%A6%BF%EC%9D%B4%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80">
-                <header class="post-card-header">
-                    
-                        
-                            
-                                <span class="post-card-tags">Writing</span>
-                            
-                        
-                    
-
-                    <h2 class="post-card-title">그릿 Grit 제1부 그릿이란 무엇인가?</h2>
-                </header>
-                <section class="post-card-excerpt">
-                    
-                        <p>그릿 Grit(Yes24)
-
-</p>
-                    
-                </section>
-            </a>
-            <footer class="post-card-meta">
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                <span class="reading-time">
-                    
-                    
-                      2 min read
-                    
-                </span>
-            </footer>
-        </div>
-    </article>
-
-    <article class="post-card home-template">
-        
-            <a class="post-card-image-link" href="/%EB%AA%A9%EB%8F%99-%EA%B5%90%EB%B3%B4%EB%AC%B8%EA%B3%A0-%ED%95%AB%ED%8A%B8%EB%9E%99%EC%8A%A4">
-                <div class="post-card-image" style="background-image: url(/assets/images/kyobo.jpg)"></div>
-            </a>
-        
-        <div class="post-card-content">
-            <a class="post-card-content-link" href="/%EB%AA%A9%EB%8F%99-%EA%B5%90%EB%B3%B4%EB%AC%B8%EA%B3%A0-%ED%95%AB%ED%8A%B8%EB%9E%99%EC%8A%A4">
-                <header class="post-card-header">
-                    
-                        
-                            
-                                <span class="post-card-tags">Pencils</span>
-                            
-                        
-                    
-
-                    <h2 class="post-card-title">목동 교보문고 핫트랙스</h2>
-                </header>
-                <section class="post-card-excerpt">
-                    
-                        <p>오랜만에 목동 교보문고를 들려 문구 쇼핑을 했다. 1년 만에 교보문고 핫트랙스를 다시 찾아갔는데 그동안 많은 변화가 있었다. 반일운동 때문인지는 몰라도 국내 제품들의 비중이 많이 늘었고 일본 제품들은 한곳에 모여있었다. 물론 여전히 많은 자리를</p>
-                    
-                </section>
-            </a>
-            <footer class="post-card-meta">
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                <span class="reading-time">
-                    
-                    
-                      1 min read
-                    
-                </span>
-            </footer>
-        </div>
-    </article>
-
-    <article class="post-card home-template">
-        
-            <a class="post-card-image-link" href="/2020%EB%85%84-%EC%97%B0%ED%95%84-%EB%AA%BD%EB%8B%B9%EC%9D%B4-%EA%B2%B0%EC%82%B0">
-                <div class="post-card-image" style="background-image: url(/assets/images/smallpencils.jpg)"></div>
-            </a>
-        
-        <div class="post-card-content">
-            <a class="post-card-content-link" href="/2020%EB%85%84-%EC%97%B0%ED%95%84-%EB%AA%BD%EB%8B%B9%EC%9D%B4-%EA%B2%B0%EC%82%B0">
-                <header class="post-card-header">
-                    
-                        
-                            
-                                <span class="post-card-tags">Pencils</span>
-                            
-                        
-                    
-
-                    <h2 class="post-card-title">2020년 연필 몽당이 결산</h2>
-                </header>
-                <section class="post-card-excerpt">
-                    
-                        <p>2020년의 해가 저물었다. 그리고 나의 고3 수험생활도 마무리되었다. 참 많은 생각들이 든다. 먼저 정신없었던 한 해를 잘 이겨낸 나 스스로에게 칭찬해 주고 싶다. 고3 수험생 신분으로 코로나19 위기를 맞게 되어 정말 혼란스러운 한</p>
-                    
-                </section>
-            </a>
-            <footer class="post-card-meta">
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                <span class="reading-time">
-                    
-                    
-                      1 min read
-                    
-                </span>
-            </footer>
-        </div>
-    </article>
-
-    <article class="post-card home-template">
-        
-            <a class="post-card-image-link" href="/the-blackfeet-indian-pencil-2">
-                <div class="post-card-image" style="background-image: url(/assets/images/blackfeet.jpg)"></div>
-            </a>
-        
-        <div class="post-card-content">
-            <a class="post-card-content-link" href="/the-blackfeet-indian-pencil-2">
-                <header class="post-card-header">
-                    
-                        
-                            
-                                <span class="post-card-tags">Pencils</span>
-                            
-                        
-                    
-
-                    <h2 class="post-card-title">The Blackfeet Indian Pencil 2</h2>
-                </header>
-                <section class="post-card-excerpt">
-                    
-                        <p>It's christmas time! 아이들과 어른들이 모두 신나는 크리스마스가 이틀 앞으로 다가왔다. 블로그 이웃 Janet님으로부터 크리스마스 선물로 연필 꾸러미를 받게 되었다. 오늘 소개할 연필 The Blackfeet Indian Pencil도 그중 하나이다. Blackfeet은 이번 기회에 처음</p>
-                    
-                </section>
-            </a>
-            <footer class="post-card-meta">
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                <span class="reading-time">
-                    
-                    
-                      1 min read
-                    
-                </span>
-            </footer>
-        </div>
-    </article>
-
-    <article class="post-card home-template">
-        
-            <a class="post-card-image-link" href="/%EC%B1%85-%EC%97%B0%ED%95%84-%ED%97%A8%EB%A6%AC-%ED%8E%98%ED%8A%B8%EB%A1%9C%EC%8A%A4%ED%82%A4">
-                <div class="post-card-image" style="background-image: url(/assets/images/petroski.jpg)"></div>
-            </a>
-        
-        <div class="post-card-content">
-            <a class="post-card-content-link" href="/%EC%B1%85-%EC%97%B0%ED%95%84-%ED%97%A8%EB%A6%AC-%ED%8E%98%ED%8A%B8%EB%A1%9C%EC%8A%A4%ED%82%A4">
-                <header class="post-card-header">
-                    
-                        
-                            
-                                <span class="post-card-tags">Writing</span>
-                            
-                        
-                    
-
-                    <h2 class="post-card-title">연필 by 헨리 페트로스키</h2>
-                </header>
-                <section class="post-card-excerpt">
-                    
-                        <p>
-    가장 작고 사소한 도구지만 
-    가장 넓은 세계를 만들어낸... (연필)
-
-
-</p>
-                    
-                </section>
-            </a>
-            <footer class="post-card-meta">
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                <span class="reading-time">
-                    
-                    
-                      1 min read
-                    
-                </span>
-            </footer>
-        </div>
-    </article>
-
-    <article class="post-card home-template">
-        
-            <a class="post-card-image-link" href="/%EC%84%B8%EB%A5%B4%EC%A7%80%EC%98%A4-cergio-%EC%97%B0%ED%95%84%EA%B9%8D%EC%A7%80">
-                <div class="post-card-image" style="background-image: url(/assets/images/cergio.jpg)"></div>
-            </a>
-        
-        <div class="post-card-content">
-            <a class="post-card-content-link" href="/%EC%84%B8%EB%A5%B4%EC%A7%80%EC%98%A4-cergio-%EC%97%B0%ED%95%84%EA%B9%8D%EC%A7%80">
-                <header class="post-card-header">
-                    
-                        
-                            
-                                <span class="post-card-tags">Pencils</span>
-                            
-                        
-                    
-
-                    <h2 class="post-card-title">세르지오 cergio 연필깍지</h2>
-                </header>
-                <section class="post-card-excerpt">
-                    
-                        <p>연필은 소모품이다. 흑연이 닳아지면 깎아내고 사용해서 조금씩 조금씩 길이가 짧아진다. 필통에 들어가지 않던 연필은 어느새 손에 딱 맞는 길이가 되고 점점 짧아지면서 몽당이가 되어간다. 몽당이를 만드는 일은 꽤나 인내심을 필요로 한다. 조금만 짧아져도</p>
-                    
-                </section>
-            </a>
-            <footer class="post-card-meta">
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                <span class="reading-time">
-                    
-                    
-                      1 min read
-                    
-                </span>
-            </footer>
-        </div>
-    </article>
-
-    <article class="post-card home-template">
-        
-            <a class="post-card-image-link" href="/staedtler-noris-120">
-                <div class="post-card-image" style="background-image: url(/assets/images/noris120.jpg)"></div>
-            </a>
-        
-        <div class="post-card-content">
-            <a class="post-card-content-link" href="/staedtler-noris-120">
-                <header class="post-card-header">
-                    
-                        
-                            
-                                <span class="post-card-tags">Pencils</span>
-                            
-                        
-                    
-
-                    <h2 class="post-card-title">Staedtler Noris 120</h2>
-                </header>
-                <section class="post-card-excerpt">
-                    
-                        <p>'꿀벌 연필'이라는 별명을 가진 Staedtler Noris 120 연필. 누가 지었는지 모르겠지만 참 마음에 드는 이름이다. Staedtler 사의 대표적인 brand에는 Mars Lumograph, Noris, Tradition이 있는데 각각 매력을 가져서 특색이 있다. Ebay에서 둘러보다 보면 생각보다</p>
-                    
-                </section>
-            </a>
-            <footer class="post-card-meta">
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                <span class="reading-time">
-                    
-                    
-                      1 min read
-                    
-                </span>
-            </footer>
-        </div>
-    </article>
-
-    <article class="post-card home-template">
-        
-            <a class="post-card-image-link" href="/faber-castell-tk4600">
-                <div class="post-card-image" style="background-image: url(/assets/images/tk4600.jpg)"></div>
-            </a>
-        
-        <div class="post-card-content">
-            <a class="post-card-content-link" href="/faber-castell-tk4600">
-                <header class="post-card-header">
-                    
-                        
-                            
-                                <span class="post-card-tags">Leadholder</span>
-                            
-                        
-                    
-
-                    <h2 class="post-card-title">Faber Castell TK4600</h2>
-                </header>
-                <section class="post-card-excerpt">
-                    
-                        <p>예전에 lead holder에 관심을 가지고 하나둘씩 수집해가던 중에 한 문구점에서 발견해서 데려왔다. 현재도 생산되는 제품이라 온라인에서 조금 저렴하게 구할 수 있었지만 '배송을 기다리는 시간'이라는 기회비용을 고려해서 그냥 구입하기로 했다. CAD가 등장하면서 제도 용품들의</p>
-                    
-                </section>
-            </a>
-            <footer class="post-card-meta">
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                <span class="reading-time">
-                    
-                    
-                      2 min read
-                    
-                </span>
-            </footer>
-        </div>
-    </article>
-
-    <article class="post-card home-template">
-        
-            <a class="post-card-image-link" href="/%EB%B8%94%EB%A1%9C%EA%B7%B8-%EC%9D%B4%EB%A6%84%EC%9D%84-ecrire06%EC%9C%BC%EB%A1%9C-%EC%A7%93%EA%B2%8C-%EB%90%9C-%EC%9D%B4%EC%9C%A0">
-                <div class="post-card-image" style="background-image: url(/assets/images/writing.jpg)"></div>
-            </a>
-        
-        <div class="post-card-content">
-            <a class="post-card-content-link" href="/%EB%B8%94%EB%A1%9C%EA%B7%B8-%EC%9D%B4%EB%A6%84%EC%9D%84-ecrire06%EC%9C%BC%EB%A1%9C-%EC%A7%93%EA%B2%8C-%EB%90%9C-%EC%9D%B4%EC%9C%A0">
-                <header class="post-card-header">
-                    
-                        
-                            
-                                <span class="post-card-tags">Writing</span>
-                            
-                        
-                    
-
-                    <h2 class="post-card-title">블로그 이름을 Ecrire06으로 짓게 된 이유</h2>
-                </header>
-                <section class="post-card-excerpt">
-                    
-                        <p>Ecrire06으로 짓게 된 이유
-
-</p>
-                    
-                </section>
-            </a>
-            <footer class="post-card-meta">
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                <span class="reading-time">
-                    
-                    
-                      1 min read
-                    
-                </span>
-            </footer>
-        </div>
-    </article>
-
-    <article class="post-card home-template">
-        
-            <a class="post-card-image-link" href="/%EC%97%B0%ED%95%84%EC%9D%98-%ED%8E%B8%EC%8B%AC-%ED%8E%B8%EC%B6%95-%EB%AC%B8%EC%A0%9C%EC%97%90-%EB%8C%80%ED%95%9C-%EA%B3%A0%EC%B0%B0">
-                <div class="post-card-image" style="background-image: url(/assets/images/pencildrawing.jpg)"></div>
-            </a>
-        
-        <div class="post-card-content">
-            <a class="post-card-content-link" href="/%EC%97%B0%ED%95%84%EC%9D%98-%ED%8E%B8%EC%8B%AC-%ED%8E%B8%EC%B6%95-%EB%AC%B8%EC%A0%9C%EC%97%90-%EB%8C%80%ED%95%9C-%EA%B3%A0%EC%B0%B0">
-                <header class="post-card-header">
-                    
-                        
-                            
-                                <span class="post-card-tags">Pencils</span>
-                            
-                        
-                    
-
-                    <h2 class="post-card-title">연필의 편심, 편축 문제에 대한 고찰</h2>
-                </header>
-                <section class="post-card-excerpt">
-                    
-                        <p>이번 글은 두 개의 질문으로 시작해보려 한다.
-
-Q1. 이중에서 편심이 있는 연필은 몇번일까?
-Q2. 편축이 있는 연필깎이로 깎은 건 몇번일까?
-
-</p>
-                    
-                </section>
-            </a>
-            <footer class="post-card-meta">
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                <span class="reading-time">
-                    
-                    
-                      1 min read
-                    
-                </span>
-            </footer>
-        </div>
-    </article>
-
-    <article class="post-card home-template">
-        
-            <a class="post-card-image-link" href="/%EB%8D%94%EC%A1%B4-%EC%9E%91%EC%9D%80%EC%82%B0-H">
-                <div class="post-card-image" style="background-image: url(/assets/images/deojonh.jpg)"></div>
-            </a>
-        
-        <div class="post-card-content">
-            <a class="post-card-content-link" href="/%EB%8D%94%EC%A1%B4-%EC%9E%91%EC%9D%80%EC%82%B0-H">
-                <header class="post-card-header">
-                    
-                        
-                            
-                                <span class="post-card-tags">Pencils</span>
-                            
-                        
-                    
-
-                    <h2 class="post-card-title">더존 작은산 H</h2>
-                </header>
-                <section class="post-card-excerpt">
-                    
-                        <p>어렸을 적 글씨 연습할 때에 어른들께서 연필로 쓰라고 강조하셨던 기억이 난다. 샤프보다 또박또박 쓰게 되기 때문일까? 항상 더존 HB 연필과 Fable HB 연필을 시원하게 깎아서 썼던 기억이 난다. 본격적으로 연필을 사랑하게 된 뒤로</p>
-                    
-                </section>
-            </a>
-            <footer class="post-card-meta">
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                <span class="reading-time">
-                    
-                    
-                      1 min read
-                    
-                </span>
-            </footer>
-        </div>
-    </article>
-
-    <article class="post-card home-template">
-        
-            <a class="post-card-image-link" href="/staedtler-mars-lumograph-f">
-                <div class="post-card-image" style="background-image: url(/assets/images/lumographf.jpg)"></div>
-            </a>
-        
-        <div class="post-card-content">
-            <a class="post-card-content-link" href="/staedtler-mars-lumograph-f">
-                <header class="post-card-header">
-                    
-                        
-                            
-                                <span class="post-card-tags">Pencils</span>
-                            
-                        
-                    
-
-                    <h2 class="post-card-title">Staedtler Mars Lumograph F</h2>
-                </header>
-                <section class="post-card-excerpt">
-                    
-                        <p>정말 다양한 연필들을 써보면서 나에게 잘 맞는 연필을 찾아다녔다. 그 과정에서 연필을 보는 눈이 넓어졌고, 세세한 필기감 차이에도 관심을 가지는 아마추어 연필 덕후가 되어갔다. vintage 연필을 쥐고 끄적끄적 하다 보면 색다른 필기감을 보여주기도</p>
-                    
-                </section>
-            </a>
-            <footer class="post-card-meta">
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                <span class="reading-time">
-                    
-                    
-                      2 min read
-                    
-                </span>
-            </footer>
-        </div>
-    </article>
-
-    <article class="post-card home-template">
-        
-            <a class="post-card-image-link" href="/2021-%EB%8C%80%ED%95%99%EC%88%98%ED%95%99%EB%8A%A5%EB%A0%A5%EC%8B%9C%ED%97%98-%EC%88%98%EB%8A%A5-%EC%83%A4%ED%94%84">
-                <div class="post-card-image" style="background-image: url(/assets/images/sunung.jpg)"></div>
-            </a>
-        
-        <div class="post-card-content">
-            <a class="post-card-content-link" href="/2021-%EB%8C%80%ED%95%99%EC%88%98%ED%95%99%EB%8A%A5%EB%A0%A5%EC%8B%9C%ED%97%98-%EC%88%98%EB%8A%A5-%EC%83%A4%ED%94%84">
-                <header class="post-card-header">
-                    
-                        
-                            
-                                <span class="post-card-tags">Pencils</span>
-                            
-                        
-                    
-
-                    <h2 class="post-card-title">2021 대학수학능력시험 수능 샤프</h2>
-                </header>
-                <section class="post-card-excerpt">
-                    
-                        <p>오랜만에 Ecrire06 블로그를 다시 찾아와서 글을 쓰려니까 어색하게 느껴진다. 어디서부터 시작해야 할지 첫 문장은 뭘로 시작해야 할지 아무것도 적혀있지 않은 종이를 앞에 두고 잠시 고민에 잠겼다. 그러다 책상 위에 놓인 2021 수능 샤프를</p>
-                    
-                </section>
-            </a>
-            <footer class="post-card-meta">
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                <span class="reading-time">
-                    
-                    
-                      1 min read
-                    
-                </span>
-            </footer>
-        </div>
-    </article>
-
-    <article class="post-card home-template">
-        
-            <a class="post-card-image-link" href="/ecrire06-%EB%B8%94%EB%A1%9C%EA%B7%B8%EC%9D%98-%EC%A3%BC%EC%9D%B8%EC%9D%B4-%EC%9E%A0%EC%8B%9C-%EC%99%B8%EC%B6%9C%EC%A4%91%EC%9E%85%EB%8B%88%EB%8B%A4">
-                <div class="post-card-image" style="background-image: url(/assets/images/writing.jpg)"></div>
-            </a>
-        
-        <div class="post-card-content">
-            <a class="post-card-content-link" href="/ecrire06-%EB%B8%94%EB%A1%9C%EA%B7%B8%EC%9D%98-%EC%A3%BC%EC%9D%B8%EC%9D%B4-%EC%9E%A0%EC%8B%9C-%EC%99%B8%EC%B6%9C%EC%A4%91%EC%9E%85%EB%8B%88%EB%8B%A4">
-                <header class="post-card-header">
-                    
-                        
-                            
-                                <span class="post-card-tags">Pencils</span>
-                            
-                        
-                    
-
-                    <h2 class="post-card-title">Ecrire06 블로그의 주인이 잠시 외출중입니다!</h2>
-                </header>
-                <section class="post-card-excerpt">
-                    
-                        <p>To. Ecrire06 블로그를 방문해 주시는 모든 분들께 제 블로그에 찾아오시는 모든 분들께 처음으로 인사드립니다^^ 제목 그대로 Ecrire06 블로그에 글을 한동안 못 올릴 것 같아서 짧은 편지 형식으로 글을 남겨봅니다. 블로그를 처음 시작했을 때의</p>
-                    
-                </section>
-            </a>
-            <footer class="post-card-meta">
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                <span class="reading-time">
-                    
-                    
-                      1 min read
-                    
-                </span>
-            </footer>
-        </div>
-    </article>
-
-    <article class="post-card home-template">
-        
-            <a class="post-card-image-link" href="/a-w-faber-goldfaber-1221-post-war-%EC%9B%90%EB%AA%A9%EC%97%B0%ED%95%84">
-                <div class="post-card-image" style="background-image: url(/assets/images/vintage1221.jpg)"></div>
-            </a>
-        
-        <div class="post-card-content">
-            <a class="post-card-content-link" href="/a-w-faber-goldfaber-1221-post-war-%EC%9B%90%EB%AA%A9%EC%97%B0%ED%95%84">
-                <header class="post-card-header">
-                    
-                        
-                            
-                                <span class="post-card-tags">Pencils</span>
-                            
-                        
-                    
-
-                    <h2 class="post-card-title">A.W.Faber Goldfaber 1221 post-war 원목연필</h2>
-                </header>
-                <section class="post-card-excerpt">
-                    
-                        <p>사실 난 원목 연필을 선호하진 않는다. 나뭇결이 그대로 보인다는 점은 분명 매력적이지만, 거친 표면의 질감과 왠지 모르게 가시가 박힐 것 같은 느낌이 들기 때문이다. 이는 나무의 품질이 좋지 않으면 더 극명하게 느껴진다. 그런</p>
-                    
-                </section>
-            </a>
-            <footer class="post-card-meta">
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                <span class="reading-time">
-                    
-                    
-                      1 min read
-                    
-                </span>
-            </footer>
-        </div>
-    </article>
-
-    <article class="post-card home-template">
-        
-            <a class="post-card-image-link" href="/schwan-stabilo-othello-282-vintage">
-                <div class="post-card-image" style="background-image: url(/assets/images/282vintage.jpg)"></div>
-            </a>
-        
-        <div class="post-card-content">
-            <a class="post-card-content-link" href="/schwan-stabilo-othello-282-vintage">
-                <header class="post-card-header">
-                    
-                        
-                            
-                                <span class="post-card-tags">Pencils</span>
-                            
-                        
-                    
-
-                    <h2 class="post-card-title">Schwan-Stabilo Othello 282 vintage</h2>
-                </header>
-                <section class="post-card-excerpt">
-                    
-                        <p>Hello! 수박이 생각나는 무더운 여름이 찾아왔다. 요즘 매일 비가 와서 밖에 나갈 때마다 우산을 꼭 챙기게 된다. 날씨가 흐리니까 자꾸 기분이 꿀꿀해진다. 기분전환 겸 상큼한 필기감을 찾던 중 '수박 연필'을 집어 들게 되었다.</p>
-                    
-                </section>
-            </a>
-            <footer class="post-card-meta">
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                <span class="reading-time">
-                    
-                    
-                      1 min read
-                    
-                </span>
-            </footer>
-        </div>
-    </article>
-
-    <article class="post-card home-template">
-        
-            <a class="post-card-image-link" href="/caran-d'ache-technograph-777-%ED%85%8C%ED%81%AC%EB%85%B8%EA%B7%B8%EB%9E%98%ED%94%84">
-                <div class="post-card-image" style="background-image: url(/assets/images/777.jpg)"></div>
-            </a>
-        
-        <div class="post-card-content">
-            <a class="post-card-content-link" href="/caran-d'ache-technograph-777-%ED%85%8C%ED%81%AC%EB%85%B8%EA%B7%B8%EB%9E%98%ED%94%84">
-                <header class="post-card-header">
-                    
-                        
-                            
-                                <span class="post-card-tags">Pencils</span>
-                            
-                        
-                    
-
-                    <h2 class="post-card-title">Caran d'Ache Technograph 777 테크노그래프</h2>
-                </header>
-                <section class="post-card-excerpt">
-                    
-                        <p>필기구 회사마다 그 회사를 떠올리면 연상되는 제품들이 있다. 예컨대, Staedtler은 노란 Noris 연필과 파란 Lumograph 연필이 생각나고 Faber Castell은 진녹색 Castell 9000 연필이 금방 떠오른다. Caran d'Ache를 떠올려보면 Fixpencil과 Ecridor, Technograph 777 연필이</p>
-                    
-                </section>
-            </a>
-            <footer class="post-card-meta">
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                <span class="reading-time">
-                    
-                    
-                      1 min read
-                    
-                </span>
-            </footer>
-        </div>
-    </article>
-
 
         </div>
 
@@ -1264,16 +528,6 @@ Q2. 편축이 있는 연필깎이로 깎은 건 몇번일까?
 
 
         <!-- Previous/next page links - displayed on every page -->
-        
-            
-                <nav class="pagination" role="pagination">
-    
-    <span class="page-number"> Page 1 of 3 </span>
-     
-        <a class="older-posts" href="/page2/" title="Next Page">Older Posts &raquo;</a>
-     
-</nav>
-            
         
 
         <!-- The footer at the very bottom of the screen -->
@@ -1351,7 +605,7 @@ Q2. 편축이 있는 연필깎이로 깎은 건 몇번일까?
     <!-- Paginator increased to "infinit" in _config.yml -->
     <!-- if paginator.posts  -->
     <!-- <script>
-        var maxPages = parseInt('3');
+        var maxPages = parseInt('1');
     </script>
     <script src="/assets/js/infinitescroll.js"></script> -->
     <!-- /endif -->
