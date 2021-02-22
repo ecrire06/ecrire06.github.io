@@ -90,8 +90,13 @@ subscribers: True
 # `_includes/subscribe-form.html` 파일의 수정이 필요합니다.
 # reference=https://moon9342.github.io/jekyll-struct
 
-twitter: ecrire06 # replace by your username
 facebook: juneha2002 # replace by your username
+github: ecrire06
+instagram: ecrire06
+# linkedin: 
+# scholar: #Google scholar ID.
+# soundcloud:
+twitter: ecrire06 # replace by your username
 
 # Disqus
 disqus: True
@@ -155,8 +160,11 @@ repo: ecrire06.github.io
 branch: master
 # 사용할 branch명
 
-relative_source:
+relative_source: ../jasper2/
 destination: ./output/
+production_url: https://ecrire06.github.io
+source_url: https://github.com/jekyller/jasper2/
+
 # compile된 결과가 생성되는 폴더
 # 이 폴더안의 내용이 우리가 운영하는 블로그 내용이 컴파일되서 들어간다.
 # 이 폴더안의 내용을 github repository(https://username.github.io)에 push
@@ -166,6 +174,8 @@ destination: ./output/
 
 # exclude는 Jekyll컴파일 시 destination에 포함될 필요가
 # 없는것들을 명시한다. (node_modules와 필요없는 것들은 제외)
+
+
 
 exclude:
   - assets/css
