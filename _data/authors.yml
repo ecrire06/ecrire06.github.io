@@ -8,7 +8,8 @@ ecrire06:
   picture: assets/images/ecrire06.png
   facebook: juneha2002
   twitter: ecrire06
-  cover: False
+  cover: /assets/images/ecrire06.png
+  
 ghost:
   username: ghost
   name: Ghost
