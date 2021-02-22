@@ -3,25 +3,6 @@ markdown: kramdown
 # kramdown : markdown의 개조판.
 # markdown에서 불편한 사항을 개선한 형태.
 
-# MyData
-owner:
-  name:           ecrire06
-  avatar:         rainbow.jpg
-  bio:            "Pencils & Pens & Study"
-  email:          ecrire06@naver.com
-  # Social networking links used in footer. Update and remove as you like.
-  twitter:        ecrire06
-  facebook:       juneha2002
-  github:         ecrire06
-#  stackexchange:
-#  linkedin:
-  instagram:      juneha2002
-#  flickr:
-#  tumblr:
-  # google plus id, include the '+', eg +mmistakes
-#  google_plus:
-
-
 highlighter: rouge
 # text highlighter로 rouge이용
 # 2016.02월 이후로 syntax highlighter는 rouge만 지원.
@@ -37,6 +18,7 @@ language: 'en-uk'
 # 언어 설정
 
 url: https://ecrire06.github.io
+baseurl: ""
 # Google Search Console에서 사용하는 sitemap.xml 생성시
 # 이 url key값이 존재하지 않으면 sitemap.xml이
 # 정상적으로 생성되지 않는다.
@@ -90,13 +72,27 @@ subscribers: True
 # `_includes/subscribe-form.html` 파일의 수정이 필요합니다.
 # reference=https://moon9342.github.io/jekyll-struct
 
-facebook: juneha2002 # replace by your username
-github: ecrire06
-instagram: juneha2002
+# MyData
+owner:
+  name:           ecrire06
+  avatar:         rainbow.jpg
+  bio:            "Pencils & Pens & Study"
+  email:          ecrire06@naver.com
+  # Social networking links used in footer. Update and remove as you like.
+  twitter:        ecrire06
+  facebook:       juneha2002
+  github:         ecrire06
+  instagram:      juneha2002
+  twitter:        ecrire06
 # linkedin: 
 # scholar: #Google scholar ID.
 # soundcloud:
-twitter: ecrire06 # replace by your username
+# stackexchange:
+# linkedin:
+#  flickr:
+#  tumblr:
+  # google plus id, include the '+', eg +mmistakes
+#  google_plus:
 
 # Disqus
 disqus: True
@@ -161,7 +157,7 @@ branch: master
 # 사용할 branch명
 
 relative_source: ../jasper2/
-destination: ./output/
+destination: ../jasper2-pages/
 production_url: https://ecrire06.github.io
 source_url: https://github.com/jekyller/jasper2/
 
