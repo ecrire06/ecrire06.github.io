@@ -171,7 +171,7 @@ source_url: https://github.com/ecrire06/ecrire06.github.io
 # exclude는 Jekyll컴파일 시 destination에 포함될 필요가
 # 없는것들을 명시한다. (node_modules와 필요없는 것들은 제외)
 
-
+tags_list: [leadholder, pencils, programming, writing ]
 
 exclude:
   - assets/css
