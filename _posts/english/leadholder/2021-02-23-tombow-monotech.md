@@ -50,9 +50,9 @@ The most impressive point of **Tombow Monotech** is the design of **Lead Hardnes
 
 It seems that the versions of Monotech is divided by the color of grip. When Google **'Monotech 2.0mm'** you can find two versions. One grip is silver and the other is black. According to ebay sellers or worthpoint.com, the black version was produced in 1980s, and the siver in 1990s. Check the link below.
 
-[picclick](https://picclick.com/Tombow-Monotech-500-20Mm-Drafting-Mechanical-Pencil-90S-261906379381.html)
-[worthpoint](https://www.worthpoint.com/worthopedia/tombow-monotech-0-mm-lead-holder-135105978)
-[worthpoint 0.5mm](https://www.worthpoint.com/worthopedia/tombow-monotech-500-5mm-drafting-469264584)
+- [monotech 500 2.0mm 1990s](https://picclick.com/Tombow-Monotech-500-20Mm-Drafting-Mechanical-Pencil-90S-261906379381.html)
+- [monotech 2.0mm 1980s](https://www.worthpoint.com/worthopedia/tombow-monotech-0-mm-lead-holder-135105978)
+- [monotech 0.5mm 1990s](https://www.worthpoint.com/worthopedia/tombow-monotech-500-5mm-drafting-469264584)
 
 <center><img src="https://drive.google.com/uc?export=view&id=1eKZZMNmXlx2z1pvnMKKKslM4noY3V9L_" width="100%" height="100%"></center>
 
