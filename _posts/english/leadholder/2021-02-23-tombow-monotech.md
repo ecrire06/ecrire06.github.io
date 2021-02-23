@@ -4,7 +4,7 @@ current: post
 cover:  assets/images/monotech.jpg
 navigation: True
 title: Tombow Monotech 2.0mm
-date: 2020-02-23 09:05:00
+date: 2021-02-23 09:05:00
 tags: [leadholder]
 class: post-template
 subclass: 'post'
