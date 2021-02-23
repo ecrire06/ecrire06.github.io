@@ -1,5 +1,5 @@
 ---
 layout: tag
 title: leadholder
-permalink: ./tag/leadholder
+permalink: ecrire06.github.io/tag/leadholder
 ---
