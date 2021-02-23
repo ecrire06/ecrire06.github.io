@@ -3,7 +3,7 @@ layout: post
 current: post
 cover:  assets/images/monotech.jpg
 navigation: True
-title: Tombow Monotech 2.0mm
+title: Tombow Monotech 500 2.0mm
 date: 2021-02-23 09:05:00
 tags: [leadholder]
 class: post-template
