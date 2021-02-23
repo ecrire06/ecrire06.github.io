@@ -157,9 +157,9 @@ branch: master
 # 사용할 branch명
 
 relative_source: ../jasper2/
-destination: ../jasper2-pages/
-production_url: https://ecrire06.github.io
-source_url: https://github.com/jekyller/jasper2/
+destination: ./output
+production_url: ecrire06.github.io
+source_url: https://github.com/ecrire06/ecrire06.github.io
 
 # compile된 결과가 생성되는 폴더
 # 이 폴더안의 내용이 우리가 운영하는 블로그 내용이 컴파일되서 들어간다.
