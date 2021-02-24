@@ -23,6 +23,7 @@ pencils:
   description: pencils. made of wood and graphite
   cover: False
 leadholder:
+  title: leadholder
   name: leadholder
   description: leadholder. a versatil tool for writing and drawing
   cover: false
