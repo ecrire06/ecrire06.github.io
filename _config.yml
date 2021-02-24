@@ -74,11 +74,11 @@ subscribers: True
 
 # MyData
 owner:
+  # Social networking links used in footer. Update and remove as you like.
   name:           ecrire06
   avatar:         rainbow.jpg
   bio:            "Pencils & Pens & Study"
   email:          ecrire06@naver.com
-  # Social networking links used in footer. Update and remove as you like.
   twitter:        ecrire06
   facebook:       juneha2002
   github:         ecrire06
@@ -156,7 +156,7 @@ repo: ecrire06.github.io
 branch: master
 # 사용할 branch명
 
-relative_source: ../jasper2/
+relative_source:
 destination: ./output
 production_url: ecrire06.github.io
 source_url: https://github.com/ecrire06/ecrire06.github.io
