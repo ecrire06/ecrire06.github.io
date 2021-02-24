@@ -12,6 +12,8 @@ author: "ecrire06"
 published: true
 ---
 
+Welcome! Spring 🌸
+
 The cold wind last week was unbearable, but this week it just feels like spirng has already sprung! Spring is just around the corner in [Ecrire06 Naver Blog](blog.naver.com/ecrire06) too! I made some changes in design to welcome upcoming spring.
 
 <center><img src="https://drive.google.com/uc?export=view&id=17U0NWrxGZYeR3SJ1TM5ipF-eLVSC-inb" width="100%" height="100%"></center>
