@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <!-- Document Settings -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- Base Meta -->
+    <!-- dynamically fixing the title for tag/author pages -->
+
+
+
+    <title>Search Result</title>
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Styles'n'Scripts -->
+    <link rel="stylesheet" type="text/css" href="/assets/built/screen.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/built/screen.edited.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/built/syntax.css" />
+    <!-- highlight.js -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/earlyaccess/nanumgothic.css">
+    <style>.hljs { background: none; }</style>
+
+    <!-- 웹 폰트 설정 -->
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/earlyaccess/nanumgothic.css">
+
+    <!-- syntax.css -->
+    <link rel="stylesheet" href="/assets/built/syntax.css">
+
+    <!--[if IE]>
+        <style>
+            p, ol, ul{
+                width: 100%;
+            }
+            blockquote{
+                width: 100%;
+            }
+        </style>
+    <![endif]-->
+    
+    <!-- This tag outputs SEO meta+structured data and other important settings -->
+    <base href="//" />
+
+<meta name="description" content="Pencils & Pens & Study" />
+    <link rel="shortcut icon" href="http://localhost:4000/assets/images/favicon.png" type="image/png" />
+    <link rel="canonical" href="http://localhost:4000/search" />
+    <meta name="referrer" content="no-referrer-when-downgrade" />
+
+     <!--title below is coming from _includes/dynamic_title-->
+    <meta property="og:site_name" content="Ecrire06" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Search Result" />
+    <meta property="og:description" content="Pencils & Pens & Study" />
+    <meta property="og:url" content="http://localhost:4000/search" />
+    <meta property="og:image" content="http://localhost:4000/assets/images/blog-cover.jpg" />
+    <meta property="article:publisher" content="https://www.facebook.com/" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Search Result" />
+    <meta name="twitter:description" content="Pencils & Pens & Study" />
+    <meta name="twitter:url" content="http://localhost:4000/" />
+    <meta name="twitter:image" content="http://localhost:4000/assets/images/blog-cover.jpg" />
+    <meta name="twitter:label1" content="Written by" />
+    <meta name="twitter:data1" content="Ecrire06" />
+    <meta name="twitter:site" content="@" />
+    <meta name="twitter:creator" content="@" />
+    <meta property="og:image:width" content="2000" />
+    <meta property="og:image:height" content="666" />
+
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Website",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Ecrire06",
+        "logo": "http://localhost:4000/assets/images/blog-icon.png"
+    },
+    "url": "http://localhost:4000/search",
+    "image": {
+        "@type": "ImageObject",
+        "url": "http://localhost:4000/assets/images/blog-cover.jpg",
+        "width": 2000,
+        "height": 666
+    },
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "http://localhost:4000/search"
+    },
+    "description": "Pencils & Pens & Study"
+}
+    </script>
+
+    <!-- <script type="text/javascript" src="https://demo.ghost.io/public/ghost-sdk.min.js?v=724281a32e"></script>
+    <script type="text/javascript">
+    ghost.init({
+    	clientId: "ghost-frontend",
+    	clientSecret: "f84a07a72b17"
+    });
+    </script> -->
+
+    <meta name="generator" content="Jekyll 3.6.2" />
+    <link rel="alternate" type="application/rss+xml" title="Search Result" href="/feed.xml" />
+    <link rel="alternate" type="application/rss+xml" href="https://ecrire06.github.io/feed.xml" title="Ecrire06">
+
+
+</head>
+<body class="page-template">
+
+    <div class="site-wrapper">
+        <!-- All the main content gets inserted here, index.hbs, post.hbs, etc -->
+        <!-- < default -->
+<!-- The tag above means: insert everything in this file
+into the {body} of the default.hbs template -->
+
+<!-- The big featured header, it uses blog cover image as a BG if available -->
+<header class="site-header outer">
+    <div class="inner">
+        <nav class="site-nav">
+    <div class="site-nav-left">
+        
+            
+                <a class="site-nav-logo" href="http://localhost:4000/"><img src="/assets/images/blog-icon.png" alt="Ecrire06" /></a>
+            
+        
+        
+            <ul class="nav" role="menu">
+    <li class="nav-home" role="menuitem"><a href="/">Home</a></li>
+    <li class="nav-about" role="menuitem"><a href="//about/">About</a></li>
+    <li class="nav-pencils" role="menuiten"><a href="/tags/pencils/">Pencils</a></li>
+    <li class="nav-leadholder" role="menuiten"><a href="/tags/leadholder/">Leadholder</a></li>
+    <li class="nav-programming" role="menuiten"><a href="/tags/programming/">Programming</a></li>
+    <li class="nav-writing" role="menuiten"><a href="/tags/writing/">Writing</a></li>
+    <li class="nav-archive" role="menuitem">
+        <a href="/archive.html">All Posts</a>
+    </li>
+    <li class="nav-archive" role="menuitem">
+        <a href="/tags">Tags</a>
+    </li>
+</ul>
+
+        
+    </div>
+    <div class="site-nav-right">
+        <div class="social-links">
+            
+            
+            
+            
+            
+            
+            
+        </div>
+        
+            <a class="subscribe-button" href="#subscribe">Search</a>
+        
+    </div>
+</nav>
+
+    </div>
+</header>
+
+<!-- Everything inside the #post tags pulls data from the post -->
+<!-- #post -->
+
+<main id="site-main" class="site-main outer" role="main">
+    <div class="inner">
+
+        <article class="post-full  post page no-image">
+
+            <header class="post-full-header">
+                <h1 class="post-full-title">Search Result</h1>
+            </header>
+
+            
+
+            <section class="post-full-content">
+                <form action="/search" method="get" hidden="hidden">
+    <label for="search-box"></label>
+    <input type="text" id="search-box" name="query">
+</form>
+
+<ul class="mylist" id="search-results"></ul>
+
+<script>
+    window.store = {
+    
+    "tombow-monotech": {
+        "title": "Tombow Monotech 500 2.0mm",
+            "author": "ecrire06",
+            "category": "",
+            "content": "My first Japanese leadholder. Tombow Monotech 2.0mm.Tombow Monotech 2.0Tombow, one of the biggest stationery company in Japan, is well known for its quality. “TOMBOW develops products that redefine the traditional uses of stationery and seek to offer the customer excitement and satisfaction.” according to TOMBOW Homepage. Personally I love Tombow’s pencils, leadholder and other stationery stuffs. Monotech 2.0mm leadholder is one of them. Let’s take a look.DesignApart from thin and sleeky style other leadholders, Tombow Monotech 2.0mm has a sexy design. Namely, it’s out-of-box design for leadholder. It has a ‘thick sleeve’ unique clip and hardness indicator. Knurling in grip is also awesome. I think Tombow company loves to make these provacative design.Components DisassembleThe way Monotech disassembled is different from other leadholders. In general, unscrewing by rotating a ‘clutch’ is a way to disassemble leadholder. I tried that with Monotech, but didn’t work. To disassemble it, you need to rotate grip part. Clutch has no screw but attached directly to ‘shaft’.Two Springs in One Leadholder?Surprisingly two springs are attached to a single leadholder. Also, unlike other leadholders those two springs are located near the ‘grip’. (between grip and sleeve) In my point, it seems that it’s just enough to use a single springs, but Tombow didn’t. Maybe it’s easier to design in that wise.Lead Hardness IndicatorThe most impressive point of Tombow Monotech is the design of Lead Hardness Indicator. It’s really eye-catching. That straightfoward design is quite extraordinary. By turning the Gear-shaped indicator, you can mark the hardness of 2.0mm lead. Tick-Tick sound when turning indicator makes me feel good.Classfication of Vintage VersionsIt seems that the versions of Monotech is divided by the color of grip. When Google ‘Monotech 2.0mm’ you can find two versions. One grip is silver and the other is black. According to ebay sellers or worthpoint.com, the black version was produced in 1980s, and the siver in 1990s. Check the link below.  monotech 500 2.0mm 1990s  monotech 2.0mm 1980s  monotech 0.5mm 1990sClutch holding the lead. ‘Sleeve’ is rectangular-shaped, so turning it (as we use pencils) is impossible. It’s recommended to use hard leads (H 2H 3H…) which don’t become bulnt easily.Original Built-in Lead (10x loupe)Original built-in lead is ‘Tombow HB 2.0mm lead’. X1 or Xl is written on the lead, but can’t find any informations about it. The length is soooooooo long that non of leadholder, except Tombow Monotech, can contain this lead.This lead is so soft in that it feels like B or 2B. Not recommended for writing. (For drawing it would be okay.) In general, Japanese pencils are usally soft than Europe/American pencils. For example, Faber Castell 9000 HB pencil hardness is similar to Tombow Mono J 2H~3H pencils. I guess it is same for leadholders too.Metal Stopper attached to original-leadMetal is attached to original-lead. It’s called stopper, which prevents the lead fall from leadholder. Many vintage lead has stopper on it. Unfortunately recently-produced-leadholders can’t use stopper-attached-lead.cf) Recently made Caran d’Ache Fixpenil can use stopper-attached-lead. It’s because it has shaft which diameter is quite big.References  Tombow Homepage  picclick  worthpoint  worthpoint 0.5mm",
+        "url": "/tombow-monotech"
+    }
+    ,
+    
+    "naver-ec-9d-b4-ec-9b-83-ec-bb-a4-eb-84-a5-ed-8a-b8-ec-97-90-eb-8c-80-ed-95-9c-ea-b3-a0-ec-b0-b0": {
+        "title": "Naver 이웃커넥트에 대한 고찰",
+            "author": "junha",
+            "category": "",
+            "content": "Naver 이웃커넥트를 Jekyll 블로그를 설치하는게 가능해보인다!요즘 Jekyll 블로그에서 Naver의 이웃커넥트를 이용하는 방법에 대해 고민하고 있다. F12와 Inspect을 통해 Naver 이웃커넥트의 운영방식에 대해 알게되었고, Naver Blog 새글알림의 원리에 대해서도 알게 되었다. 원리를 알았으니 이제 실전에 응용할 차례가 왔다.Google과 Naver에 검색 등록은 어느정도 되었나?google과 naver에 검색 등록하기에서도 다루었듯이 인터넷 상의 봇(bot)들이 내 블로그를 읽을 수 있도록 robots.txt sitemap.xml feed.xml 세 파일을 추가해주었다. Google Analytics로 분석해보았는데 처음 만든 블로그 치고는 많은 유입이 확인되었다. 또한 하루가 지나니까 site:ecrire06.github.io google 검색 결과에서도 49개의 블로그 글(post)이 google에 등록된 것을 확인할 수 있었다. 꽤나 성공적이다. Naver Search Advisor에서도 정상적으로 인식된 것을 확인했고, Naver 검색 노출까지는 조금 더 기다려야할 것으로 보인다.Naver 이웃커넥트 설치하기F12를 이용해 Source Code를 구경하면서 Naver 이웃커넥트 설치 방법을 모색해보았다. 결론은 생각보다 간단했다. Jekyll 블로그의 RSS Feed를 등록하고 이웃커넥트에서 html code을 받아서 Repository에 추가해주면 끝! 자세한 과정은 다음 글 [Naver 이웃커넥트 설치하기]에서 다루고 여기에서는 전반적인 과정만 다루겠다. Naver 이웃커넥트 위젯 test에서 볼 수 있듯이 정상적으로 위젯이 나타나는 것을 확인할 수 있다.Naver 블로그 새글알림에도 올리기블로그 Main Page에 등장하는 이웃새글의 원리는 RSS Feed을 각 블로그에서 받아와서 띄워주는 것이었다. RSS Feed는 각 블로그 혹은 사이트의 지도와 같은 파일이다. 따라서 현재 Naver Blog 상의 이웃들이 나의 Jekyll 블로그 글을 보기 위해서는 다음 방법을 따라하면 된다.열린이웃(RSS)추가하기여러 시행착오 끝에 다음과 같이 따라하면 Jekyll Blog의 새 글을 Naver에서 받아볼 수 있게 된다.Naver Blog 메인 페이지여러분이 네이버 블로그를 들어오면 제일 먼저 보게 되는 페이지이다. 우리가 갈 부분은 오른쪽의 위젯의 ‘이웃 목록’ 메뉴이다.‘이웃 목록’메뉴를 누르면 위젯의 왼쪽 아래에 ‘이웃 관리’버튼을 눌러준다.‘이웃.그룹 관리’메뉴로 들어왔다. 중간에 보이는 열린이웃(RSS)추가 버튼을 눌러준다.주소 입력 부분에 ‘https://ecrire06.github.io/feed’를 적어준다. 그리고 나서 추가를 눌러준다. 4단계만 거치면 이웃 추가 끝!ecrire06.github.io 이웃 추가 전ecrire06.github.io 이웃 추가 후위의 사진처럼 ecrire06.github.io의 새 글이 네이버 이웃새글에서 만나볼 수 있다. 실시간으로 업로드되지는 않고 몇시간 정도 시간차가 있는 듯하다.",
+        "url": "/naver-%EC%9D%B4%EC%9B%83%EC%BB%A4%EB%84%A5%ED%8A%B8%EC%97%90-%EB%8C%80%ED%95%9C-%EA%B3%A0%EC%B0%B0"
+    }
+    ,
+    
+    "google-ea-b3-bc-naver-ec-97-90-blog-ea-b2-80-ec-83-89-eb-93-b1-eb-a1-9d-ed-95-98-ea-b8-b0": {
+        "title": "Google과 Naver에 Blog 검색 등록하기",
+            "author": "ecrire06",
+            "category": "",
+            "content": "전반적인 블로그의 모습이 나왔다! Default의 Subscribe 버튼은 Search 버튼으로 바꾸고, 폰트도 Serif체에서 NanumGothic체로 바꾸었다. 조금씩 마음에 들어간다. 이제 할 부분은 Google과 Naver에 Blog 검색 등록하는게 남았다.어떻게 Google과 Naver에 나의 블로그를 노출시킬까?Google과 Naver에서 나의 블로그를 인식하기 위해서는 봇(Bot)들이 나의 블로그에 들어와서 정보를 읽어나가야 한다. 이런 작업을 크롤링(crawling)이라고 부른다. 그렇게 하기 위해서는 봇(Bot)들이 읽을 수 있는 표지판(팻말) 역할을 할 수 있는 파일을 제공해야 한다. 나의 블로그의 repository https://github.com/ecrire06/ecrire06.github.io 상에 다음과 같은 파일들을 추가해주었다.Repository에 추가해야 할 파일들robots.txtUser-agent: *Allow: /Sitemap: https://ecrire06.github.io/sitemap.xmlrobots.txt는 웹(web) 상의 봇(bot)들이 블로그를 읽어들일 수 있도록 허락한다는 내용을 담고 있다. 대충 ‘응, 이 블로그 읽어도 되구, sitemap을 제공하니 읽어봐’ 정도의 의미이다.sitemap.xml---layout: null---&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;urlset xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;        xsi:schemaLocation=&quot;http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd&quot;        xmlns=&quot;http://www.sitemaps.org/schemas/sitemap/0.9&quot;&gt;    {% for post in site.posts %}    &lt;url&gt;        &lt;loc&gt;{{ site.url }}{{ post.url }}.html&lt;/loc&gt;        {% if post.lastmod == null %}        &lt;lastmod&gt;{{ post.date | date_to_xmlschema }}&lt;/lastmod&gt;        {% else %}        &lt;lastmod&gt;{{ post.lastmod | date_to_xmlschema }}&lt;/lastmod&gt;        {% endif %}        {% if post.sitemap.changefreq == null %}        &lt;changefreq&gt;weekly&lt;/changefreq&gt;        {% else %}        &lt;changefreq&gt;{{ post.sitemap.changefreq }}&lt;/changefreq&gt;        {% endif %}        {% if post.sitemap.priority == null %}        &lt;priority&gt;0.5&lt;/priority&gt;        {% else %}        &lt;priority&gt;{{ post.sitemap.priority }}&lt;/priority&gt;        {% endif %}    &lt;/url&gt;    {% endfor %}&lt;/urlset&gt;sitemap은 이름에서도 알 수 있듯이 사이트(site)의 지도(map)같은 역할을 한다. 작성된 글(post)에 대한 정보를 담고 있어서 봇(bot)이 쉽게 읽어들일 수 있는 목차의 역할을 해낸다.site:ecrire06.github.ioGoogle 검색 결과에서 알 수 있듯이 ecrire06.github.io의 글이 업로드 되어있는 것을 확인할 수 있다. 현재 시점(2021-02-20 23:48) 기준으로 20개의 글(Post)만 검색되는데, 봇(bot)이 계속 읽으면서 검색 결과가 더 많아질 것으로 생각된다.feed.xml---layout: ---&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;rss version=&quot;2.0&quot; xmlns:atom=&quot;http://www.w3.org/2005/Atom&quot;&gt;  &lt;channel&gt;    &lt;title&gt;{{ site.title | xml_escape }}&lt;/title&gt;    &lt;description&gt;{{ site.description | xml_escape }}&lt;/description&gt;    &lt;link&gt;{{ site.url }}{{ site.baseurl }}/&lt;/link&gt;    &lt;atom:link href=&quot;{{ &quot;/feed.xml&quot; | prepend: site.baseurl | prepend: site.url }}&quot; rel=&quot;self&quot; type=&quot;application/rss+xml&quot;/&gt;    &lt;pubDate&gt;{{ site.time | date_to_rfc822 }}&lt;/pubDate&gt;    &lt;lastBuildDate&gt;{{ site.time | date_to_rfc822 }}&lt;/lastBuildDate&gt;    &lt;generator&gt;Jekyll v{{ jekyll.version }}&lt;/generator&gt;    {% for post in site.posts limit:10 %}      &lt;item&gt;        &lt;title&gt;{{ post.title | xml_escape }}&lt;/title&gt;        &lt;description&gt;{{ post.content | xml_escape }}&lt;/description&gt;        &lt;pubDate&gt;{{ post.date | date_to_rfc822 }}&lt;/pubDate&gt;        &lt;link&gt;{{ post.url | prepend: site.baseurl | prepend: site.url }}&lt;/link&gt;        &lt;guid isPermaLink=&quot;true&quot;&gt;{{ post.url | prepend: site.baseurl | prepend: site.url }}&lt;/guid&gt;        {% for tag in post.tags %}        &lt;category&gt;{{ tag | xml_escape }}&lt;/category&gt;        {% endfor %}        {% for cat in post.categories %}        &lt;category&gt;{{ cat | xml_escape }}&lt;/category&gt;        {% endfor %}      &lt;/item&gt;    {% endfor %}  &lt;/channel&gt;&lt;/rss&gt;RSS(Really Simple Syndication)에 대해 들어본 것이 있을지 모르겠다. Feed는 새로운 글이 생겼을 때 쉽게 전달할 수 있도록 만든 파일이라고 한다._includes/head.html 수정&lt;!-- 앞부분 편의상 생략 --&gt;    &lt;link rel=&quot;alternate&quot; type=&quot;application/rss+xml&quot; href=&quot;https://ecrire06.github.io/feed.xml&quot; title=&quot;Ecrire06&quot;&gt;마지막으로 _includes/head.html 파일에 위의 내용을 추가해주면 끝!Naver Search Advisor 웹마스터 도구Naver Search Advisor의 내 블로그 분석 결과이다. 잘 알맞게 들어간 것을 확인할 수 있다. 하루가 지나고 Google과 Naver에서 블로그를 크롤링해서 읽어들이면, 네이버 이웃커넥트 기능을 추가할 예정이다. 기대해주시길!References  Google검색센터  NaverSearchAdvisor  RSS란?",
+        "url": "/google%EA%B3%BC-naver%EC%97%90-blog-%EA%B2%80%EC%83%89-%EB%93%B1%EB%A1%9D%ED%95%98%EA%B8%B0"
+    }
+    ,
+    
+    "blog-ed-94-8c-eb-9e-ab-ed-8f-bc-ec-84-a0-ed-83-9d-ed-95-98-ea-b8-b0": {
+        "title": "Blog 플랫폼 선택하기",
+            "author": "ecrire06",
+            "category": "",
+            "content": "jekyll을 입문하는 히치하이커를 위한 안내서 링크글을 쓴다는건 생각보다 즐거운 일이다. 특히 남들이 볼 수 있는 blog공간에 글을 올린다는 것은 개인 일지인 동시에 기록 보관소의 역할을 해낸다. 펜의 힘을 생각 이상으로 강력하다.자신의 글을 남기기 위해 Blog에 입문하려는 사람들은 처음부터 고민에 빠진다. 바로 '어떤 Blog 플랫폼'을 사용할 것인가.'에 대해서. blog 플랫폼 고민에 빠진 분들을 위해 각 플랫폼별 장단점과 개인적인 느낌에 대해 이야기해보려 한다. 나의 의견을 참고해서 본인에게 가장 잘 맞는 플랫폼을 선택하길 빈다.Naver Blog    대한민국 사람이라면 blog했을 때 먼저 naver blog가 떠오를 것이다. Google의 검색 기능이 월등하긴 하지만 아직 대한민국의 검색창은 초록창이 지분이 크다. 솔직히 우리나라 국민이라면 naver 아이디 하나쯤은 있으니까. 나도 1년이 넘는 기간동안 Ecrire06라는 닉네임으로 Naver Blog에서 활동해오고 있다.     Blog에 처음 입문하는 사람이라면 Naver Blog를 적극 권한다. Blog 구축에 고민할 필요가 없고 '단순 글쓰기'를 위한 요소들은 다 준비되어 있기 떄문이다. 괜찮은 여러가지 테마와, 직관적인 3.0 editor을 사용할 수 있다. 특히 '이웃맺기'기능은 다른 blog 플랫폼이 부럽지 않다.    하지만, 어느정도 블로그를 운영하다보면 아쉬움이 하나둘 씩 생기기 시작한다.    먼저, 위젯을 제외한 html을 완전히 수정할 수 없다. html 수정 불가는 곧 customization이 불가능하다는 뜻이다. 제공되는 테마 이외에는 자신이 원하는 디자인으로 블로그를 꾸밀 수가 없다. 또한 Google을 통한 웹 분석, 검색 등록, Ads 같은 기능들이 불가능해지는 것이다.     또한 폐쇄적인 구조 때문에 한번 정착하면 다른 블로그로 옮기기가 매우 어렵다. 글 export가 pdf 형식으로만 가능하기 때문에 옮기려면 일일히 수작업 노가다가 필요하다.    마지막으로 Naver에서만 검색이 가능한 문제점이 잇다. 즉, Google과 같은 다른 사이트에서는 검색이 안된다. 네이버에서 벗어나지 못하게 하려는 네이버의 정책 떄문일까...? 실제로 나의 naver blog 유입을 분석해보면 90%정도가 naver에서 들어온다.    단점에도 불구하고 블로그에 처음 입문하는 사람, 친목맺기가 목적이거나 댓글을 통해 소통하고 싶은 사람이라면 주저없이 Naver Blog을 사용하길 권장한다. 운영해보고 아쉬우면 다른 플랫폼으로 갈아타도록 하자.Jekyll Blog    Naver Blog의 대안책을 모색하던 중 Jekyll Blog에 대해 알게 되었다. GitHub Repository을 기반으로 하기 때문에 따로 'Web Hosting' 및 'domain 구입'이 필요 없다는 점이 매력적이었다. 또한 open-source의 다양한 theme과 html 수정의 자유가 마음에 들었다.    운영하는 과정에서 생각보다 ruby 언어에 대한 지식이 필요하진 않았지만, Git 사용법, markdown이나 html 문법에 대한 이해도를 꽤나 필요로 했다. 구축과 운영 과정에서 bug나 충돌이 일어나면 스스로 troubleshooting해줘야한다.    어느정도 프로그래밍에 익숙하지 않다면 힘든 선택지가 될 것이다. 자유도를 얻는 만큼 '스스로' 관리해야 할 부분도 많아진다.    전문적인 프로그래머가 아닌 대학생일 뿐인 나도 했으니 열정만 있다면 누구나 도전해볼 수 있다. 구축 및 운영에서 부딪힌 어려움과 시행착오에 대해 글을 적어나갈 예정이니 내 블로그를 참고하길 바란다. 댓글에 질문을 올리면 아는 선에서 답변하겠다.    '고생이 큰 만큼 얻는 것도 많다'는 말처럼 jekyll blog를 만드는 건 어렵지만 완전히 나만의 cutomization된 blog을 만들 수 있다는 점은 큰 매력이다.다른 블로그 플랫폼    사실 naver와 jekyll외에는 블로그를 운영해본 경험이 없어서 장단점에 대해 이야기하기 어렵다. 간단하게는 적겠지만 자세한 부분은 구글링해서 찾아보길 바란다.    Tistory는 Naver처럼 가입만 하면 바로 블로그를 생성할 수 있는 플랫폼이다. 에전에는 추천인 코드가 있어야 가능하던데 요즘은 모르겠다. Naver에 비해서 HTML의 수정 제약이 적은 편이라고 한다. 완전한 customization은 여전히 불가능하지만. HTML은 다룰 줄 알지만 Blog 구축부터 하는건 귀찮다면 Tistory는 괜찮은 대안이 될 것이다.    Wordpress는 외국에서 가장 많이 사용하는 Blog 플랫폼이다. 'Blog = Wordpress'라는 인식이 강한 듯 하다. Wordpress를 쓰게된다면 자신의 Domain을 구입해야하고 호스팅 비용을 지불해야하므로 정기적인 지출이 생긴다. 전문적인 회사 블로그라면 큰 문제가 없겠지만 취미로 Blog을 운영하는 사람에게는 부담이 된다. 먼저 Web으로 wordpress 운영을 해보다가 괜찮으면 설치형으로 갈아타는 방법도 있으니 참고하길 바란다.    자세한 내용이나 다른 Blog 플랫폼에 대한 정보를 구글링을 통해 알아보길 바란다.어느 Blog을 선택하든 기억해야할 점이 하나 있다. Blog 운영의 기본은 '정기적으로, 꾸준히, 자주' 글을 작성하는 것이다. 블로그 구축부터 고민하다보면 자칫 blog의 본질인 '글쓰기'로부터 멀어질 우려가 있다. 나 자신에게는 짧은 글이지만 다른 사람들에게는 정보가 될 수 있다. Blog을 운영하면서 정보나눔의 기쁨을 느껴보길! :)",
+        "url": "/Blog-%ED%94%8C%EB%9E%AB%ED%8F%BC-%EC%84%A0%ED%83%9D%ED%95%98%EA%B8%B0"
+    }
+    ,
+    
+    "jekyll-ec-9d-84-ec-9e-85-eb-ac-b8-ed-95-98-eb-8a-94-ed-9e-88-ec-b9-98-ed-95-98-ec-9d-b4-ec-bb-a4-eb-a5-bc-ec-9c-84-ed-95-9c-ec-95-88-eb-82-b4-ec-84-9c": {
+        "title": "Jekyll을 입문하는 히치하이커를 위한 안내서",
+            "author": "ecrire06",
+            "category": "",
+            "content": "Jekyll을 입문하는 히치하이커를 위한 안내서이 글을 읽는 사람들을 아마도 다른 Blog를 사용해보다가 'Jekyll에 도전해볼까?'라는 생각을 가진 사람들일 것이다. 나 또한 Naver에서 Ecrire06이라는 닉네임으로 1년이 조금 넘는 기간동안 블로그를 운영해왔다. Naver Blog의 이웃 기능이나 에디터는 정말 직관적이고 마음에 들었다. 하지만, HTML이나 CSS를 완전히 수정할 수는 없어서 나만의 blog customization은 불가능하다는 한계점을 갖고 있었다. 아쉬움을 느낀 나는 다른 Blog 플랫폼을 찾던 중 Jekyll에 입문해보기로 했다.사실 나는 프로그래밍 전문가는 아니고, 이제 막 배워가는 Novice Programmer일 뿐이다. 혹시 나처럼 프로그램밍 전문가는 아니지만 Jekyll 블로그에 도전하려는 분들을 위해 글을 작성해봐야겠다는 생각이 들기 시작했다. 목차에 해당하는 항목별로 하나하나씩 글을 작성해갈 예정이다. 앞으로 작성할 글의 목록인 동시에 앞으로 알아가고 나아갈 방향이라고 생각된다.나는 어떤 블로그를 만들 것인가?Blog 플랫폼 선택하기블로그 구상하기Jekyll Blog 구축하기Git, Ruby 설치하고 설정하기Template 쇼핑하기GitHub 가입하고 Fork로 테마 가져오기내 컴퓨터에 Jekyll 설치하고 서버 구동하기Git Bash Commit & Push로 업로드Jekyll에 글(Post)을 올려보자!글은 어떻게 쓸까?Markdown 문법을 알아보자YAML 수정해볼까아...?글 쓰기를 마친 후에 GitHub에 업로드하는 방법(feat.Batch File)HTML 문법을 알아보자Google Drive의 사진 가져오기임시저장글(비밀글) 만드는 방법입맛에 맞게 블로그 Customization!테마 마음대로 바꾸는 방법HTML을 이용한 폰트 및 글씨 색 변경이제 추가 기능을 넣어볼까?comment(댓글)을 달아보자SNS을 블로그에 연결해보자Google Analytics로 유입 분석하기RSS 기능은 무엇일까?Naver 이웃커넥트 Jekyll에 추가하기 가능한가?Naver Blog의 글을 Jekyll로 이사하기 (feat.노가다)",
+        "url": "/jekyll%EC%9D%84-%EC%9E%85%EB%AC%B8%ED%95%98%EB%8A%94-%ED%9E%88%EC%B9%98%ED%95%98%EC%9D%B4%EC%BB%A4%EB%A5%BC-%EC%9C%84%ED%95%9C-%EC%95%88%EB%82%B4%EC%84%9C"
+    }
+    ,
+    
+    "stilus-secolgraf-120-lead-holder": {
+        "title": "Stilus Secolgraf 120 lead holder",
+            "author": "ecrire06",
+            "category": "",
+            "content": "stilus secolgraf 120 Italy 회사인 Stilus에서 만든 2mm 홀더를 구입했다. Secolgraf 120이라는 모델인데, 구글링해보면 4가지 색이 있다는 것을 쉽게 알 수 있다. 연필 사려고 들어간 문구점에서 우연히 발견해서 데려오게 되었다. 덕분에 Italy산 필기구가 처음 생기게 되었다.2mm 홀더 치고는 클러치가 큰 편이다. 3.15mm심은 들어가지 않지만, 2mm보다 조금 더 두꺼운 심도 들어갈 것 같다. 3분할 클러치를 사용하는 일반적인 2mm 홀더와는 달리, 4분할 클러치를 가지고 있다. 구조상 특이해 보이지만 실제로 사용하는 데에는 큰 차이가 없다. 어떤 사람들은 더 안정감이 있다고 하던데, 차이를 못 느끼겠다..세로로 홈이 파여 있는 그립 부분이 특이하다. 제도용으로 만들어진 홀더들은 손에서 위아래로 미끄러지지 않도록 가로로 홈을 새기는데, 세로로 새기는 건 처음 봤다. 좌우로 흔들리지 않는 특성 때문에 필기할 때에 참 편하게 느껴진다.(위) Stilus Secolgraf 120 (아래) Koh-i-Noor 5612ebay.com(위) Stilus Secolgraf 151 (아래) Koh-i-Noor 5611 Cebay.com어디에서 많이 본 느낌이 들어서 찾아보다보니 Italy산 Koh-i-Noor 5612와 형태와 판박이였다. Secolgraf 120의 상위 모델인 151도 Italy산 Koh-i-Noor Technigraph 5611과 형태가 동일하다. 이를 보면 같은 공장을 사용했거나, 외주를 준 것으로 추측해볼 수 있다. 회사의 역사를 고려했을 때 Koh-i-Noor에서 제조하고 Stilus에 납품한 것으로 생각된다. 그래서인지 노브에 내장된 심연기는 현행 Koh-i-Noor의 것과 매우 유사하다. 구멍이 뚫려 있는데 매우 작아서 흑연심을 배출하기 위한 용도보다는 삼켰을 때를 대비한 구멍으로 생각된다.플라스틱 품질은 무난하다. 너무 두껍지도, 얇지도 않다. 사출선이 없도록 플라스틱 만드는게 꽤나 기술력을 필요로 하는데 꽤 정교하게 만들어졌다. 저렴한 모델인데도 유격도 없고 표면 처리도 양호해서 맘에 든다.분해한 모습은 위와 같다. lead holder답게 아주 단출한 구성을 보인다. 스프링은 내부 앞쪽에 부착되어 있어서 꺼내지 못한다. 경통이 플라스틱이 아닌 금속 재질이었으면 더 좋았을텐데 조금은 아쉽다. 나사선이 닳지 않도록 되도록 분해하지 말고 써야겠다.인터넷 상에서 조금만 찾아보면 국내에서도 판매되었던 흔적이 발견되고, 우보 님의 블로그에서도 Stilus 홀더에 대한 리뷰를 확인할 수 있었다. 이를 보면 옛날에는 한국에 수입되었던 모델인 것 같다. 아마 악성재고로 남으면서 이리저리 떠돌아다니던 녀석을 내가 발견해서 구입한 모양이다. 문구점 사장님도 '이런게 여기 있었어요?' 할 정도니...빨간 심을 껴 놓으면 빨간 구두를 신은 것처럼 참 예쁘다..ㅋㅋ 경통이 넓어서 스토퍼가 달린 심도 쉽게 들어가는데 덕분에 Mars Lumograph Blei-Minen심을 사용할 수 있다.? 덕분에 심 끝을 부러뜨려 사용할 일은 없게 되었다.",
+        "url": "/stilus-secolgraf-120-lead-holder"
+    }
+    ,
+    
+    "eb-aa-a9-eb-8f-99-ea-b5-90-eb-b3-b4-eb-ac-b8-ea-b3-a0-ed-95-ab-ed-8a-b8-eb-9e-99-ec-8a-a4": {
+        "title": "목동 교보문고 핫트랙스",
+            "author": "ecrire06",
+            "category": "",
+            "content": "오랜만에 목동 교보문고를 들려 문구 쇼핑을 했다. 1년 만에 교보문고 핫트랙스를 다시 찾아갔는데 그동안 많은 변화가 있었다. 반일운동 때문인지는 몰라도 국내 제품들의 비중이 많이 늘었고 일본 제품들은 한곳에 모여있었다. 물론 여전히 많은 자리를 차지하고 있었지만... 각양각색의 볼펜들이 즐비하게 늘어서 있었다. 나는 필기할 때 검정과 빨강 두 색만을 써서 별로 흥미가 없었지만, 정말 많은 사람들이 무지개?색의 볼펜 진열대 앞에서 원하는 색을 고르고 있었다.정말 아쉬웠던 부분은 연필을 찾아보기 어렵게 되었다는 것이다. 역시 21세기의 주류 필기구는 볼펜인가 보다. 초등학생들도 샤프를 쓰는 추세이고 사용층이 거의 없어서인지는 몰라도 연필 제품군이 거~의 전멸했다. 1년 전만 해도 MitsuBishi 사의 uni 연필과 9000연필이 경도별로 늘어서 있었는데 이제는 그마저도 사라지고 현행 Tombow Mono J만이 소량 남아있었다. 한 가지 다행인 점은 독일 연필만큼은 그대로 남아있었다. Staedtler와 Faber-Castell 코너의 연필들은 그 자리를 지키고 있었다.아무리 연필 사용층이 적다지만 조금은 충격이었다. 구할 수 있는 현행 연필들의 폭은 줄어들고 더 이상 내가 문구점을 방문해야 할 이유도 사라지고 있다. 참 아쉽다. 연필을 사랑하는 사람들이 점점 vintage 연필을 찾아 해외 직구를 시도하는 이유 중 하나이지 않을까? 수요와 공급 법칙에 따른 자연스러운 현상이긴 하지만 자꾸만 안타까운 마음이 남는다.",
+        "url": "/%EB%AA%A9%EB%8F%99-%EA%B5%90%EB%B3%B4%EB%AC%B8%EA%B3%A0-%ED%95%AB%ED%8A%B8%EB%9E%99%EC%8A%A4"
+    }
+    ,
+    
+    "2020-eb-85-84-ec-97-b0-ed-95-84-eb-aa-bd-eb-8b-b9-ec-9d-b4-ea-b2-b0-ec-82-b0": {
+        "title": "2020년 연필 몽당이 결산",
+            "author": "ecrire06",
+            "category": "",
+            "content": "2020년의 해가 저물었다.그리고 나의 고3 수험생활도 마무리되었다.참 많은 생각들이 든다.먼저 정신없었던 한 해를 잘 이겨낸 나 스스로에게 칭찬해 주고 싶다.고3 수험생 신분으로 코로나19 위기를 맞게 되어 정말 혼란스러운 한 해였다.등교가 여러 차례 미뤄지고, 온라인으로 수업을 듣고,자습하던 도중에 갑자기 모두가 집으로 보내지기도 했다.학원은 문을 닫고, 집에서 공부를 했다.마스크를 끼고 시험이 치러지고, 답답한 투명 가림 판이 앞에 설치된 채로 수능을 봤다.정말 힘든 수험생활이었지만, 한 가지 위로가 되어준 건 바로 '연필'이었다.다른 취미들은 시간을 할애하고 노력을 쏟아야 하지만,연필은 공부하면서도 함께 즐길 수 있으니까 ?v다양한 연필들을 쓰면서 보는 안목도 생기고 내 취향도 확고해졌다.Ecrire06 블로그가 알차게 되어 기쁘기도 하다.필통에 잘 들어가지 않던 긴 연필들은 어느새 29개의 몽당이가 되었다.몽당이들이 행운을 가져다준 건지 기분 좋은 결과로 수험생활을 마무리했다.2021년에도 즐거운 연필 생활을 기대해본다의도하지 않았지만 몽당이로 예쁜 무지개가 만들어졌다 :)",
+        "url": "/2020%EB%85%84-%EC%97%B0%ED%95%84-%EB%AA%BD%EB%8B%B9%EC%9D%B4-%EA%B2%B0%EC%82%B0"
+    }
+    ,
+    
+    "the-blackfeet-indian-pencil-2": {
+        "title": "The Blackfeet Indian Pencil 2",
+            "author": "ecrire06",
+            "category": "",
+            "content": "It's christmas time! 아이들과 어른들이 모두 신나는 크리스마스가 이틀 앞으로 다가왔다. 블로그 이웃 Janet님으로부터 크리스마스 선물로 연필 꾸러미를 받게 되었다. 오늘 소개할 연필 The Blackfeet Indian Pencil도 그중 하나이다.Blackfeet은 이번 기회에 처음 접하게 된 연필이다. 정보를 찾아보니 Montana 주에 있는 Browning 마을의 the Blackfeet Indian Writing Company에서 제조한다고 한다. 그러니 회사 이름이 곧 연필 이름이 된 셈이다. 원주민들이 소유한 회사이기 때문에 재정적 이득이 그들에게 넘어가기 때문에 의미 있는 사업으로 보인다. 아쉽게도 2000년대 초 이후로 더 이상 생산하지 않고 회사가 문을 닫은 듯하다. archive.org indiancountrytoday미국 연필 No.2 경도라면 HB인데, 진하기는 전형적인 HB이지만 거친 느낌이다. 종이에 써놓고 보면 분명 HB 정도의 진하기인데, 쓸 때는 H에서 느낄 수 있는 저항감이 있다. 미국 연필에서 푸석푸석함이 매우 강조된 연필이라고 할 수 있겠다.General 사의 연필들과 매우 유사하다. 흑연심이 잘 갈려나가기 때문에 답답한 느낌 없이 시원시원한 필기감을 보여준다. 다만 저항감이 약간 있어서 나도 모르게 또박또박 글씨를 쓰게 된다. 과장하자면 넓은 초원에서 인디언들이 말을 타고 달리는 듯한 투박한 필기감을 가지고 있다. H 계열의 연필을 자주 사용하는 나에게는 적절하지만, B 계열을 선호하는 진심당에게는 버겁게 느껴질지도 모르겠다.사용된 나무는 단단한 편이어서 휴대용 연필 깎이로 깎을 때 조금 힘이 든다. 그래도 나무의 질은 좋은지 깎는 과정에서 나무가 떨어져 나가는 현상은 없다. 원목 연필의 코팅이 참 마음에 든다. 나뭇결을 제대로 살리면서도 손으로 잡았을 때 거친 느낌 없이 매끈한 연필. 사실 내가 원목 연필을 그다지 선호하지 않는 이유가 손과 맞닿는 부분이 너무 거칠기 때문이다. 투명한 도료로 이 부분을 잘 해소해 주었다. 다만, 도료가 미끄러운 면이 있다. 손에서 놀아나는 느낌?페룰의 색상과 말 타고 있는 인디언 문양으로 시대구분을 할 수 있는 모양이다. 찾아보니    '금색+문양 --> 검은색+문양 --> 검은색+문양 x'순으로 바뀐 것으로 추측된다. 해외 연필 블로그에서 '검은색 페룰로 넘어오면서 도료가 얇아져서 잡기에 불편하며 검은색 페룰이 어울리지 않는다'(A later version had a black ferrule and dark pink eraser. Unfortunately, this later version doesn’t maintain the quality of the classic version – the varnish is thinner, making the pencil less pleasant to hold, and the black ferrule doesn’t match the pencil as well, and can distract the eye.)출처)라는 평을 보게 되었다. 아마 나의 느낌과도 비슷할 것이라고 생각된다. 금색 페룰 시절의 도료 느낌이 어땠는지 궁금해진다.The Blackfeet Indian Pencil이 더 이상 생산되지 않는다는 점은 참 아쉽다. 푸석푸석함과 잘 갈려나가는 전형적인 미국 연필의 특징을 가지고 있는 Blackfeet 연필. Janet 님 덕분에 과거로의 연필 여행을 떠난 것 같아 기분이 좋다. 앞으로 어떤 연필을 접하게 될지 기대된다.The Blackfeet Indian Pencil 2",
+        "url": "/the-blackfeet-indian-pencil-2"
+    }
+    ,
+    
+    "ec-84-b8-eb-a5-b4-ec-a7-80-ec-98-a4-cergio-ec-97-b0-ed-95-84-ea-b9-8d-ec-a7-80": {
+        "title": "세르지오 cergio 연필깍지",
+            "author": "ecrire06",
+            "category": "",
+            "content": "연필은 소모품이다. 흑연이 닳아지면 깎아내고 사용해서 조금씩 조금씩 길이가 짧아진다. 필통에 들어가지 않던 연필은 어느새 손에 딱 맞는 길이가 되고 점점 짧아지면서 몽당이가 되어간다. 몽당이를 만드는 일은 꽤나 인내심을 필요로 한다. 조금만 짧아져도 안 쓰게 되고 애매한 길이로 방치되는 경우가 많다. 연필깍지는 이럴 때 참 유용한 도구이다.나무와 금속이 결합된 연필깍지보다 견고해 보여서 구입해보았다. 손에 쥐었을 때 생각보다 묵직하다. 무게중심이 뒤쪽에 있어서 필기할 때 조금은 불편하다. 무게중심이 적당히 앞에 있는 필기구가 장시간 필기에는 유리하다. 사용법은 간단하다 연필을 끼고 금속 링을 올려서 고정해 주면 된다. 금속 링에는 로렛가공(x자 모양 금속 표면 사선 처리)이 되어 있는데, 아마도 이것을 잡고 필기하라고 만든 듯하다. 허나 실제로 잡고 필기하면 뒤로 밀려서 고정이 풀려버리는 경우가 다반사라 실제로는 연필의 나무 부분을 잡게 된다. 두개로 갈라진 쇠가 고정하는 방식이라 연필을 눌러 상처를 남기게 된다. 상처 낸 다는 점이 마음 아프지만, 하네후지 연필깍지보다는 상처가 덜 나서 용서할 만하다.얇은 연필에 속하는 Mars Lumograph가 딱 사용하기에 적절하다. 국산 연필과 미국제 연필은 뻑뻑하게 들어가는데, 일본에 연필 중 일부는 도료가 두껍게 발라져 있어 애초에 들어가질 않는다. 스위스우드는 상처를 제대로 낼 각오하고 집어 넣어야 한다. 연필에 상처 나면 눈물이 찔끔 나는 기분이다.. ㅜㅜ        Mars Lumograph 딱 맞게 들어간다.        Tombow 8900 루모보다는 조금 더 끼는 느낌.        뒤에 페룰이 달린 연필들은 잘 들어가지 않는다.        두꺼운 편인 Caran d'Ache Swiss Wood는 들어가지 않는다.        삼각 연필은 들어가긴 하지만, 상처를 많이 남긴다.인터넷을 찾아보다 보니 뒤로도 사용 가능하다는 걸 알게 되었다. 회선형(spiral) 홈을 따라 연필을 돌려 끼우면 된다. 저렴한 연필로 뒤쪽으로 끼우기를 시도했다가 도료를 다 갉아먹은 경험을 한 이후로는 앞쪽으로만 사용한다. 이 깎지의 용도는 필기용보다는 데생용으로 적합한 듯하다. 글씨 쓰듯이 잡으면 쇠링이 손에 걸려서 은근히 신경 쓰인다. 뒤쪽으로 몸통을 잡고 사용하면 안정감 있게 사용 가능하다. 이 점에서는 마음에 드는 제품이다.",
+        "url": "/%EC%84%B8%EB%A5%B4%EC%A7%80%EC%98%A4-cergio-%EC%97%B0%ED%95%84%EA%B9%8D%EC%A7%80"
+    }
+    ,
+    
+    "staedtler-noris-120": {
+        "title": "Staedtler Noris 120",
+            "author": "ecrire06",
+            "category": "",
+            "content": "'꿀벌 연필'이라는 별명을 가진 Staedtler Noris 120 연필. 누가 지었는지 모르겠지만 참 마음에 드는 이름이다. Staedtler 사의 대표적인 brand에는 Mars Lumograph, Noris, Tradition이 있는데 각각 매력을 가져서 특색이 있다.Ebay에서 둘러보다 보면 생각보다 오래전부터 생산되온 것을 확인할 수 있다. 긴 역사를 가진 Staedtler인 만큼 시대별로 디자인이 바뀌어왔다. Stationery wiki에 따르면 처음부터 노란색과 검은색 줄을 가진 디자인으로 생산된 건 아니라고 한다. 초기에는 단색의 도료가 입혀졌지만, 시간이 지나며 Noris 1100 시절에는 주황색과 검은색 줄을 가지게 되었다. 그 이후 주황색이 노란색으로 바뀌어 지금의 형태가 되었다고 한다. 출처:Stationery wiki 구형 Noris의 사진은 Lexikaliker 블로그를 참고하길 바란다.편의상 현재 생산되는 연필을 현행, 그전까지 생산되던 것을 준구형이라고 부르겠다. 준구형은 Noris 마크 옆에 120이 적혀있지만, 현행 제품은 바코드 옆에 Art.Nr.120-1이 적힌 것을 확인할 수 있다. 흥미로워서 오래된 catalog를 뒤져봤는데 이전에도 120와 같은 일련번호를 사용하고 있는 것을 확인할 수 있었다. 다만 일련번호를 제품에는 표기하지 않았다. 다만, Art.Nr이라는 표기는 이전에는 찾아볼 수 없었는데, 'Art.Nr.xxx-x' 일련번호 표기 방식은 준구형에서 현행으로의 변화 이후에 추가된 것으로 추정된다.각인은 준구형 쪽이 마음에 든다. 연필 한 면을 꽉 채우고 넘칠듯한 큼직큼직한 각인. 특히 ST와 DT가 이어진 글씨체는 언제나 설렌다. '나 구형 연필이야~'하고 속삭이는 느낌이랄까? 앞쪽의 [/S/] 각인은 SV 공법이 적용된 제품임을 알려준다. 떨어뜨려도 내부 심이 깨지는 일이 없도록 심을 나무에 접착할 때 접작체를 첨가하는 공법이라고 한다. 더 자세히 알아보고 SV 공법에 나중에 글을 써봐야겠다.뒤쪽의 꽁지 색깔은 경도에 따라 구분된다. 주황색 2B 검은색 B 빨간색 HB 파란색 H 초록색 2H 순이다. 솔직히 이번 글을 쓰면서 Noris가 2H까지 생산되는 것을 처음 알게 되었다. 보통 국내 문구점에서는 2B, B, HB만 가져다 놓아서 H, 2H Noris는 찾아보기 어렵다. 해외에서는 많이 판매되는 것 같으니 다음에 해외 직구할 때 끼워서 구입해봐야겠다.보유하고 있는 준구형 Noris는 HB이고 현행 Noris는 B이기 때문에, 두 연필의 필기감을 직접 비교하는 건 어렵다. 연필의 필기감 비교는 동일 경도일 때 의미가 있기 때문이다. 다른 경도를 가지고 그 연필을 비교해버리는 건 어리석은 행동이라고 생각된다. 그래도 비교를 해보자면 준구형의 필기감이 마음에 든다. 촉촉하고 담백한 느낌. 필기용으론 이만한 게 없다.제도용이 아닌 딱 필기용 연필. 잘게 갈리는 소리를 속삭이면서 나무 향기를 풍긴다. 요새 일기장을 쓸 때 항상 함께 하는 연필이다. 현행 Noris B를 써보면 이건 OMR 용이다! 생각이 딱 든다. A4 한 장을 채우지 못했는데 뭉뚝해져 버리는 현행 Noris..ㅎㅎ 종이에 녹아버리는 듯한 필기감이다.Staedtler Noris 120 앞면 (위: 현행, 아래: 준구형)Staedtler Noris 120 뒷면 (위: 현행, 아래: 준구형)",
+        "url": "/staedtler-noris-120"
+    }
+    ,
+    
+    "faber-castell-tk4600": {
+        "title": "Faber Castell TK4600",
+            "author": "ecrire06",
+            "category": "",
+            "content": "예전에 lead holder에 관심을 가지고 하나둘씩 수집해가던 중에 한 문구점에서 발견해서 데려왔다. 현재도 생산되는 제품이라 온라인에서 조금 저렴하게 구할 수 있었지만 '배송을 기다리는 시간'이라는 기회비용을 고려해서 그냥 구입하기로 했다. CAD가 등장하면서 제도 용품들의 수요가 떨어지고 홀더가 악성 재고로 남아있었나 보다. 문구점 사장님께서 TK4600을 구입하는 나를 보며 '우와~! 요즘 홀더 사 가는 사람 못 봤는데, 신기하네요.'라고 말씀하신 걸 보니... 하긴 홀더보다는 샤프를, 샤프보다는 컴퓨터를 선호하는 시대니까. 이런 시장의 변화가 lead holder를 좋아하는 나 같은 사람들에게는 참 아쉽게 느껴진다. 더 이상 새로운 홀더가 개발되거나 출시되지 않고 있던 것도 사라진다는 말이니까.집에 있던 TK9400, TK9441과 비교해보며 몇 가지 차이점을 확인할 수 있었다. TK4600의 전체적인 느낌은 한마디로 '클립이 달린 TK9400'. 그립 부분은 9400인데 노브 부분은 9441을 닮았다. 9441과 같은 클립을 사용한다. 9400은 심연기가 없는 노브를 사용한 반면에 9441과 4600은 노브에 심연기가 내장되어 있다. 노브로 심을 깎으면 흑연 가루 처리가 너무 힘들어서 사실상 거의 쓸 일은 없지만... 이런 특징 때문에 무게중심이 살짝 뒤로 쏠렸다. 9441은 그립부가 황동이라서 균형이 맞춰지지만, 4600의 그립부는 플라스틱 뿐이라서 무게가 뒤로 치우쳤다. 무게중심이 흐트러지면 촥 감기는 맛이 덜하고 필기시에 손가락에 힘이 많이 들어가게 되어 불편하다.노브 부분의 플라스틱 사출 또한 차이가 있는데 9400과 9441은 하얀 플라스틱으로 장식되었지만 4600은 초록색 플라스틱이 그대로 노출되어 있다. 둥글게 처리되지 못하고 날카로운 상태 그대로이다. 쓰는 데는 아~무런 지장이 없지만 그래도 미관상 덜 이쁘다.클러치는 9400 9441 4600 모두 규격이 동일하기 때문에 서로 호환이 가능하다. 현행 제품들은 가끔씩 황동에 씌어진 크롬 도금이 떨어져 나가는(박리되는) 문제점이 있는데 신경 쓰이면 구형 제품을 구해서 갈아끼는 것도 한 방법이다.위에서부터 TK 9441 TK 9400 TK 4600사용하다 보면 심이 뒤로 들어가서 나오지 않는 경우가 종종 있다. 제조상의 문제는 아니고 2mm 홀더심이 심연기에 박혀서 빠져나오지 않는 것이다. 노브에 내장된 심연기를 사용하지 않을 계획이라면 테이프나 다른 도구로 막는 것도 방법이 되겠다. 옛날 한때 lead holder를 정말 잘 만들어내던 Koh-i-Noor은 심연기와 경통을 아예 구분해서 제조하기도 했다. (이 내용에 대해서는 다음번에 Koh-i-Noor Versatil 5201에 대한 글에서 더 자세히 적을 예정이다.)링크 추가 예정lead holder에 처음 입문해서 첫 홀더를 구입하려고 한다면 선택지는 Staedtler의 Mars 780, 925/935 2.0mm, FaberCastell의 TK9400 TK4600, Rotring의 300 2.0mm가 될 것이다. 어떤 것을 고를지 고민된다면 개인적으로는 TK9400을 추천해 주고 싶다. 가장 연필 느낌에 가깝고 혹하게 만드는 디자인을 가지고 있다. 클립이 달려있다는 점은 덤! 물론 가장 좋은 방법은 모두 구해서 자신에게 잘 맞는 홀더를 찾아내는 것이겠지만.Castell 9000 연필과 함께 찰칵!아쉬운 부분들 위주로 글을 적었지만 TK4600도 충분히 좋은 홀더이고 구입해서 사용해볼 가치가 있다. 긴 바디 덕분에 날렵한 느낌이 들고 스케치할 때에는 4600이 편하게 느껴질 때도 많다. 그리고 클립이 달려있다는 점은 덤! 혹시 문구점에서 발견하게 된다면 기쁜 마음으로 한 자루 데려오길^^Faber-Castell TK 4600",
+        "url": "/faber-castell-tk4600"
+    }
+    ,
+    
+    "ec-97-b0-ed-95-84-ec-9d-98-ed-8e-b8-ec-8b-ac-ed-8e-b8-ec-b6-95-eb-ac-b8-ec-a0-9c-ec-97-90-eb-8c-80-ed-95-9c-ea-b3-a0-ec-b0-b0": {
+        "title": "연필의 편심, 편축 문제에 대한 고찰",
+            "author": "ecrire06",
+            "category": "",
+            "content": "이번 글은 두 개의 질문으로 시작해보려 한다.Q1. 이중에서 편심이 있는 연필은 몇번일까?Q2. 편축이 있는 연필깎이로 깎은 건 몇번일까?첫 번째 질문에 대한 답은 이번과 사번이고 두 번째 질문에 대한 답은 삼번과 사번이다. 정리하자면... 1, 3번은 정상 연필이고 2, 4번은 연필에 '편심'이 나타난다. 1, 2번은 정상적인 연필깎이로 깎았고 3, 4번은 '편축'이 있는 연필깎이로 깎았을 때의 결과이다.두 문항을 다 맞췄다면 이미 편심, 편축에 대해 잘 아시는 연필 고수님들인 것이다. 연필에서 편심과 편축 문제는 꽤나 신경쓰인다. 실제로 글씨를 쓸 때에는 큰 지장이 없지만, 미관상으로도 그렇고 사선으로 깎은 모양을 잡으면 뭔가 이상한 기분이 든다. '이거 불량인가?' 이런 느낌... '연필'이라는 물건도 공장에서 대량으로 찍어내기 때문에 사실 약간의 오차가 발생할 수 밖에 없다. 우리는 연필이라는 물건을 아주 정교하고 민감한 손으로 다루기 때문에 그런 점을 더 크게 느끼게 되는 것이다.그런데 재밌는 점은 연필이 비싸다고 다 편심이 없는 것도 아니고, 저렴하다고 무조건 편심이 100%인 것도 아니다. 오랫동안 사람들에게 사랑받고 가장 좋다고 여겨지는 Castell 9000이나 Mars Lumograph도 편심은 종종 발견된다. 1타를 사면 3할에서 4할 정도는 심이 정중앙에 박혀있지 않다.이미 산 연필을 슬랫상태로 되돌려 다시 만들어 낼 수도 없고, 우리가 할 수 있는건 편심, 편축 현상을 최소하하는 것이다. 이를 위해서는 먼저 연필이 어느 방향으로 편심이 생겼는지 확인하고, 다음으로 연필깎이가 어느 방향을 더 많이 깎아내는지 파악해야 한다. 예컨대 티티경인의 하이샤파 기차 연필깎이는 위쪽(12시) 방향을 많이 깎아낸다. 연필의 나무가 많은 부분을 위로 가게 하고 깎으면 편심 문제가 조금은 해소된다. 모닝글로리 카메라 연필깎이는 5시 방향이 많이 깎이고 다른 제품들은 저마다 다르다.사실 이렇게 모든걸 파악하고 깎기란 여간 귀찮은게 아니다. 그래도 자주 사용하는 연필이 예쁜 모습이라면 쓸 맛이 나니까 이 정도의 노력은 들일 가치가 있다. 정 번거로우면 칼로 깎는 방법이 있지만... ?cf) 좋아하는 연필들 색깔에 맞춰서 색칠했는데 어떤 연필인지 감이 오시나요? ㅎㅎ 원하는 색이 잘 안나와서 아쉽긴 하지만 귀엽게 봐주세요 ^^",
+        "url": "/%EC%97%B0%ED%95%84%EC%9D%98-%ED%8E%B8%EC%8B%AC-%ED%8E%B8%EC%B6%95-%EB%AC%B8%EC%A0%9C%EC%97%90-%EB%8C%80%ED%95%9C-%EA%B3%A0%EC%B0%B0"
+    }
+    ,
+    
+    "eb-8d-94-ec-a1-b4-ec-9e-91-ec-9d-80-ec-82-b0-h": {
+        "title": "더존 작은산 H",
+            "author": "ecrire06",
+            "category": "",
+            "content": "어렸을 적 글씨 연습할 때에 어른들께서 연필로 쓰라고 강조하셨던 기억이 난다. 샤프보다 또박또박 쓰게 되기 때문일까?항상 더존 HB 연필과 Fable HB 연필을 시원하게 깎아서 썼던 기억이 난다. 본격적으로 연필을 사랑하게 된 뒤로 사실 외국 연필만 주로 다뤘지 국내 연필은 거의 사용하지 않았다. 그러다 우연히 들어간 오래된 문구점에서 '작은산 더존'을 발견한 뒤로는 한국 연필에도 관심을 가지게 되었다.연필을 다루는 한 카페에서 더존에 대한 정보를 얻을 수 있었다. '낙타 - 큰산 - 작은산 - 현행'은 더존 연필의 계보라고도 할 수 있겠다. 많은 분들이 더존 H를 많이 선호하시던데 그 필기감이 궁금해졌다. 더존 4H와 B를 써봤을 때 괜찮은 인상을 줬기 때문에 H 경도에 대해 많은 기대를 가졌다. 동네의 오래된 문구점들을 돌아다니며 보물 찾기하듯이 돌아다녔지만 쉽게 찾을 수 없었다. 마지막으로 들린 곳에서 작은산 H 7자루를 구할 수 있었다. 역시 행운의 넘버 lucky seven인 걸까?곧장 집으로 달려가 휴대용 연필 깎이로 조심스레 깎았다. 평소에는 샤파 연필깎이를 애용하지만 처음 깎을 때에는 나무의 느낌을 제대로 느끼기 위해 종종 휴대용 연필 깎이로 깎곤 한다. 더존 연필 특유의 나무 향이 좋다. 잔뜩 기대한 채로 연필 끝을 종이에 가져다 대었다. 고요함 속에서 사각사각 소리를 내며 나아가는 연필.깔끔하다. 정말 군더더기 없이 깔끔하다. 비교하자면 Staedtler Tradition 연필과 비슷하지만, 더존 H가 더 점잖게 느껴진다. Mitsu-Bishi 9800 *H*와 매우 유사하다. 대체로 한국에서 생산된 연필들을 묘하게 일본 연필들과 필기감이 유사한 경우가 많다.한참 전의 일들을 회상하며 더존 작은산 H를 쥐고 글을 써 내려갔다. 코로나19가 유행하기 전에는 문구점 탐방하는 재미가 쏠쏠했는데 지금은 위험해서 집에만 머물고 있다. 다시 안전한 세상이 돌아와서 마음 놓고 밖에 돌아다닐 수 있다면 참 좋겠다.",
+        "url": "/%EB%8D%94%EC%A1%B4-%EC%9E%91%EC%9D%80%EC%82%B0-H"
+    }
+    ,
+    
+    "staedtler-mars-lumograph-f": {
+        "title": "Staedtler Mars Lumograph F",
+            "author": "ecrire06",
+            "category": "",
+            "content": "정말 다양한 연필들을 써보면서 나에게 잘 맞는 연필을 찾아다녔다. 그 과정에서 연필을 보는 눈이 넓어졌고, 세세한 필기감 차이에도 관심을 가지는 아마추어 연필 덕후가 되어갔다. vintage 연필을 쥐고 끄적끄적 하다 보면 색다른 필기감을 보여주기도 하고 뭐라고 표현해야 할지 고민되는 경우도 많다. 알면 알수록 더 많이 보인다는 점. 그게 바로 연필의 매력이 아닐까?사람들마다 원하는 필기감과 특성들이 다르지만, 신기하게도 좋은 연필이 무엇인가에 대해서는 공통된 의견을 낸다. 바로 '적당히 부드러우면서 마모도가 크지 않은'이라는 특징. (물론 미술용으로는 '종이에 흑연이 잘 부착되고 명암 표현이 잘 되는지'가 중요하겠지만, 여기서는 연필로 필기할 때로 한정시켜 이야기해보자.) 하지만 부드럽다와 마모도가 크지 않다는 건 동시에 만족하기가 어렵다. 연필의 경도 체계가 흑연과 점토의 혼합비에 따라 나눠지는데 흑연의 비율이 높아지면 (B, 2B ... 6B) 진하고 부드러워지는 대신 가루가 날리고 마모도가 높아진다. 반대의 경우로 점토의 비율을 높이면(H, 2H, ... 6H) 마모도는 낮아지지만 너무 연해지고 단단해서 송곳으로 쓰는 기분이 든다. 연필 제조사들은 이 딜레마를 극복하기 위해 B와 H 사이에 HB와 F 경도를 추가해 세세하게 나누고 다른 다양한 방법을 모색해왔다. 흑연을 아궁이에서 굽기도 하고(Conte) 왁스를 첨가하기도 하며 이상적인 흑연 심을 만들기 위해 노력해왔다. 그리고 이 모든 기술들은 고스란히 그 회사의 노하우가 된다.Staedtler 사의 Mars Lumograph 연필은 J.S.Staedtler 시절에서부터 꾸준히 사람들에게 사랑받은 연필이다. 현재 생산되는 연필 중에서는 흑연 심의 품질이 매우 좋은 편이다. vintage 연필 중에서도 최상급의 품질을 가진 연필들을 찾을 수 있지만 대부분의 연필 회사들은 세월의 힘을 이기지 못하고 초심(원래의 필기감)을 잃어버리거나, 심지어는 단종되고 회사가 문을 닫게 되기도 한다. 그래도 Staedtler와 Faber 사는 그 명성을 계속 이어나가고 있으니 다행이다.지금까지 써온 연필들 중에서 가장 좋은 것 5개를 꼽으라면 Staedtler Mars Lumograph F 경도가 한자리를 차지할 것 같다. 적당히 부드러우면서도 너무 단단하지 않고 거친 느낌 없이 종이 위에 글씨가 써진다. 특히 뛰어난 PointRetention(마모도가 작음)은 정말 마음에 든다. HB는 내게는 조금 물러서 공부하다 보면 금세 깎아줘야 해서 번거롭고 H는 단단해서 손이 금방 피로해지는데 그 사이의 F 경도는 HB와 H의 장점만 모아놓은 느낌이다. 누군가 나에게 연필을 추천해달라 부탁한다면 주저 없이 Lumograph F를 권할 것이다.한 가지 아쉬운 점은 Foiling(각인)의 벗겨짐 문제이다. 현행에서만 일어나는 현상인데, 연필을 절반 정도 쓰다 보면 각인이 다 지워져서 연필이 볼품 없어진다... ㅜ 그래도 흑연 심은 좋지만. 이런 점이 아쉽다면 구형이나 J.S.Steadtler 시절의 Lumograph 구해보길?사실 Mars Lumograph 연필 포스팅을 올리기까지 많이 망설였다. 정말 좋은 연필인데 내 필력이 그걸 다 표현하지 못하기도 하고, 간단한 역사나 특징들은 다른 블로거분들께서 이미 충분히 설명해 주셨다고 생각되었기 때문이다. 그래서 책상에 앉아 Lumograph를 집어 들고 종이에 이 연필에 대해 떠오르는 나만의 생각들을 쭉 적어나갔다. 그래서 서두는 너~무 길어지고 의식의 흐름 기법을 따른 글이 되어버렸다.ㅎㅎ Mars Lumograph F를 좋아하는 분들이라면 충분히 내 마음을 이해할 수 있으리라 믿는다.cf) 배경을 바꿔봤는데 어떤가요? 조금 어지러워 보이기도 하고 깔끔해 보이기도 하고... 헷갈리네요ㅎ 댓글에 의견 남겨주시면 다음 포스팅 때 반영하겠습니다^^",
+        "url": "/staedtler-mars-lumograph-f"
+    }
+    ,
+    
+    "2021-eb-8c-80-ed-95-99-ec-88-98-ed-95-99-eb-8a-a5-eb-a0-a5-ec-8b-9c-ed-97-98-ec-88-98-eb-8a-a5-ec-83-a4-ed-94-84": {
+        "title": "2021 대학수학능력시험 수능 샤프",
+            "author": "ecrire06",
+            "category": "",
+            "content": "오랜만에 Ecrire06 블로그를 다시 찾아와서 글을 쓰려니까 어색하게 느껴진다. 어디서부터 시작해야 할지 첫 문장은 뭘로 시작해야 할지 아무것도 적혀있지 않은 종이를 앞에 두고 잠시 고민에 잠겼다. 그러다 책상 위에 놓인 2021 수능 샤프를 보며 글을 쓰기 시작했다.수험생활을 하며 취미를 병행하기란 시간적으로 불가능하다. 3개월이라는 기간 동안 블로그 활동을 잠시 중단한 것도 바로 이 이유였다. 대학수학능력시험이 치러지기까지 100일 남짓 남았을 때부터 온전히 공부에 몰두할 수 있도록... 비록 블로그에 글을 남기지 못했지만 매일 내가 좋아하는 연필로 공부하며 취미생활은 계속되었다. 매일 하루가 끝날 때 연필로 일기 쓰는 것도 하나의 행복이었다.코로나19로 세상이 시끄럽고 어수선했지만 예정대로 대학수학능력시험은 치러졌다. 매 수능마다 주어지는 수능 샤프가 제공되는데, 올해는 투명한 색상으로 제작되었다. 받자마자 든 생각은 '우와! 예쁘다^^' 물론 난 소지 가능 물품인 흑색 연필을 사용해서 샤프를 쓸 일이 없었지만 기분이 좋았다. 내가 시험을 치렀기 때문인지도 모르겠지만 투명하게 제작된 올해 샤프가 역대 수능 샤프 중에서 가장 마음에 든다.수험 기간이 마무리되어가니까 아쉬움 반 뿌듯함 반의 묘한 기분이 든다. 갑자기 내게 주어진 자유 시간들이 아직은 어색하게만 느껴진다. 못했던 취미생활도 다시 시작하고 못했던 블로그 작성도 다시 해봐야지. 코로나19 때문에 밖에 못 나가는 건 많이 아쉽지만.. ㅎ",
+        "url": "/2021-%EB%8C%80%ED%95%99%EC%88%98%ED%95%99%EB%8A%A5%EB%A0%A5%EC%8B%9C%ED%97%98-%EC%88%98%EB%8A%A5-%EC%83%A4%ED%94%84"
+    }
+    ,
+    
+    "a-w-faber-goldfaber-1221-post-war-ec-9b-90-eb-aa-a9-ec-97-b0-ed-95-84": {
+        "title": "A.W.Faber Goldfaber 1221 post-war 원목연필",
+            "author": "ecrire06",
+            "category": "",
+            "content": "사실 난 원목 연필을 선호하진 않는다. 나뭇결이 그대로 보인다는 점은 분명 매력적이지만, 거친 표면의 질감과 왠지 모르게 가시가 박힐 것 같은 느낌이 들기 때문이다. 이는 나무의 품질이 좋지 않으면 더 극명하게 느껴진다. 그런 이유로 대부분의 나의 원목 연필들은 상자에서 나올 기미가 보이질 않는다...그런데 이 녀석은 원목 연필에 대한 나의 선입관을 바꿨다. 생각보다 매끈한 나무 표면처리와 잡았을 때의 착 감기는 느낌이 마음에 들었다. 특히, striking 한 나뭇결무늬가 맘에 쏙 든다. 목재가 아주 고급은 아니지만, 적당히 단단하고 매끄러운 표면을 가지고 있다.Post-War. 그러니까 세계 2차 세계 대전 이후를 말한다. 이 시기에는 물자 부족으로 연필 산업도 여러 변화가 있었다. 가장 눈에 띄는 건 표면에 도료를 바르지 않고 원목 그대로 물건을 판매하기 시작한 것이다. Ebay를 탐방하다 보면 보이는 원목 연필들 또한 이런 이유로 생산된 것들이 많다.신기하게도 현재 생산되는 Goldfaber의 필기감과 느낌이 꽤나 유사하다. 한때 Goldfaber 1221 한타를 구입해서 다 쓸 정도로 애용했어서 구형의 비슷한 느낌은 더 반갑게 느껴졌다.Goldfaber의 매력은 특유의 푸석푸석함과 종이와 맞닿았을 때 잘게 사각이는 느낌이다. 거친 표면의 종이에 사용하면 마모도가 조금 높지만 푸석푸석함이 더욱 살아난다. 뾰족하게 깎은 뒤 매끈한 종이에 쓰면 좋긴 한데 왠지 모르게 답답하게 느껴진다. Goldfaber는 푸석푸석함 빼면 시체니까.(위:현행) A.W.Faber Goldfaber 1221 HB (아래:vintage) Faber-Castell Goldfaber 1221 HB 굳이 현행과의 차이점을 찾자면 구형이 입자가 고르다는 점이다. Goldfaber 1221은 vintage와 현행 제품 모두가 사랑스러운 몇 안 되는 연필 중 하나다. 오랜 시간 동안 특유의 필기감을 보존해온 Faber 사가 새삼 대단하게 느껴진다. 다른 연필 제조사들도 이를 본받아서 연필 제작 노하우를 유지해 나가야 할 것이다.",
+        "url": "/a-w-faber-goldfaber-1221-post-war-%EC%9B%90%EB%AA%A9%EC%97%B0%ED%95%84"
+    }
+    ,
+    
+    "schwan-stabilo-othello-282-vintage": {
+        "title": "Schwan-Stabilo Othello 282 vintage",
+            "author": "ecrire06",
+            "category": "",
+            "content": "Hello! 수박이 생각나는 무더운 여름이 찾아왔다. 요즘 매일 비가 와서 밖에 나갈 때마다 우산을 꼭 챙기게 된다. 날씨가 흐리니까 자꾸 기분이 꿀꿀해진다. 기분전환 겸 상큼한 필기감을 찾던 중 '수박 연필'을 집어 들게 되었다.Schwan-Stabilo의 Othello 라인은 꽤나 긴 역사를 자랑하고 있다. 1920년대부터 지금까지 이어지는 Othello 282는 긴 역사만큼 많은 변화를 거쳤다. 여러 시리즈 중에서도 이 녀석이 가장 수박 같은 느낌을 준다. (맛있겠다.. ㅎ.ㅎ) 한 면이 새빨간 색으로 칠해져 있고, 그 위에 은색으로 각인되어 있다. 어떤 사람은 이걸 보고 보색을 이루는 빨간색, 초록색이 함께 있어서 정신없다고 말하는데, 내 눈에는 예뻐 보인다.흑연 입자가 매우 곱다. 매끈하면서도 특유의 푸석함이 느껴진다. Czech Republic에서 생산되는 요즘 Othello는 거친 느낌이 나는데, 그보다 구형인 Germany 산은 정제가 잘 되어있다. Koh-i-Noor도 그렇고, Stabilo도 그렇고 Czech Republic로 넘어오면서 흑연 품질이 많이 낮아진 것 같다. 연필의 생명은 흑연인데..! (분노)F 경도였으면 완벽했을 것 같지만, HB=2 1/2 도 매력 있다. 요즘 일기 쓸 때나 메모할 때 애용하고 있다. 거친 종이에 쓰면 푸석함이 살아나고, 매끈한 종이에 쓰면 부드러움이 도드라진다. 종이에 따라 다른 매력을 보여준다. 개인적으로는 더블에이 A4용지에 썼을 때의 느낌이 가장 좋은 것 같다. Othello 특유의 푸석함과 부드러움이 가장 잘 드러나니깐♥Stabilo의 '백조 꽁다리'는 언제 봐도 매력적이다. 문구점에 갔다가 우연히 백조 꽁다리가 달린 색연필이나 연필을 보면 나도 모르게 결제하는 나 자신을 발견할 수 있다.. ㅋ 요 녀석이 별건 아닌데도 지르게 만든다. Stabilo는 마케팅의 천재임에 틀림없다. 최근 제품들에서 백조 꽁다리를 없앤 이유는 정말 의문이다.연필을 한 움큼 쥐고 찰칵! 이걸 '백조 떼샷'이라고 하던가..? 아무튼. 백조 꽁다리가 매력덩어리다. 차근차근 빈티지 Othello 연필을 모아보고 싶다.. ㅎcf) 모르고 있다가 우연히 한 면에 음각으로 *383 이 적혀있는 걸 발견했다. 어째 Othello 282의 숫자랑 비슷해 보인다. 서로 연관이 있는 걸까? 일단 공장 일련번호로 추측되는데 정보를 찾을 수가 없다..",
+        "url": "/schwan-stabilo-othello-282-vintage"
+    }
+    ,
+    
+    "caran-d-ache-technograph-777-ed-85-8c-ed-81-ac-eb-85-b8-ea-b7-b8-eb-9e-98-ed-94-84": {
+        "title": "Caran d'Ache Technograph 777 테크노그래프",
+            "author": "ecrire06",
+            "category": "",
+            "content": "필기구 회사마다 그 회사를 떠올리면 연상되는 제품들이 있다. 예컨대, Staedtler은 노란 Noris 연필과 파란 Lumograph 연필이 생각나고 Faber Castell은 진녹색 Castell 9000 연필이 금방 떠오른다. Caran d'Ache를 떠올려보면 Fixpencil과 Ecridor, Technograph 777 연필이 연상된다. 각 회사의 대표적인 제품들은 그 회사의 전반적인 필기구 특징을 파악하게 해준다.Technograph 777. 나에게 강렬한 첫인상은 남긴 연필이다. 보편적으로 연필의 이상향은 단단하면서도 진하고 부드러운, Point Retention이 뛰어난 연필일 것이다. Technograph 777은 꽤나 그런 이상에 근접해 있다. Lumograph처럼 부드러우면서도 촉촉하고, 사각이면서, Point Retention도 뛰어난 팔방미인 연필이다. (높은 몸값을 자랑하지만 그건 넘어가기로 하자 ^.^) 한마디로 표현하면 '부드럽고 단단한 Lumograph'랄까?민들레같이 밝은 노란색 도료와 황금색으로 적혀진 글씨는 언제 봐도 기분 좋게 만든다. 묘하게 미국의 노란색 연필(Dixon Ticonderoga 등..)보다 더 고급스럽게 느껴진다. 글씨체와 도료 색깔의 미묘한 차이가 전체적인 느낌에 큰 차이를 가져오는 것 같다.그런데 워낙에 도료를 얇게 칠했는지 새 연필에서도 군데군데 페인트 갈라짐이 보인다. 떨어져 나오지는 않아서 사용에는 큰 지장이 없지만, 조금 더 두껍게 입혀주었으면 한다. 포일링(Foiling, 연필 위 글씨 쓰는 것)도 얇게 했는지 쓰다 보면 황금색 글씨가 사라져서 마음이 아프다. 이는 Lumograph에서도 발견되는 문제인데 개선해 주었으면 하는 바람이다.나무 재질은 너무나도 마음에 든다. 연필은 칼로 깎을 때 나무의 재질이나 품질이 제대로 드러나는데, Technograph 연필은 부드럽고 기분 좋게 깎인다. Caran d'Ache가 은근히 나무에 신경을 많이 쓰는 회사인 것 같다. 공장에서 처음 깎인 모습이 참 마음에 드는데, 깎아버리기가 미안해진다. 이렇게 깎이는 도구가 있으면 바로 구할 텐데 없어서 아쉽다.Technograph 1타를 구입하면 담겨오는 투명 플라스틱 케이스이다. 한때는 Technograph로 가득 차 있었지만, 다 써버리고 이제는 한 자루만 남았다. 요즘은 좋아하는 연필들을 담아두는데, 내용물이 바로 보여서 기분 좋게 해준다.스위드우드와 함께 찰칵!Technograph 777. 몸값이 꽤 나가지만, 다른 연필들에서 경험해보지 못한 새로운 느낌을 안겨주는 특별한 녀석이다. 색다른 연필을 느껴보고 싶다면 한두자루 구해서 써보길 권해본다.",
+        "url": "/caran-d'ache-technograph-777-%ED%85%8C%ED%81%AC%EB%85%B8%EA%B7%B8%EB%9E%98%ED%94%84"
+    }
+    ,
+    
+    "stabilo-schwan-305": {
+        "title": "Stabilo Schwan 305",
+            "author": "ecrire06",
+            "category": "",
+            "content": "여러 연필들을 써보면서 느낀 것 중 하나는 체코(Czech Republic)산 연필이 참 특이하다는 점이다. Koh-i-Noor와 Stabilo는 모두 체코가 본거지인데 이 두 회사의 제품만의 독특한 특징이 있다. 바로 '특유의 사각거림'이다.Koh-i-Noor 1500과 1900, Stabilo Schwan 305와 Othello 282. 사각거림이 그리워질 때면 매번 꼭 꺼내서 사용하게 된다. 종이와 맞닿으면서 나는 기분좋은 소리와 적당한 마찰감. 눈과 귀를 동시에 만족시켜준다.도대체 어떤 흑연을 쓰는건지, 혼합 비율이 어떻길래 이런 특이한 느낌을 내는건지 참 궁금해진다. 이거 참.. 연필 공장에 취직해서 알아볼 수도 없고...ㅎㅎ흑연심의 독특한 성질 외에도 Schwan 305는 특이한 점이 한가지 더 있다. 대부분의 연필들은 끝부분이 도료로 덮여있거나 흑연심이 노출되기 마련인데, 이 연필은 나무로 감싸여 있어서 흑연심이 보이지 않는다. 아마도 연필을 만드는 나무판(슬랫, slat)에 홈을 끝까지 파지 않고 조금 남겨두어 만드는 듯 하다.출처: http://www.madehow.com/Volume-1/Pencil.html그나저나 Stabilo Micro 8000 연필이 참 궁금한데 구하기가 어려워서리... 언젠간 써보는 날이 오겠지..?",
+        "url": "/stabilo-schwan-305"
+    }
+    ,
+    
+    "staedtler-art-nr-513-85-ec-8b-ac-ec-97-b0-ea-b8-b0": {
+        "title": "Staedtler Art Nr. 513 85 심연기",
+            "author": "ecrire06",
+            "category": "",
+            "content": "전에 작성한 'Kum Onit No 250 심연기'에 이어 Staedtler사의 심연기에 대해 이야기해보려 한다.Kum과 마찬가지로 Staedtler에서도 심연기를 생산하고 있다. 2가지 방식이 있는데 Mars 502는 로터리(Rotary)방식이고, 오늘 소개할 Art Nr. 513 85는 칼날 방식이다.전체적인 모양새가 'Kum Onit No 250'과 아주 유사하다. 위에 적혀진 글자와 플라스틱 색깔을 제외하고는 크기와 모양이 모두 동일하다. 어째서 두 회사에서 이런 쌍둥이 제품을 판매하는걸까?몸체에서 칼날을 분리하다가 물음에 대한 단서를 찾았다. 칼날을 뒤집어보면 ⓡKUM GERMANY가 새겨져 있다. 추측건대 Kum에서 제조하고 Staedtler에 납품하는 방식인 것 같다. 종종 Faber-Castell사에서도 비슷한 형태의 심연기를 볼 수 있는데, 마찬가지로 납품받는 방식으로 생각된다.생각보다 부피가 커서 필통에 넣고 다니면 꽤나 걸리적 거린다. 칼날만 빼서 필통에 넣고 다니면 알맞게 들어간다.",
+        "url": "/staedtler-art-nr-513-85-%EC%8B%AC%EC%97%B0%EA%B8%B0"
+    }
+    ,
+    
+    "kum-onit-no-250-ec-8b-ac-ec-97-b0-ea-b8-b0": {
+        "title": "Kum Onit No 250 심연기",
+            "author": "ecrire06",
+            "category": "",
+            "content": "2mm lead holder의 단짝. 심연기.2mm 홀더를 처음 썼을 땐 심이 뭉뚝해지면 주로 사포로 갈아 쓰거나, 내장된 심연기를 사용했었다. 매번 갈아낸 흑연 뒤 처리가 골칫덩어리였다. 그러다가 '심연기'라는 녀석을 알게 되어서 바로 구입했던 기억이 난다. Kum 사의 Onit No 250 심연기. Kum은 연필깎이를 전문적으로 생산하는 독일의 문구 회사이다. 지금껏 써왔던 제품들(Magnesium 2구, Wood Cutter, Long Point 등..)은 대체로 만족스러웠다.2구 연필 깎이와 유사한 구조를 가지고 있다. 왼쪽에는 2mm 심이, 오른쪽에는 3.15mm 심이 들어간다. 3.15mm 심은 거의 쓸 일이 없어서 2mm 칼날이 무뎌지면 바꾸어 끼운다. 크기는 동일한데 각도만 다른 거라 서로 교체가 가능하다. 칼날만 따로 판매하지는 않는 듯하다.구조상 흑연이 구멍으로 빠져나와서 작은 지퍼백에 넣어서 따로 보관하길 추천한다. 아니면 흑연 범벅이 된 처참한 필통을 경험하게 될 수 있다 (...)",
+        "url": "/kum-onit-no-250-%EC%8B%AC%EC%97%B0%EA%B8%B0"
+    }
+    ,
+    
+    "staedtler-mars-lumochrom-204-s12": {
+        "title": "Staedtler Mars Lumochrom 204 S12",
+            "author": "ecrire06",
+            "category": "",
+            "content": "Mars Lumochrom Art Nr. 204-S에 대한 luna님의 글에서 영감을 받아 글을 쓰게 되었다.오랜만에 서랍에서 구형 Mars Lumochrom을 꺼내 왔다. 2mm 홀더에 사용할 수 있는 12종류의 무지개색 색깔심이 들어 있다. 색상은 Red, Blue, Green, Lemon Yellow, Wine Red, Black, Brown, Carmine, Violet, Chrome Green I, Orange, Indigo Blue이다. 현행 Lumochrom은 이 중에서 6가지 색이, 각 2자루씩 들어있다.심을 꺼내서 무지개색으로 배열해보았다. (예쁘다..) 흥미롭게도 일부 심에만 스토퍼(금속 엔드)가 달려 있다. 또한 일부 심에만 제품명과 일련번호가 옆에 적혀있다.Staedtler의 Mars 얼굴 로고를 참고하면 생산 시기를 짐작해볼 수 있다. 요 녀석에 새겨져있는 로고는 1973년부터 2000년까지 사용되던 것이다. Mars 얼굴 로고 변천사를 참고하면 알 수 있다. 당시 Staedtler의 카탈로그를 참고해보면 1980~90년대 사이에 생산된 것으로 추정할 수 있다.현행 Mars Carbon 심과 비교해보면 케이스 색상과 디자인에 변화가 보인다. 구형이 조금 더 밝은 파란색인데, 구형이 Egyption Blue라면 현행은 Navy에 가까운 색상이다. 그 외에도 글자 배열, 구성에 차이가 있다.케이스 뒷면에서 독일어, 영어, 프랑스어로 Drawing Leads가 적혀 있다. 그 옆에는 Mars Plastic 그림이 그려져 있다. 지우개를 같이 덤으로 팔았던 건지, 아니면 단순히 광고였던 건지는 알 수 없다.심만 있으니 너무 심심해 보여서 Lumochrom 용 소책자(Brochure)을 만들어주었다. 독일어, 영어, 프랑스어로 색깔명을 적어주고, 당시 카탈로그를 참고해서 일련번호(204-x)도 붙여주었다. 일련번호를 다 붙이고 나니 무지개색 순으로 번호가 부여된 건 아니란 걸 알게 되었다. 당시 소책자는 어떻게 생겼을지 궁금해진다.1985 Staedtler CatalogViolet 색상이 마음에 드는데, 더 구할 수가 없다. ㅜㅜ 아쉽지만 아껴 쓰고 색연필로 대체해서 쓰는 수밖에..",
+        "url": "/staedtler-mars-lumochrom-204-s12"
+    }
+    ,
+    
+    "ec-97-b0-ed-95-84-ec-9d-84-ec-82-ac-eb-9e-91-ed-95-98-eb-8a-94-ec-82-ac-eb-9e-8c-eb-93-a4-ec-9d-98-ec-9c-a0-ed-98-95": {
+        "title": "연필을 사랑하는 사람들의 유형",
+            "author": "ecrire06",
+            "category": "",
+            "content": "★연필 무지개★ 연필을 사랑하는 사람들은 저마다 개성과 취향이 다르기 때문에 같은 연필을 사용하는 사람을 찾기란 생각보다 쉽지 않다. 이번 글에서는 일명 '연필 중독자(?)'들의 유형을 나름대로 나누어보았다. 자신이 어떤 유형에 속하는지 생각해 보길 바란다. 재미로만 봐주고 너무 진지하게 생각하진 말기를 부탁한다.실사형 가장 보편적이라고도 할 수 있는 유형이다. 이 부류의 사람들은 먼저 여러 연필을 써보는 탐색기를 가친다. 그 과정에서 마음에 드는 연필을 발견하면 그것만 타 단위로 쟁여둔다. 특정 경도, 특정 브랜드를 선호하는 경우가 많다. 애용하는 두세가지 연필만 사용하고 나머지는 보관해둔다.수집가형 주로 한 타스 단위로 수집하는데 지상자나 틴 케이스에도 관심가지는 경우가 많다. 현행보다는 단종된 모델들에 관심이 많으며, vintage만의 매력에 푹 빠져있다. 두세가지 연필 제조사를 정해두고, 이것에 집중해서 수집하는 경우가 많다. 같은 모델의 시대별 변천사 별로 수집해놓은 경우가 대표적이다. 개인 박물관을 차려놓은 듯한 느낌이 들기도 한다. 특정 연필의 생산 연도를 짐작하는데 이 분들의 컬렉션 모음은 큰 도움을 준다.미식가형 이런 사람들의 구입 단위는 3자루부터 한타스까지 매우 다양하다. 주로 3종류로 분류하는데, '실사용, 전시용, 보관용'이런 식이다. 연필 흑연심의 질감, 나뭇결 뿐만 아니라 도장(포일) 방식, patent number, 로고 모양, 글씨체, 마감 등 연필에서 찾을 수 있는 모든 특성에 관심을 가진다. 디자인만 보고도 언제 생산되었는지 알아맞추는건 기본이다. 심지어 나뭇결만 보고도 oo국 oo나무인지도 알아맞추는 경우도 있는데 놀라울 지경이다. (...) 연필 매니아라는 표현이 부족해 보인다.부르주아형이 부류의 사람들은 구입 단위부터가 다르다. 1그로스(1gross=12타스) 단위가 기본이다. 단종된 연필들도 박스째로 가지고 있는 경우가 종종 있다. 구하기 어려운 물건인데 한가득 쌓여있는 모습을 보면 부럽기도 하다. 이분들은 실제로 사용할 생각은 없는 듯 하다.. 가끔씩 소장품을 풀어 분양하는 날이면 연필 애호가들은 신나서 난리가 나게 된다..(필자 포함 ^^)짬뽕형항상 어느 한쪽에만 속할 수는 없는 법! 위의 유형들이 골고루 섞인 짬뽕형도 있다. 이는 Janet님께서 말씀해주신 유형인데, 내 생각에도 여기에 속하는 사람들이 많지 않을까 생각된다. 연필의 매력에 빠져 한 자루 한 자루 사다 보면 어느새 짬뽕형이 되어있는 자신을 발견하게 될 것이다. :)필자는 써보고 싶은 연필을 1타 단위로 구한 다음 3자루만 소장하는 편이다. 한자루는 마음껏 쓰고, 한자루는 보관해 두고, 한자루는 전시해 놓는다. 나머지 9자루는 다른 분들과 나누거나 교환하곤 한다. 덕분에 여러 연필을 써보게 되었고, 보는 눈이 넓어졌다. 아무래도 나는 '아마추어 미식가형'에 속하는 듯 하다.",
+        "url": "/%EC%97%B0%ED%95%84%EC%9D%84-%EC%82%AC%EB%9E%91%ED%95%98%EB%8A%94-%EC%82%AC%EB%9E%8C%EB%93%A4%EC%9D%98-%EC%9C%A0%ED%98%95"
+    }
+    ,
+    
+    "schwan-stabilo-othello-282": {
+        "title": "Schwan-Stabilo Othello 282",
+            "author": "ecrire06",
+            "category": "",
+            "content": "이 연필을 쓰다 보면 자꾸만 '셰익스피어의 4대 비극' 중 하나인 '오셀로'가 떠오른다. 마음 아파하며 눈물을 찔끔 흘렸던 기억이 난다. 시간 나면 꼭 읽어보시라!여러 국가의 연필들을 써봤지만 체코(Czech Republic) 산 연필이 가장 개성 넘친다. 특유의 사각거림과 입자감이 인상적이다. Schwan-Stabilo의 Othello 282 연필은 Koh-i-Noor의 1500연필과 꽤나 비슷한 느낌을 준다. 사각거림의 양대 산맥이랄까..? 두 회사가 동일한 흑연을 공급받아 제조하는 게 아닐까 의심해본다. 그렇다고 쳐도 독특한 필기감을 가져다주는 흑연의 정체가 참 궁금하다.경도 표시 체계가 특이하다. 전형적이라고 할 수 있는 미국 표준 경도는 H=3(hard), F=2½(firm), HB=2(medium), B=1(soft)로 표기한다. Stablio에서 만든 연필들에는 H=3½, F=3, HB=2½, B=2로 표기되어 있다. 유럽 연필과 미국 연필 사이에 경도 표시 체계의 차이가 있는 듯하다. vintage 연필을 구하다 보면 이런 표기들을 종종 보게 된다.쓰다 보면 Othello의 앞부분 'Ot'가 깎여나가서 'hello'가 되는데 이게 참 귀엽다. 찍어둘 생각을 미처 하지 못해서 사진은 남기지 못했다.. ㅜㅜ 다음 Othello를 쓸 때는 꼭 찍어보도록 하겠다.Schwan-Stabilo가 오랜 역사를 가지고 있는 만큼 Othello 연필의 디자인도 조금씩 변해 왔다. 진녹색 연필을 좋아한다면 Othello 연필의 vintage 모델 수집은 한번 도전해볼 만하다. '수박 연필'이라고도 불리는 Othello 282. 저렴하면서도 마음에 쏙 드는 매력적인 녀석이다.",
+        "url": "/schwan-stabilo-othello-282"
+    }
+    ,
+    
+    "caran-d-ache-swiss-wood-ec-8a-a4-ec-9c-84-ec-8a-a4-ec-9a-b0-eb-93-9c": {
+        "title": "Caran d'Ache Swiss Wood 스위스우드",
+            "author": "ecrire06",
+            "category": "",
+            "content": "Caran d'Ache에서 만든 원목 연필. Swiss Wood(스위스 우드). 나무를 직접 보고 만질 수 있는 원목 연필은 언제나 매력적이다. Kita-Boshi, Staedtler, Bruynzeel 등 여러 원목 연필들을 보유하고 있지만, 그중에서도 가장 마음에 드는 녀석은 Swiss Wood이다.나뭇결을 잘 살려서 가공된 나무는 정말 아름답다. 가죽이 에이징(aging) 되어 고급스러워지는 것처럼, Swiss Wood도 오래 쓸수록 나무색이 깊어지고 진해진다. Caran d'Ache는 이런 디테일까지 고려해서 제조하는 걸까..?특이하게도 연필에서 특유의 진한 계피 향이 난다. 나도 모르게 연필 끝을 코에 가져다 대고 킁킁거리게 된다.. ㅎ 너도밤나무의 특성일 줄 알았는데, 찾아보다가 나무 가공 방법이 원인이라는 것을 알게 되었다. 'Plato Method'라는 열처리 방법은 나무를 더 단단하게 해서 곤충이나 곰팡이가 생기지 않게 한다고 한다. 그 과정에서 방출되는 *lignin(리그닌)* 성분이 향을 낸다고 한다. https://www.lexikaliker.de/2013/09/caran-dache-348/개인적인 생각이지만 Swiss Wood는 Fixpencil을 모티브로 만든 듯하다. 배럴의 두께나 손으로 잡았을 때의 느낌, 무게감 모두 비슷한 느낌을 준다.최근 '구형 FSC'에서 '신형 COBS'로 바뀌면서 필기감에 변화가 생겼다. 뛰어난 Point Retention과 부드러운 느낌은 여전하지만, 구형인 FSC 쪽이 더 진한 느낌을 준다. COBS의 HB 경도는 Castell 9000 F 정도의 연하기를 보여준다. 연심당인 나에게는 신형이 왠지 더 마음에 든다.가격은 착하지 않지만 꼭 한 자루 구해서 써보라고 권하고 싶은 연필이다. Caran d'Ache의 Technograph 777이나 Edelweiss 연필도 매력적인데 이에 대해서는 다음에 써보려 한다.*Lignin(리그닌)은 침엽수나 활엽수를 구성하는 지용성 페놀 고분자라고 한다. 오래된 책에서 나는 냄새도 lignin 때문이라던데 흥미롭다.",
+        "url": "/caran-d'ache-swiss-wood-%EC%8A%A4%EC%9C%84%EC%8A%A4%EC%9A%B0%EB%93%9C"
+    }
+    ,
+    
+    "tombow-8900-ec-97-b0-ed-95-84-ec-9d-98-ec-97-b0-eb-8f-84-ea-b5-ac-eb-b6-84": {
+        "title": "Tombow 8900 연필의 연도 구분",
+            "author": "ecrire06",
+            "category": "",
+            "content": "나름대로 8900 연필 연도 구분을 위한 기준을 정리해보았다. 추가할 정보가 있으면 댓글로 남겨주길 바란다.1. 5자리 생산 연도 표시 Tombow의 연필들은 '알파벳 1자리 + 숫자 4자리'로 생산 연도를 표시하고 있다. 알파벳은 공장, 생산 라인에 따라 정해지는 것으로 추정되는데 자세한 정보는 알 수 없다. 숫자는 '연도 2자리 + 월 2자리'의 형식을 따른다. 연도 표기는 초기에 쇼와 연호로 적다가 그 이후에는 일반적인 연도로 적은 듯하다. 표기 방식이 변한 시기가 언제인지는 명확하지 않다. Janet 님에 따르면 '1926년=쇼와 1년'이라고 한다. 따라서 5409면 1979년도 9월 생산품이다.보유하고 있는 2번째와 3번째 연필에는 K9002, K1707이 적혀 있는데, 각각 90년 2월, 17년 7월 생산으로 추측된다. 이상한 점은 첫 번째 연필인데, 알파벳 없이 숫자 5자리로만 25704가 적혀있다. 체계적인 생산 연도 표시 이전에 생산된 연필로 생각된다. (이 녀석 유물이네..)2. 사용 용도 표기 방식 2차 세계 대전에서 패한 일본은 주위 강대국들에게 간섭을 많이 받았다. 그 영향으로 일본에서 생산되는 모든 공산품에는 '사용 용도'가 표시되게 되었다. 'FOR 어쩌고저쩌고(...)' 이런 식이다. 'FOR DRAFTING AND RETOUCHING'이 'FOR GENERAL WRITING' 보다 이전에 생산된 것이다.3. 잠자리 모양 Tombow 마크인 잠자리는 시대에 따라서 조금씩 변해 왔다. 세부적으로 머리의 방향, 앞다리의 유무, 날개의 세부 모양에따라 나눌 수 있다.3-(1) 머리의 방향 가장 쉽게 알 수 있는 부분이다. Tombow 홈페이지에 따르면 https://www.tombow.com/brands/tombow/logo/ 2013년을 기점으로 머리 방향이 아래쪽에서 위쪽으로 바뀌었다. 3-(2) 앞다리의 유무 로고 변화에 따르면 57년 이후로는 잠자리의 앞다리가 없어져야 한다. 그러나 57년 이후 생산품에서도 앞다리가 발견되는 것을 보면, 로고 디자인 변화 이후에도 기존의 '앞다리 잠자리(?)'를 계속 생산해낸 것으로 보인다. 두 번째 8900을 보면 90년 생산임에도 앞다리가 관찰된다. 아마 로고 스탬핑(stamping) 기계 교체 비용이 너무 많이 들기 때문에 그냥 사용한 것이 아니었을까 추측해본다. 3-(3) 날개의 세부 모양 가장 미묘하고 알기 어려운 부분이다. 첫 번째 8900을 보면 날개의 모양에 약간의 차이가 보인다. 날개가 타원보다는 삼각형에 가깝고 더 길고 큰 편이다. 잠자리 꼬리도 짧다. 1927 초기 로고와 비슷한 모양이다. 로고 사진 출처: https://www.tombow.com/brands/tombow/logo/ 4. 글자 표시 구분 로고 옆에 적혀 있는 글자로 구분할 수도 있다. 변화 시점을 정확히는 모르겠으나 'MADE BY H.O.P. Micro Crystallite'가 'SINCE 1913 HIGH QUALITY'보다 이전에 생산된 것이다.5. 글씨체 Tombow 로고는 m과 w가 뒤집어놓은 것처럼 생긴 'Tombow'에서 맑은 고딕체와 비슷한 'Tombow'로 바뀌었다. 이는 2013년에 잠자리 머리 방향이 바뀌면서 함께 바뀐 부분이다.6. 바코드 유무 바코드의 유무로도 시기를 구분해볼 수 있다. 당연하게도 바코드가 있는 것이 더 최근에 만들어진 것이다. 시기를 추정해보기 위해 Tombow Mono J 연필들을 가지고 나왔다. 98년도는 바코드가 없는데 2004년부터는 바코드가 있는 것으로 보아 그 사이 시점에 (아마도 2000년?) 바뀐 것으로 추정된다. 7. JIS 실 유무 \"JIS 마크는 일본 공업 규격 마크이다. 우리나라의 KS 마크와 유사한 규격으로 일본공업표준조사회에서 인증하는 규격 제도이다. JIS는 일본 공업규격 (Japanese Industrial Standard)의 약칭으로 일본 공업 표준화 법에 따라 제정된 국가 임의 규격이다.\" [출처] https://namu.wiki/w/%EC%9D%B8%EC%A6%9D%EB%A7%88%ED%81%AC#s-3.3 위의 마크는 2008년 9월 30일까지 사용되었는데, 이를 기준으로 생산 연도를 추정해 볼 수도 있다.",
+        "url": "/tombow-8900-%EC%97%B0%ED%95%84%EC%9D%98-%EC%97%B0%EB%8F%84-%EA%B5%AC%EB%B6%84"
+    }
+    ,
+    
+    "tombow-8900": {
+        "title": "Tombow 8900",
+            "author": "ecrire06",
+            "category": "",
+            "content": "Janet 님의 글(https://blog.naver.com/janet1208/221881500772)에서 영감을 받아 이 글을 써본다. 다양한 연필을 접하다 보면 자연스레 안목도 길러지게 된다. 나라마다, 제조사마다 다른 흑연과 나무를 사용하고 이런 조합은 하나의 독특한 연필을 만들어낸다.주로 유럽이나 미국제 연필만 사용하던 나에게 일본 연필은 충격적이었다. 저렴한 라인에서도 발견되지 않는 편심. 고른 입자를 가진 흑연. 특유의 부드러움. 개성 넘치는 유럽 연필들과 비교해보면 굉장히 단정하다는 느낌을 받았다. 이런 매력 때문인지 언제부턴가 연필 보관함에 일제 연필이 하나 둘 늘어갔다.Tombow 사는 일본의 대중적인 문구 회사이다. 현행 제품으로는 8900 - Mono J - Mono R - Mono - Mono 100 연필이 있는데 오늘 소개할 8900 연필은 그중에서 가장 저렴하다. 우리나라의 '더존' 연필만큼이나 일본인에게 대중적으로 친숙한 연필인 듯하다.솔직히 이 연필은 지상자 디자인에 꽂혀서 구입하게 되었다. 왠지 고풍스러운 디자인이 딱 내 마음에 들었달까? 겨자색의 배경과 옛 느낌의 글씨체, 삽화가 나를 마구마구 유혹했다. 생산 초기부터 크게 바뀌지 않고 유지된 디자인이라고 한다. 연필을 모으다 보면 자연스럽게 지상자에도 관심이 가는 것 같다.8900 연필 한 자루를 꺼내 나란히 놓았다. 겨자색의 지상자와 진한 연두색의 연필이 묘하게 잘 어울린다.보유하고 있는 3가지 8900 연필을 꺼내보았다. 적혀있는 글자, 글씨체, 로고에 따라 시대를 구분해 볼 수 있다. MADE BY H.O.P Micro Crystallite가 SINCE 1913보다 구형이고, 잠자리 머리 방향이 아래쪽인 것이 더 옛날 것이다. 뒷면을 살펴보면 (2차 세계 대전 패전의 영향으로) 사용 용도가 적혀 있는데 FOR DRAFTING AND RETOUCHING이 FOR GENERAL WRITING보다 이전의 것이다. 물론 JIS 마크도 시대 구분에 도움을 준다.셋 중에서 MADE BY H.O.P가 적혀있는 녀석이 가장 마음에 든다. 날카롭게 깎은 뒤에 써보면 사각사각이고 입자 하나하나가 느껴지는 기분이 일품이다. 그런다고 해서 저항감이 강한 편도 아니어서 손을 피곤하게 하지도 않는다. 도료가 유난히 두껍게 발라져있는데 육각 모서리가 둥글게 느껴질 정도다. 가능하면 한 타 더 구하고 싶은 녀석이다. :)생산시기에 따라서 필기감이 미묘하게 차이가 있다. JIS 마크가 달려있고 잠자리 머리가 아래쪽인(2번째) 8900은 H.O.P(1번째)보다 더 사각인다. 어떤 종이를 가져다 대도 '사각사각' 소리를 내는 요란한 녀석이다(...) 묘한 저항감이 있는데 긴 글을 쓰다 보면 손가락이 금방 지치는 느낌이 들게 한다.현재 생산되는 8900은 위의 연필들보다는 사각거림이 덜하다. '사각'보다는 '서걱' 또는 '스으-걱'이 적당한 표현이겠다. 흑연심이 종이에 갈려나간다는 느낌보다는 묻어나가는 느낌이 든다. ㅜㅜ 일본 연필들은 2000년대 이후 생산품에서 급격하게 물러지는 경향이 있다. 현행은 바코드가 인쇄되어 있는데, 이 점도 별로 마음에 들지 않는다. 미묘한 차이지만 손가락에서 꽤나 걸리적거린다. 내가 너무 민감한 건지도 모르겠다.편심이 없음. 미세한 흑연 입자. 일본 연필은 기본기를 잘 갖춘 '연필의 정석'라고 말할 수 있다. 가격에 따라서 크게 달라지지 않는 품질도 마음에 든다. 저렴하면서도 수준급의 품질을 보여주는 8900의 매력을 느껴보길?",
+        "url": "/tombow-8900"
+    }
+    ,
+    
+    "ec-9a-94-ec-a6-88-ec-9d-8c-ec-9d-98-ec-97-b0-ed-95-84-eb-93-a4": {
+        "title": "요즈음의 연필들",
+            "author": "ecrire06",
+            "category": "",
+            "content": "요즈음 쓰는 연필들을 꺼내보았다.앞모습 뒷모습부드러우면서 사각사각한 녀석 단정하고 사각사각한 녀석 단단하면서 사각사각한 녀석 입자감 있고 사각사각한 녀석 거칠고 사각사각한 녀석 요즘따라 사각이는 녀석들이 맘에 드네..ㅎ Tombow Mono 50 2H Munwha 더존 (작은산) 4H Faber-Castell 9000 F Tombow 8900 2H Koh-i-Noor Hardtmuth 1500 HB ",
+        "url": "/%EC%9A%94%EC%A6%88%EC%9D%8C%EC%9D%98-%EC%97%B0%ED%95%84%EB%93%A4"
+    }
+    ,
+    
+    "caran-d-ache-fixpencil-ed-94-bd-ec-8a-a4-ed-8e-9c-ec-8a-ac-2mm": {
+        "title": "Caran d'Ache Fixpencil 픽스펜슬 2mm",
+            "author": "ecrire06",
+            "category": "",
+            "content": "날렵한 선단과 육각형 모양의 금속 배럴. 최초의 clutch 방식의 홀더. 이쯤 하면 짐작하는 분들도 계실 거라 생각된다. 그렇다. 오늘 이야기의 주인공은 Caran d'Ache 사의 Fixpencil이다.세계대전 당시 삼나무 공급의 부족으로 인해 연필을 대체할 방법이 시급해졌다. 1929년에 스위스 기술자 Carl Schmid는 Fixpencil을 만들어 이 문제를 해결했다. 당시 Carl Schmid가 출원한 특허(patent)은 다음과 같다.SWISS PATENT 176,245 “HALTER FÜR BLEI- UND FARBMINEN”, 1934–1935Fixpencil의 육각 그립은 연필을 쥐는 듯한 느낌을 들게 한다. 일반 연필보다는 굵은데, Swiss Wood 연필과 비슷한 굵기를 가지고 있다. 연필의 깎인 면에 해당하는 선단이 길다. 하이샤파 연필 깎이로 깎았을 때의 각도와 비슷하다.대부분의 Lead holder 그렇듯이 구성은 매우 단순하다. 클러치, 경통, 슬리브, 스프링, 노브로 구성된다. 노브와 경통이 플라스틱인 점은 조금 아쉽다.특이한 점은 경통의 직경이 충분히 커서 *스토퍼(stopper)*가 달린 vintage 심도 사용 가능하다는 점이다. Mars Lumograph Blei-Minen No.1803 심에 스토퍼가 달려 있어서 사용하지 못하고 있었는데, Fixpencil에 넣어보니 쏙 들어갔다. 덕분에 부드럽고 쫀득쫀득한 빈티지 심의 매력에 빠지게 되었다.손에서 돌려가며 사용하는 걸 선호해서 주로 클립은 빼고 사용한다. 클립에 가려져 있던 로고가 드러나서 새로운 홀더를 쓰는 듯한 기분도 들게 한다.내장 심은 'Fabr Suisse 6077 technograph B'심이 들어있다. Caran d'Ache의 옛날 광고를 참고해보면 Fabrication Suisse를 줄여 쓴 것으로 보인다. 우리말로 옮기면 '스위스 제조' 정도로 할 수 있겠다.(Suisse가 Switzerland의 프랑스명) Technograph 연필과 비슷하게 부드러우면서도 사각거리는 미묘한 느낌을 준다.샤프의 조상이라고도 할 수 있는 Lead holder. TK 9400 과 함께 Fixpencil은 가장 좋아하는 홀더이다. 2mm lead holder에 입문하려는 사람들에게 Fixpencil은 좋은 선택지가 될 것이다.*스토퍼(Stopper): 흑연심이 완전히 빠져나오지 못하도록 심 끝에 금속이나 플라스틱으로 덧대어진 장치를 말한다. Vintage clutch 중에서는 '2-3.15mm' 표기를 종종 발견할 수 있는데, 2mm에서 3.15mm까지 잡을 수 있다는 뜻이다. 이는 Stopper가 달린 심을 사용하기 위해 고안된 것이다.'금속 엔드'라고도 한다. 아래 사진처럼 완전히 빠져나오지 못하고 중간에 멈춘다.",
+        "url": "/caran-d'ache-fixpencil-%ED%94%BD%EC%8A%A4%ED%8E%9C%EC%8A%AC-2mm"
+    }
+    ,
+    
+    "tk-9400-crystal-ver": {
+        "title": "TK 9400 crystal ver.",
+            "author": "ecrire06",
+            "category": "",
+            "content": "Faber-Castell TK 9400은 전 게시물을 참고하길 바란다. https://blog.naver.com/ecrire06/221752636160Vintage 연필과 홀더를 구입해서 쓰는 것도 즐겁지만, 때로는 직접 만들어 쓰는 것도 매력적이다. 얼마전에 다 쓴 'Bic Cristal 볼펜'을 보다가 2mm lead holder로 개조해보자는 생각이 떠올랐다. 연필을 좋아하는 나에게 Bic 볼펜의 육각 베럴은 꽤나 매력적이었던 모양이다.Faber-Castell 사의 TK 9400을 이용해서 Bic 볼펜을 홀더로 개조할 계획을 세워보았다. 신기하게도 9400의 경통 길이와 Bic 볼펜의 길이가 딱 맞아떨어졌다. 덕분에 플라스틱을 잘라낼 염려는 덜었다. (유후~)한가지 문제점은 스프링 고정방법이었다. 처음에는 샤프처럼 스프링을 앞쪽에 위치시킬까도 고려해 보았다. 그래도 명색이 2mm clutch pencil인데 스프링은 뒤쪽에 위치해야한다는 나의 고집 덕분에(?) 스프링을 고정할 방법을 고민해보았다. 버니어 캘리퍼스로 직경을 재서 알루미늄 파이프를 구입할까도 생각했는데 그 방법은 너무 번거로웠다.개조를 포기할까 생각하다가 볼펜 리필심이 떠올랐다. 다 쓴 리필심을 적당히 잘라서 끼워넣어보았다. Signo RT1(노크식) 볼펜 리필이 가장 잘 맞아떨어졌다.다 완성하고 나니 꽤나 만족스러운 홀더가 완성되었다. 황동색의 경통과 노브가 투명하게 보여서 마음에 든다. 만년필로 치자면 Pelikan Classic M205의 느낌이랄까? 내부 메커니즘이 움직이는 모습이 그대로 보여서 매력적이다. 한가지 더 욕심을 부린다면 내부 경통과 클러치도 투명이면 예쁠 것 같다. 마음에 드는 vintage 심을 넣으면 매번 새겨진 글씨를 볼 수 있을테니~ :)Caran d'Ache나 Faber-Castell에서 내 글을 보고 투명 버전의 홀더를 출시하면 내가 꼭 사줄텐데 그럴 가능성은 희박해보인다. 혹시라도 출시되면 꼭 알려주길 바란다. 바로 가서 구입할테니. 그 전까지는 이런식으로 Bic 볼펜을 개조해서 쓸 수 밖에..",
+        "url": "/tk-9400-crystal-ver"
+    }
+    ,
+    
+    "a-w-faber-klett-ed-8c-90-ec-b4-89-eb-ac-bc-ec-97-b0-ed-95-84": {
+        "title": "A.W.Faber Klett 판촉물 연필",
+            "author": "ecrire06",
+            "category": "",
+            "content": "사고 싶었던 2mm 홀더 심을 구입했는데, Ebay 셀러가 vintage 연필을 덤으로 보내주었다. 평범한 연필로 생각하고 서랍에 보관하려다가, 자세히 보니 A.W.Faber-Castell 로고가 양각으로 적혀 있는 걸 발견하게 되었다. 세월의 영향인지 흐릿하게 되어버렸지만 천칭 모양과 함께 적혀있는 로고는 여전히 매력적이었다.A.W. Faber는 진한 초록색이 트레이드 마크인데 파란색 연필이어서 조금 의아했다. 한 면에 Klett 로고가 적혀있는 걸로 보아 당시 판촉물로 생산된 것이 아닐까 추측해본다. Klett에 대해 찾아보니 'Ernst Klett Verlag GmbH'이라는 풀네임을 가진 독일의 회사였다. 학생들 교과서와 교육용 소프트웨어, 각종 수업자료를 제공하는 듯하다. 기업 판촉물로 A.W.Faber을 쓰다니.^^ 그때로 돌아가서 몇 자루 더 받으면 행복할 것 같다. 어쩌면 그때는 지금의 Faber-Castell 만큼 익숙하고 흔한 연필이었는지도 모르겠다.흑연 심은 구형 Castell B와 성질이 비슷하다. 단단하면서도 사각거리는 심이 필기용으로 딱 마음이 든다. 한 자루 더 있다면 마음 놓고 쓸 텐데, 그렇지 못해서 아쉽다. 로고가 A.W.Faber-Castell인 점,'SV 본딩'기술이 적용되어 있는 걸로 미루어보아 적어도 1961년 이후 물건으로 예상된다. (더 정확한 정보는 잘 모르겠다.) 셀러의 깜짝 선물로 마음에 드는 연필을 쓰게 되어 행복하다.Thank You ★",
+        "url": "/a-w-faber-klett-%ED%8C%90%EC%B4%89%EB%AC%BC-%EC%97%B0%ED%95%84"
+    }
+    ,
+    
+    "tk-ec-9d-98-ec-9d-98-eb-af-b8": {
+        "title": "TK의 의미",
+            "author": "ecrire06",
+            "category": "",
+            "content": "좋아하는 Faber-Castell 홀더랑 샤프에 적혀 있는 'TK'의 의미를 찾다가 정보가 별로 없어서 포기했었다. 최근에 FaberCastell 카탈로그를 살펴보다 우연찮게 뜻을 찾아냈다출처: Faber-Castell Merchandise Knowledge Catalog p.57Faber-Castell의 Merchandise Knowledge에서는 TK에 대해 다음과 같이 설명한다. '우연히, Faber-Castell 사에 의해 등록된 TK 상표는 독일어 단어의 첫 글자(이니셜)을 나타낸다. 즉, 기술자(Technician_ Teckniker)과 예술가(Artists_Künstler)의 첫 글자를 따서 TK가 된 것이다.'기술자와 예술가들을 위한 필기구였다니! Faber-Castell의 TK 제품들을 사용하는 나에게 내가 마치 설계하는 사람, 혹은 그림 그리는 중요한 사람이라는 기분이 들게 해준다.",
+        "url": "/tk%EC%9D%98-%EC%9D%98%EB%AF%B8"
+    }
+    ,
+    
+    "faber-castell-9000-f": {
+        "title": "Faber-Castell 9000 F",
+            "author": "ecrire06",
+            "category": "",
+            "content": "전부터 필기감이 궁금했던 Castell 9000 F 경도 연필을 구입했다. 구형 9000 HB와 H 연필을 워낙에 좋아하는 터라 이 사이에 있는 F 경도는 어떨까 의문점이 들었다. HB의 부드러움과 H의 단단함을 가진 이상적인 연필인 걸까? 이번에 구입해서 써본 결과 나의 연필 이상향에 꽤 근접했다. 단단하지만 H 만큼 너무 연하지도 않은 적당한 퍼포먼스를 보여주었다. '적절하다'라는 키워드가 가장 어울리는 것 같다.한 가지 눈에 띈 부분은 신형도 마감과 디자인 부분에서 미세하게 변화가 있는 것 같다. 아마도 제조 공장에 따라 달라지는게 아닐까 추측해 본다. 보유하고 있는 신형 HB에는 'm8'이, 새로 산 F에는 'G8' 공장 번호가 적혀있다. 간단히 비교해보면 F의 로고 글자 자간이 좁아지고 경도 표시('F' 글자)가 Bold 체로 바뀌었다. 반대로 바코드와 주소 란은 F의 자간이 넓다. 연필 끝부분의 링 장식 색깔이 은색 비슷한 색깔에서 금색으로 바뀌었다신형 HB의 아쉬웠던 부분인 수성 페인트 부분도 조금 향상된 것 같다. 신형의 경우 오래 쓰다 보면 손 기름이 묻어서인지 매끈한 도료 표면이 matt 하게 변하고 손에 달라붙는 느낌으로 변한다. 새로 산 F는 그런 현상이 안 일어났는데 더 지켜봐야겠다.워낙에 연필에는 다양한 척도가 존재하고, 그 모든 것을 만족하기란 불가능해 보인다. 또 연필마다, 제조사마다 특징이 있고 그렇기 때문에 다양한 제품을 사용해보고 싶게 만든다. 이번에 구입한 Faber-Castell 사의 Castell 9000 F은 9000 연필만의 느낌을 유지하면서도 적당한 단단함을 가지고 있어서 마음에 들었다. 같은 제품의 다양한 경도를 써가며 내 마음에 드는 최적의 경도를 찾는 것도 참 재미있는 과정인 것 같다.",
+        "url": "/faber-castell-9000-f"
+    }
+    ,
+    
+    "eb-ac-b8-ed-99-94-ec-97-b0-ed-95-84-eb-8d-94-ec-a1-b4-deojon-ec-9e-91-ec-9d-80-ec-82-b0": {
+        "title": "문화 연필 더존 Deojon 작은 산",
+            "author": "ecrire06",
+            "category": "",
+            "content": "빈티지 연필을 쓴다는 건 묘한 기분을 불러일으킨다. 내가 태어나기도 전에 생산된 나보다 나이가 많은 연필을 쓰다 보면 마치 그때로 돌아간 듯한 느낌이 든다. 그 당시 학생들은 이런 연필들을 쓰며 공부했을까? 부모님께서 사주신 연필 한 다스를 행복해하며 칼로 깎던 모습을 상상해본다.지금까지는 주로 유럽제나 일본 제의 빈티지 연필들을 주로 모았다. 그러다가 '연필의 클래식' 카페를 둘러보다 보니 우리나라의 옛날 연필도 꽤 매력적이라는 생각이 들었다. 우연히 문구점에 들렀다가 옛날 더존 연필을 남아있어서 써보게 되었다.더존 연필은 시기별로 크게 4가지로 나누어볼 수 있다. 카페에서는 이들을 낙타, 큰산, 작은 산, 현행(?산?)으로 주로 부른다. 구분은 연필 각인 앞쪽에 위치한 문양의 차이를 기준으로 한다. 낙타는 말 그대로 낙타가 그려져있고, 큰산과 작은 산은 글자 크기와 자간에 차이가 있다. 큰산의 글자가 시원시원해서 더욱 옛날 느낌을 준다. 저작권 관계상 사진은 연필의 클래식를 참고해주길 바란다.2000년대 초반까지 작은 산이 국내에서 생산되고 그 이후로는 재정난 때문인지 중국으로 넘어가 생산되고 있다. 현행 제품의 경우, 흑연 심은 국내에서 제조하고 중국에서 마무리되는 식이라고 한다. '국산 연필'이 점점 사라져가는 데에 아쉬움이 많은 분들이 구형 더존 연필을 찾으시는 듯하다.작은 산의 연필심은 일제 연필의 성향을 많이 띤다. 동일한 경도에 비해서 진하고 무른 편이다. Deojon B는 Castell 9000 3B의 느낌, Deojon 5H는 Koh-I-Noor 1500(신형) H의 느낌과 유사하다. 무르고 부드러운 B 계열의 연필은 노트 정리할 때 굵기 유지가 불편하다는 점 때문에 선호하진 않는다. 하지만, 글 쓸 때나 필사할 때, 낙서할 때는 또 이만한 게 없는 것 같다. :)5H는 워낙에 단단해서 닳지를 않는다. 한 자루를 몽당이로 만드는 데 오래 걸릴 듯하다. 높은 경도라 큰맘 먹고 구매했는데 써보니 필기용으로 사용해도 되겠다는 생각이 들어서 놀랐다. 물론 바로 깎아서 쓰면 송곳으로 쓰는 기분이 들긴 하다. 3H와 4H 정도면 딱 마음에 들 것 같은데 필기감이 어떨지 궁금하다.동일한 작은 산 연필이지만 다른 경도는 hi-mic으로 적혀 있는데 유독 B만은 '컴퓨터용'이라고 적혀 있다. 당시 OMR 표기를 흑색 연필로 했던 영향일까 추측해 본다. H 경도는 '제도용' HB는 '필기용'으로 적혀있어야 할 것 같은데 hi-mic으로만 적혀있어서 뭔가 심심해 보인다.생산 시기 확인은 'Micro Crystalline Lead ㉿ 하이 믹심 [더존]'이 적혀있는 면 하단에 음각으로 적힌 네 자리 숫자로 확인할 수 있다. 앞 두자리가 연도, 뒤의 두자리가 월을 의미한다. 예컨대 9905이면 1999년 5월산이라는 뜻이다빈티지 연필이 특별하게 느껴지는 이유는 바로 그 속에 역사와 이야기가 담겨있기 때문이 아닐까? 이런 점은 다음에 어떤 연필을 만나게 될지 기대가 되게 하는 이유이기도 하다.",
+        "url": "/%EB%AC%B8%ED%99%94-%EC%97%B0%ED%95%84-%EB%8D%94%EC%A1%B4-deojon-%EC%9E%91%EC%9D%80-%EC%82%B0"
+    }
+    ,
+    
+    "koh-i-noor-ec-bd-94-ec-9d-b4-eb-85-b8-ec-96-b4-hardtmuth-1900-toison-d-or": {
+        "title": "Koh-i-Noor 코이노어 Hardtmuth 1900 Toison D'or",
+            "author": "ecrire06",
+            "category": "",
+            "content": "지난달에 올렸던 Koh-i-Noor Hardtmuth 1500에 이어 오늘은 1900 Toison D'or 연필을 소개해보려 한다. 1500 연필에 대한 이야기는 전에 올린 게시물을 참고해주길 바란다. https://blog.naver.com/ecrire06/221783924777Koh-i-Noor 제품들은 저마다 특별한 매력을 가지고 있는 듯하다. 다른 브랜드의 필기구에서 찾을 수 없는 특징들을 가지고 있어서 더 그런 것 같다. 특히 현재까지도 생산되고 있는 Czech Republic 산 1500과 1900 연필은 특유의 사각거림과 입자감이 일품이다. 두 연필만큼 개성이 뚜렷한 연필은 찾기란 쉽지 않아 보인다. 이외에도 Versatil 2mm lead holder, 이전 회사명이었던 L&C Hardtmuth의 다양한 제품군들이 있는데 이들의 매력에 대해서는 조만간 포스팅을 올리도록 하겠다.1900 연필은 Toison D'or라는 이름을 가지고 있다. 프랑스 어로 '황금 양털'이라는 뜻이라고 한다. 검은색 바디에 금색으로 적혀있는 글씨와 아이보리색 심경도 표시 부분, 금색 띠 장식이 이름과 잘 어울린다. 'Times New Roman' 글씨체와 비슷한 서체로 'TOISON D'OR 1900'이 적혀 있는데 더욱 고풍스럽고 고급 지게 보인다. 다른 회사들도 이를 매력적으로 느꼈는지 디자인을 따라 한듯한 연필을 찾아볼 수 있다. Tombow 사의 MONO 시리즈, 동아연필의 Fable이 그 대표적인 예이다. 이에 대해서는 '닮은 꼴 연필'이라는 제목으로 올린 전 게시물을 참고하길 바란다. https://blog.naver.com/ecrire06/2217692622181500 연필과 마찬가지로 1900 연필의 심은 연한 편이다. 1900 B가 Castell 9000 H 정도, 1900 HB는 9000 F 정도의 진하기를 보인다. 1500과의 필기감을 비교해보면 1900쪽이 더 사각인다. 종이와의 적당한 마찰력이 글씨를 쓸 때 기분 좋게 한다. 단단한 심의 특성 덕분에 Point Retention도 뛰어난 건 덤이다. 1900은 정제된 1500이라는 생각이 든다.1500이 거친 야생마라면 1900은 잘 길들여진 사냥개 같은 느낌이다.Castell 9000 HB~F 정도의 성향을 가진 나에게는 1900 B와 HB, 1500 HB가 마음에 든다. 1900 HB와 B 사이의 경도가 있으면 좋을 텐데 아쉽다. Koh-i-Noor 연필을 구매할 분들은 사진을 참고하길 바란다.Koh-i-Noor 사의 제품 중에는 Toison D'or 이름이 붙은 다른 제품군도 만나볼 수 있다. 색연필, 파스텔, 그리고 1900 연필 디자인의 2mm lead holder까지. 1900 연필처럼 생긴 이 홀더는 Czechoslovakia 독립 이전에는 Toison D'or Versatil 5900라는 이름으로, 이후 독립 이후 Czech Republic 산 홀더는 Koh-i-Noor Toison D'or 5900 또는 Versatil 5905등의 이름으로 판매되고 있다. 연필과 같이 놓고 찍으면 재미있을 것 같다.",
+        "url": "/koh-i-noor-%EC%BD%94%EC%9D%B4%EB%85%B8%EC%96%B4-hardtmuth-1900-toison-d'or"
+    }
+    ,
+    
+    "eb-8b-ae-ec-9d-80-ea-bc-b4-ec-97-b0-ed-95-84": {
+        "title": "닮은 꼴 연필",
+            "author": "ecrire06",
+            "category": "",
+            "content": "연필을 수집할 때 특정 모델의 시기별 변천사를 살펴보고 하나하나씩 모아가는 것도 소소한 즐거움이 된다. Faber-Castell사의 Castell 9000 연필과 Koh-I-Noor Hardtmuth 1500 연필을 시기별로 수집 중인데 보기만 해도 행복해진다. 나중에 Mongol 연필도 수집하고 싶다는 게 나의 소소한 소망이다.한 연필의 변천사 만큼이나 여러 회사의 '닮은 꼴' 연필을 찾는 것도 흥미롭다. Koh-I-Noor Hardtmuth TOISON D'OR 1900, Tombow MONO 50, 동아 Fable을 살펴보면 서로 디자인이 흡사하다는 것을 알게 된다. 검은색 바디에 유광 페인트로 마감되어 있고 금색으로 글씨가 각인되어 있다. 심경도를 표시하는 부분에는 아이보리 색상 배경에 금색으로 글씨가 각인되어 있는데 고급스러워 보인다. 금색과 검은색의 절묘한 조화는 연필을 더 사랑스럽게 만든다. :)전체적인 외관은 비슷하지만 조금씩 차이를 보인다. 심경도 표시 부분의 금색 링을 살펴보자. TOISON D'OR 1900 연필은 뒤쪽에 금색 링이 둘러져 있고, Tombow MONO 50 연필은 반대로 로고 쪽에 둘러져 있다. Fable은 앞과 뒤에 모두 금색 링이 있는 것을 확인할 수 있다. 또 Fable은 심경도 부분 배경색이 아이보리보다는 회색빛 내지 탁한 하늘색으로 되어 있다. 세 연필의 차이점은 로고와 글자 구성, 글씨체 뿐이지만 분위기나 느낌은 확연히 다르다. 또 각각 매력이 달라서 세 연필 모두 마음에 든다.세 연필의 디자인이 비슷하게 된 계기는 뭘까? PENCIL MANIA 님의 블로그에서 '벤치마킹'이라는 말을 사용해 설명한다. 코이누어와 톰보우, 동아연필의 역사를 살펴보면 Koh-I-Noor(1790), Tombow(1913), 동아연필(1946) 순으로 설립된 것을 알 수 있다. 각 모델 출시 연도는 조금씩 차이가 있겠지만(*) TOISON D'OR 1900 디자인을 MONO 50이, 다시Fable이 카피한 것으로 생각된다.이 경우 외에도 '닮은 꼴' 연필의 예로는 미국 연필을 들 수 있다. 노란색 연필의 시초인 Koh-I-Noor 1500 연필의 영향인지 미국의 연필은 대부분 '노란색'이라는 특징을 가지고 있다. 비슷한 노란색 계열이지만 또 색감이 묘하게 달라서 전혀 다른 연필이라는 느낌을 준다. 이 때문에 종류별 소장 욕구를 마구마구 자극한다. 이것이 바로 연필을 수집하게 되는 매력이 아닐까..? ^^(*) Koh-I-Noor, Tombow 카탈로그를 살펴봤을 때 TOISON D'OR 1900은 1950년대에 출시된 것으로 추측됨. MONO 브랜드가 1963년에 출시되었으니 MONO 50은 그 이후에 생산되었을 것임.",
+        "url": "/%EB%8B%AE%EC%9D%80-%EA%BC%B4-%EC%97%B0%ED%95%84"
+    }
+    ,
+    
+    "ec-97-b0-ed-95-84-ea-b0-80-ea-b2-a9-ec-97-90-eb-8c-80-ed-95-9c-eb-82-98-ec-9d-98-ec-86-8c-ea-b2-ac": {
+        "title": "연필 가격에 대한 나의 소견",
+            "author": "ecrire06",
+            "category": "",
+            "content": "연필을 쓰다 보면 종종 이런 질문들을 받을 때가 있다. 이거 구하고 싶은데 얼마예요? 얼마면 살 수 있어요? 현행 연필들의 경우엔 대답하기 쉽지만, 이미 단종된 vintage 연필들은 뭐라 대답하기 참 애매하다. 요즘 시세로 말해야 하는지, 아니면 가치로 말해야 하는지 고민된다. 보통 요즘 시세로 말하고 '그런데 지금은 생산 안 돼서 구하기 어려워요'라고 덧붙이곤 한다.Graf von Faber-Castell이나 Caran d'Ache의 일부 초고가 연필들을 제외하면 대체로 연필들이 비싸도 한 자루에 3,000원 이내에 가격이 형성된다. 그러나 구입 단위에 따라 연필 가격은 천차만별로 달라지기 마련이다. 낱개로 1개씩 사는 경우와 1타(12자루), 흔하진 않지만 1gross(12자루, 144자루)까지 다양한 단위를 만나볼 수 있기 때문이다.단종된 연필의 경우에는 더 가격대가 다양해진다. 조금 과장하자면 정말 '부르는 게 값이라...' 수요와 공급, 셀러의 마음, 희귀 성, 생산연도, 새 제품... 등 다양한 요소가 가격에 영향을 미치기 마련이다.    말이 길어졌다. 결국 말하고 싶은 것은 'vintage 연필의 가격을 따지는 게 의미가 있을까?'라는 점이다. 본질은 연필의 품질이나 심과 나무의 느낌, 감촉 같은 요소들이기 때문이다. 가격을 물어보는 대신 이렇게 말하는 게 어떨까. 이 연필 소개해주시겠어요?",
+        "url": "/%EC%97%B0%ED%95%84-%EA%B0%80%EA%B2%A9%EC%97%90-%EB%8C%80%ED%95%9C-%EB%82%98%EC%9D%98-%EC%86%8C%EA%B2%AC"
+    }
+    ,
+    
+    "koh-i-noor-ec-bd-94-ec-9d-b4-eb-85-b8-ec-96-b4-hardtmuth-1500": {
+        "title": "Koh-i-Noor 코이노어 Hardtmuth 1500",
+            "author": "ecrire06",
+            "category": "",
+            "content": "Koh-i-Noor Hardtmuth(코이노어 하르트무스)라는 회사를 알게 된 계기는 바로 이 1500 연필을 통해서였다. 한때는 Faber-Castell과도 필기구 분야에서 경쟁 상대였던 회사였다. 당대에 광고를 보면 창(Spear) 대신 연필을 든 기사(Knight)들이 서로 싸우는 모습을 볼 수 있다. 들고 있는 연필은 Castell 9000과 Koh-i-Noor 1500으로 생각된다. 당시에 두 연필이 '연필의 최고'라는 타이틀을 걸고 얼마나 경쟁했는지 짐작해 볼 수 있다.처음 구입 시에는 1500 F 경도로 구입했는데, 특유의 사각거림과 입자감이 너무나 마음에 들었다. 종이와 흑연심이 맞닿으면서 내는 소리. 마치 ASMR을 틀어놓은 느낌이랄까. 눈과 귀를 동시에 만족시켜줄 수 있는 연필은 이만한 게 더 있을까. 특유의 사각임을 표현할 방법을 모르겠다. 써봐야만 알 수 있는 그런 독특한 필기감을 가지고 있다.개인적으로 '거칠다'라는 표현보다는 '입자감'이라는 말을 더 선호한다. 거칠다는 건 저품질 연필에서 흑연과 점토가 불균일하게 섞여서 생기는 비정상적인 현상을 의미하기 때문이다. '입자감'은 그와는 다르게 흑연 알갱이 하나하나가 느껴지는 그런 필기감을 말한다. 둘의 차이는 고경도(F, H, 2H ...)로 갈수록 잘 구별된다. 품질이 좋은 연필은 연하기(명도)와 심의 단단함에만 차이가 있지만, 저품질 연필에서는 써보면 '아! 이건 못쓰겠다' 느낌이 딱 온다. 마치 쇠못으로 콘크리트를 긁는 느낌이랄까...?1500 F가 정말 마음에 들어서 Koh-i-Noor의 다른 경도와 모델들에도 손을 뻗게 되었다. 이번에는 1500 HB와 1900 Toison D'or(투아종도르) B, HB를 구입했다. 다음에 기회가 되면 경도별로 담겨있는 tin 세트를 구입해보고 싶기도 하다. 같은 연필의 다른 경도를 접해보는 것도 즐겁기 때문이다.Koh-i-Noor 연필은 같은 경도 대비 매우 연한 특성이 있다. 연하다고 일컬어지는 Castell 9000보다도 한 단계 더 연하다. 예컨대 1500 F는 Castell 9000 H 정도, 1500 HB는 9000 F 정도 이런 식이다. 코이노어의 제품을 구입할 계획이라면 이런 점을 참고하길 바란다. 이런 단단한 심의 특성 덕분에 Point Retention도 매우 뛰어나다. (Point Retention에 대해서는 https://blog.naver.com/ecrire06/221738228417 포스팅 하단을 참고해주길 바란다.)몇 달 전 구입한 1500 F와 이번에 구입한 1500 HB는 불과 한두 달 차이인데 변화가 보인다. 가장 눈에 띄는 부분은 글씨체가 얇아졌다는 점이다. 워드프로세서로 비유하자면 Bold 체에서 Regular 체로 바뀐 느낌이다. 굵은 글씨를 가진 전 모델이 더 예스러운 느낌을 줘서 더 마음에 든다. 반면 바뀐 얇은 글씨체는 깔끔한 느낌을 준다. 바코드 부분에서도 차이가 있는데 제조국 CZECH 글씨가 Digital Letter(점 글씨)로 바뀌었다. 일련번호에도 차이를 보인다.Koh-i-Noor Hardtmuth 1500. 강한 개성을 가진 매력 있는 물건이다. 다른 연필에서는 발견할 수 없는 독특한 사각임과 입자감은 1500 연필을 찾게 되는 이유이다. 사각임이 그리워질 때, 고경도의 연필이 생각날 때 꼭 써보길 추천한다. 다음에는 1500의 형님뻘(?)인 Toison D'or 1900에 대해 써보겠다.",
+        "url": "/koh-i-noor-%EC%BD%94%EC%9D%B4%EB%85%B8%EC%96%B4-hardtmuth-1500"
+    }
+    ,
+    
+    "faber-castell-tk9400": {
+        "title": "Faber Castell TK9400",
+            "author": "ecrire06",
+            "category": "",
+            "content": "My favorite lead holder ♥연필만 사용하던 나에게 홀더에 입문하게 해준 녀석이다. 깔끔한 디자인과 고풍스러운 진한 녹색. 옛날 디자인을 지금까지도 고수하는 Faber-Castell이 참 마음에 든다.원형과 육각 그립의 절묘한 만남. 자연스럽게 유선형으로 떨어지는 선이 볼수록 감탄스럽다. TK 9400 디자인을 설계한 디자이너들의 센스가 돋보이는 부분이다.몸체가 플라스틱으로 되어있지만 전혀 싼 느낌이 나지 않는다. 이전에는 메탈만 고급스럽다는 생각을 가지고 있었는데, 플라스틱에 대한 선입견을 바꾸게 되었다. 내부 경통, 클러치 노브 같은 다른 부품들은 금속으로 되어있다. 황동의 적당한 무게가 필기할 때의 안정감을 더 높여준다. 잡았을 때 손에 착 감기는 느낌이랄까?현행 모델의 경우 클러치가 황동에 크롬 코팅이 되어있는 것 같다. 쓰다 보면 조금씩 코팅이 벗겨지는 현상을 발견할 수 있다. 자꾸만 신경 쓰여서 코팅 방식이 아닌 구형 TK 9441의 클러치를 바꿔 끼웠다.( 아마도 스테인리스 재질이지 않을까 추측하고 있다.) 심을 물리지 않을 때 클러치가 튀어나오지 않는다. 구형 클러치가 신형에 비해 크기가 조금 더 작다는 것을 알 수 있다.Faber-Castell TK9400. 정말 매력적인 물건이다. vintage 심을 물려가며 괜찮은 조합을 찾는 과정도 재미있다. 나의 경우엔 Van dyke F 심이나 Castell TK 9071 HB (vintage) 심을 즐겨 사용한다. 홀더를 써보지 않았거나 망설이는 분들께 꼭 권해보고 싶다. Lead Holder의 매력에 빠져보는 게 어떻겠냐고.",
+        "url": "/faber-castell-tk9400"
+    }
+    ,
+    
+    "ec-9a-94-ec-a6-98-ec-9d-98-ed-95-84-ed-86-b5-ea-b5-ac-ec-84-b1": {
+        "title": "요즘의 필통 구성",
+            "author": "ecrire06",
+            "category": "",
+            "content": "필기구에 관심이 많은 사람에게 필통은 그 사람만의 개성, 취향을 드러내준다. 주위를 둘러보면 한정판 샤프에서부터 볼펜 색깔 collection, 특이한 경우에는 만년필까지 다양한 조합을 만나볼 수 있을 것이다. 항상 들고 다니면서 자주 사용하기에 그 사람이 어떤 필감을 좋아하는지, 주로 사용 용도를 무엇인지를 보여주기도 한다.나의 경우에는 연필을 워낙 좋아해서 항상 연필을 가지고 다닌다. 이상하게 샤프는 명작이라고 불리는 여러 모델들을 써보았지만 손에 잘 안 맞아서 거의 사용하지 않는다. 심 굵기가 일정하다는 장점이 있지만, 뭔가 연필만큼 심을 딱 잡아주는 느낌이 없어서 어색하다. 그러다가 2mm 홀더(TK 9400)을 사용한 이후로는 홀더를 하나 둘 들이기 시작했다. 길이가 줄어들지 않는 연필 같은 느낌이 들었다. 심을 깎아줘야 한다는 불편함은 있지만 연필 깎는 걸 좋아하는 나에겐 그다지 큰 문제는 아니었다.    필통 구성 목록은 다음과 같다.    Pencil: Faber-Castell 9000 HB & H (준구형)    Lead Holder: Faber-Castell TK 9400 & TK 9441    Caran d'Ache Fixpencil 2mm (신형)    Eraser: Faber-Castell Dust Free (검은색)    심연기: KUM Lead Pointer (2mm & 3.15mm)    2mm 심: Faber-Castell TK 9071 (vintage), Staedtler 2mm 색깔심 (Red & Blue)    SAKURA Pigma Micron 02 (0.30mm)그리고 사진에는 담지 못했지만 Magnesium 2구 연필깎이도 들고 다닌다.필통은 교보문고 핫트랙스 매장에서 구입했다. 색감을 중요하게 생각하기 때문에 인터넷으로 주문하는 것보다는 직접 가는 걸 선호한다. 많은 사람들이 룬룬(LoonLoon) 필통을 추천해 주셨는데, 필기류를 최소한으로만 가지고 다녀서 수납공간이 많이 필요하진 않았다. 살펴보다 보니 바이 풀 디자인(by.fulldesign)이랑 라이브 워크(Livework) 필통이 눈에 띄었다. 연필이 짧아지면 위로 꽂는 형태는 불편해서 옆으로 여는 걸로 결정하게 되었다. 색상은 브릭 레드인데, 이름 그대로 빨간 벽돌색이다. 생각보다 어디에 놓아도 색감 매칭이 잘 되어서 마음에 들게 쓰고 있다.취향은 변하기 마련이니깐 나중엔 구성이 바뀌겠지만 한동안은 이 구성을 유지할 것 같다.",
+        "url": "/%EC%9A%94%EC%A6%98%EC%9D%98-%ED%95%84%ED%86%B5-%EA%B5%AC%EC%84%B1"
+    }
+    ,
+    
+    "faber-castell-ec-88-98-ec-84-b1-eb-8f-84-eb-a3-8c": {
+        "title": "Faber-Castell 수성 도료",
+            "author": "ecrire06",
+            "category": "",
+            "content": "Castell 9000 사용후기를 살펴보면 공통적으로 다음과 같은 말들을 찾아볼 수 있다. '쓰다 보면 번져서 연필과 손가락이 초록색으로 보기 싫게 물든다.' 수성도료를 사용하기 때문에 땀이나 물기에 닿으면 생기는 현상으로 추측된다. FaberCastell가 수성 도료를 사용하게 된 계기를 찾아보았다.Faber-Castell Merchandise KnowledgeFaber-Castell 사는 수성 도료에 대해 매우 자부심을 느끼고 있는 듯 하다. Faber-Castell 공식 홈페이지에 'Water-based Paint Technology'에 대해 설명하는 글이 따로 있을 정도다. 석유제품을 사용하지 않으며 연필에 박테리아가 번식하는 것을 막아준다고 한다.1992년에 기술이 출시된 이후 환경을 존중하는 의미로 환경 친화적인 수성 페인트를 사용하게 된 최초의 회사라고 자부하고 있다. 그에 대한 장점으로는 3가지를 꼽고 있다. 1) 작업환경에서 불쾌한 냄새를 풍기지 않는다. 2) 생산과 처리 과정에서 안전하다. 3) 용매(solvent)의 함량을 8%이하로 줄임으로서 환경을 적극적으로 보호한다.개인적으로 하나 덧붙이자면 유성 도료에 비해서 미끄러지지 않고 손에 착 참긴다는 점도 수성 도료의 장점이라고 생각된다.나의 경우 손에 땀이 극도로 없어서 건조할 정도이기 때문에 페인트가 묻어나오는 현상은 경험해보지 못했다. 혹시라도 Faber-Castell 제품이 좋지만 수성 도료는 싫어하는 분들께 1992년 이전 생산 연필을 구해보라고 조언하며 글을 마친다.",
+        "url": "/faber-castell-%EC%88%98%EC%84%B1-%EB%8F%84%EB%A3%8C"
+    }
+    ,
+    
+    "eb-82-98-ec-9d-98-ed-81-ac-eb-a6-ac-ec-8a-a4-eb-a7-88-ec-8a-a4-ed-8a-b8-eb-a6-ac": {
+        "title": "나의 크리스마스 트리",
+            "author": "ecrire06",
+            "category": "",
+            "content": "    연필 끝에서 태어난    나의 크리스마스 트리    따뜻한 코코아 한 잔과 함께    포근하고 따뜻한 겨울날 ♥    Merry Christmas :)    Faber-Castell Goliath    A.W. Faber Castell 9000 2B    A.W. Faber Castell Polychromos 9201 250 gold",
+        "url": "/%EB%82%98%EC%9D%98-%ED%81%AC%EB%A6%AC%EC%8A%A4%EB%A7%88%EC%8A%A4-%ED%8A%B8%EB%A6%AC"
+    }
+    ,
+    
+    "a-w-faber-castell-9000": {
+        "title": "A.W.Faber Castell 9000",
+            "author": "ecrire06",
+            "category": "",
+            "content": "독일의 뉘른베르크(Nürnberg) 지방에서 1761년에 설립된 A.W. Faber Company는 Kaspar Faber에 의해 설립되게 된다. 이후 가족사업으로 발전하게 되고 전 세계로 뻗어나가게 된다. Castell 백작과 Faber 가문의 결혼을 계기로 A.W.Faber는 지금의 Faber-Castell의 이름을 가지게 되었다. Faber 회사에 대한 역사는 이쯤에서 마치기로 하고 연필에 대해알아보자.위에서부터 A.W. Faber Castell 9000 2B, H적당한 도료 두께와 품질 좋은 나무, 흑연 심의 적당한 단단함과 진하기 3박자를 모두 갖추고 있다. 한마디로 말해 '연필의 정석'을 찾았다고 말하고 싶다. 보통 연필들은 세 조건들 중에서 한 가지가 아쉽기 마련인데, A.W. Faber 사의 Castell 9000에서는 아직까지 아쉬움을 찾아보지 못했다. 꼭 하나 꼽자면 이제는 구하기가 어렵다는 거? ^^Castell 9000 경도 비교현행 Faber-Castell 과 A.W. Faber 시절의 Castell 9000 연필의 진하기를 비교해 보았다. Faber-Castell 9000 연필을 쓰면서 매번 HB의 진하기와 H의 Point-Durability를 가진 연필이 있으면 좋겠다는 생각을 했다. (둘 사이의 F 경도는 써보지 않아서 어떨지는 궁금하다.)A.W. Faber 9000 연필은 나의 연필 이상향(?)을 딱 충족해 주었다. 먼저 H는 잘 갈리면서도 단단함을 잃지 않고 PointDurability가 뛰어나다. 현행 H와 HB의 균형을 잘 맞춘 느낌이 든다. 2B의 경우에는 현행 2B와 진하기는 비슷하지만 더 부드럽고 무르다는 느낌을 받았다. 시간 날 때 그림 그리기를 좋아하는데 그럴 때마다 즐겨 찾게 될 것 같다. 위의 사진에서는 최대한 비슷한 압력을 줘가며 글씨를 썼는데, 실제로는 필압에 따라 진하기 차이가 있어서 명암을 줄 때 표현이 자유롭다.연필을 가까이에서 보면 정말 예쁘다. 현행 Castell 9000과는 달리 6면 중 1면에만 프린팅이 간결하게 되어있다. A.W.Faber의 천칭 모양 마크가 박혀있어서 더욱 매력적이다. 커뮤니티에서는 천칭 모양에 세로줄이 있으면 30년대, 세로줄이 없으면 40년대 이후라고 말하던데 자세한 연도 구분은 알기 어렵다.Faber 사가 직접 나무 농장도 운영·관리한다고 들었는데, 정말 나무 품질이 다르다. 휴대용 Magnesium 연필 깎이로 깎아보았는데 크게 힘들이지 않고도 부드럽게 깎여나간다. 깎인 면을 만져보면 나무라기보다는 점토 같은 느낌이 든다. Faber-Castell 구형과 신형도 품질 차이가 있었는데 A.W. Faber는 그보다 한 수 위였다.A.W. Faber Castell 9000 (위) 2B (아래) H2B와 H의 프린팅 차이는 오랜 시간의 흔적에 의한 것 같다. 금색 염료(페인트)에 금속 성분이 들어있어서 부식된 게 아닐까 추측된다. H 연필을 가까이에서 보면 각도에 따라 색이 바뀌는데 은근히 매력적이다. 마치 자개장롱처럼 은은한 색을 띤다.도료는 정말 적당하게 잘 발라져 있다. 나무 느낌을 충분히 살리면서도 너무 얇지 않은 적당함을 가지고 있다. 현재 FaberCastell 제품에 사용되는 수성 도료(페인트)는 92년도에 개발되어 사용되었으니 아마도 유성 도료이거나 아세톤 도료라고 생각되지만 확실치는 않다. 이에 대해서는 다음에 포스팅을 올리도록 하겠다. SV 공법도 적용되어 있지 않다.1957s A.W. Faber Catalog1980s Faber-Castell Catalog소장 중인 A.W. Faber 사의 Castell 9000 생산연도를 알아내기 위해 여기저기 찾아보았다. Fred's Pencils 블로그에 게시되어 있는 'A.W. Faber Castell 9000 Varities'사진이 연대순으로 배열되어 있다고 가정해보고 더 찾아보았다. 57년대의 A.W. Faber Catalog와 80년대의 Faber-Castell Catalog의 9000은 '아래에서 7번째' 연필이랑 유사하고 소장 중인 9000은 '아래에서 13번째'에 위치한 것을 보아 적어도 57년대 이전의 모델로 추측할 수 있다.1980s Faber-Castell Catalog출처:https://fredspencils.wordpress.com/2011/05/04/a-w-faber-castell-9000-varieties/쓰다 보니 A.W. Faber Castell 9000 연필 찬양글이 되어버렸다. ^^; 이 글이 A.W. Faber 9000 연필의 좋은 점들을 완전히 표현하지 못해서 아쉬움이 남는다. 백문이 불어 일견이라고 이 연필은 직접 써볼 때 그 진가를 알아볼 수 있는 것 같다. 비록 구하기가 쉽지 않지만 가능하다면 누구나 꼭 써보라고 권하고 싶다.",
+        "url": "/a-w-faber-castell-9000"
+    }
+    ,
+    
+    "design-drawing-3800-ec-97-b0-ed-95-84-ec-9d-98-ec-a0-95-ec-b2-b4": {
+        "title": "Design Drawing 3800 연필의 정체?",
+            "author": "ecrire06",
+            "category": "",
+            "content": "짐을 정리하다가 Made in USA Faber-Castell에서 만든 DESIGN™ DRAWING 3800 2H 연필을 찾게 되었다. 가지고 있는 VENUS DRAWING 3800 이랑 이름도 비슷하고 대리석 모양도 같지만 로고나 글씨체, 제조사의 차이가 있다.위에서부터 VENUS Drawing 3800 4H, 6H, Made in USA Faber-Castell Design™ 2HVENUS랑 USA Faber-Castell 이 같은 계열사였을까? 아니면 디자인이 비슷하게 될 이유가 있었는지 의문이 들었다.위에서부터 VENUS Drawing 3800 4H, 6H, Made in USA Faber-Castell Design™ 2HEbay랑 Google을 뒤져 보다 보니 같은 대리석 모양을 가진 연필들의 다양한 제조사들을 확인할 수 있었다. American Pencil Co., Venus Pen and Pencil Co., Eberhard Faber, Sanford Corp., Prismacolor에서 제조한 Drawing 3800 연필들을 확인할 수 있었다. Vintage 연필 정보를 찾을 때 주로 방문하는 Brandnamepencils에서도 디자인이 조금씩 다른 Drawing 3800 연필들을 찾을 수 있었다.이것저것 정보를 찾아보다가 PENCIL MANIA 님의 블로그에서 힌트를 얻게 되었다. 초기에 American Lead Pencil Company에서 Venus라는 이름으로 연필을 출시했다고 한다. 이후 1973년에 Faber-Castell로, 1980년경 Eberhard Faber로 다시 2000년경 Sanford로 주인이 바뀌고 현재는 Newell Rubbermaid 산하의 Prismacolor 회사에서 생산하며 대리석 무늬는 사라지게 되었다고 한다.Venus Drawing Pencil의 연필 상자의 변천 과정은 땅볕 메들리(흑심)의 글을 참고하길 바란다. American Pencil Co.부터 Berol Corp.까지의 디자인 변화를 볼 수 있다.Faber-Castell 사의 연혁과 여러 정보들을 모아서 정리해보았다. 아마도 내가 보유하고 있는 Made in USA FaberCastell Design™ 2H 연필은 1973년대 이후 Faber-Castell 인수 후의 모델로 추측된다.Venus사 연혁    1956    Venus Pen and Pencil Corp. 설립    1967    기업 인수 후에 Venus-Esterbrook로 회사명 변경    1971    Berol Corp.에 의해 기업 매수됨    1973    Faber-Castell에서 다시 인수함    1980년경    Eberhard Faber에서 인수    2000년경    Sandford에서 인수    그 이후    Sanford 사가 Newell Rubbermaid로 주인이 바뀌고 기업 산하의 Prismacolor에서 생산위에서부터 VENUS Drawing 3800 4H, 6H, Made in USA Faber-Castell Design™ 2H세 연필 모두 나뭇결이나 흑연의 품질이나 요즘 나오는 하이엔드 연필을 훌쩍 뛰어넘는다. 비록 경도가 2H, 4H, 6H라 필기용으로는 아쉬움이 있지만 매력을 느끼기에는 충분했다. 특히 Made in USA Faber-Castell Design™ 2H의 경우에는 적당한 사각거림과 부드러움, 뛰어난 Point Durability*를 가지고 있었다. 1910년대로 돌아가서 American Pencil Co.의 VENUS 연필을 잔뜩 사 오고 싶다. Blackwing 602 연필이 복각되었듯이(옛날만큼의 품질은 아니지만) 대리석 문양을 가진 Drawing 3800 연필도 다시 생산되었으면 좋겠다.*Point Durability라는 용어에 대해서는 아래 Pencil Revolution의 포스트를 참고하길 바란다. 간단히 말해 글씨를 쓰기에 적당한 뾰족함을 흑연이 얼마나 잘 유지하는지에 대한 용어이다.",
+        "url": "/design-drawing-3800-%EC%97%B0%ED%95%84%EC%9D%98-%EC%A0%95%EC%B2%B4"
+    }
+    ,
+    
+    "castell-9000-ec-97-b0-ed-95-84-ec-9d-98-eb-b3-80-ec-b2-9c-ec-82-ac": {
+        "title": "Castell 9000 연필의 변천사",
+            "author": "ecrire06",
+            "category": "",
+            "content": "소장 중인 Castell 9000 연필들을 오랜만에 꺼내 보았다. 위에서부터 신형, 준구형, 구형으로 배치해보았다. 맨 위의 신형은 현재 판매 중인 현행 모델이고 나머지 연필들은 단종되어 이제는 찾아보기 어려워졌다.위에서부터 Castell 9000 신형, 준구형, 구형※편의상 가장 오래된 것을 구형, 현행 모델을 신형, 그 사이에 과도기적인 모델을 준구형이라고 썼다.신형이나 구형이나 로고나 글씨체는 거의 동일하고 글씨 굵기에 약간의 차이를 보인다. 가장 큰 차이점은 구형에서는 'GERMANY' 표시와 'SV 본딩'표시가 앞면에 있다는 것. 그리고 심경도 표시 부분이 가운데에 위치한다는 점이다. 연필 끝부분의 띠 표시가 조금 더 굵고 황금색을 띠기도 한다.바코드 부분 (위에서부터 Castell 9000 신형, 준구형, 구형)바코드 부분을 살펴보면 많은 차이점을 찾아볼 수 있다. 구형의 경우 앞, 뒤 2면에 프린팅이 되어있고, 준구형과 신형은 3면에 걸쳐서 프린팅이 되어 있다.구형부터 살펴보면 'Water based varnish Wasserlack' 글자가 상아색으로 바코드와 함께 적혀 있고 글씨체도 후행 모델과 다른 점을 확인할 수 있다. 글씨가 '나 빈티지야!'라고 말하는 기분이 든다. 저 글씨체는 유지해 주었으면 좋았을 텐데 아쉽다. 개인적으로 구형처럼 프린팅이 연필에 길게 적혀있으면 잡을 때 이물감이 들어서 그렇게 좋아하진 않는다.준구형과 구형은 글씨체나 바코드 위치에는 차이가 없지만 준구형은 금색으로, 신형은 상아색으로 프린트되어있다. 개인적으로 3면 다 금색으로 프린트되어있는 준구형이 더 예쁘다. 가능하다면 준구형 모델을 더 구하고 싶다. 원가 절감 때문으로 의심해 보았지만, 나x위키를 찾아보다가 바코드 인식 문제 때문이라는 추측도 알게 되었다. 어떤 게 정답인지는 모르겠다.홈페이지, 설명 부분 (위에서부터 Castell 9000 신형, 준구형, 구형)이 부분은 신형과 준구형의 차이를 찾을 수 없다. 구형의 경우에는 2면에 걸쳐서 적혀있기 때문에 홈페이지와 설명 부분은 따로 없다. 구형에서 홈페이지 주소가 없는 것 보니 그때에는 공식 홈페이지가 없었을까? 아니면 생략했던 걸까?나뭇결 근접 샷 (위에서부터 Castell 9000 신형, 준구형, 구형)Faber-Castell 공장에서 사포로 갈려 나온 모양이 가장 마음에 든다. 사포로 간 것처럼 나오는 연필깎이가 있으면 바로 살텐데 아직 못 찾았다.연필마다 편차는 있겠지만 구형으로 갈수록 나무 품질이 좋아진다. 특히 휴대용 연필 깎이로 깎았을 때 그 차이가 극명하게 느껴진다. 신형 9000를 깎으면 매끈하지 않고 톱밥 같은 질감이다. 휴대용 연필깎이(Magnesium, Kum WoodCutter), 수동 연필깎이(하이샤파)로 깎아봐도 마찬가지였다.왜 연필은 갈수록 품질이 낮아지는 걸까 ㅜㅜ 볼펜과 샤프펜슬의 편리함에 밀려서 연필의 수요가 급감한 것도 한 요인으로 보인다. 이런 점은 Vintage 물건들을 찾게 되는 이유이기도 하다.",
+        "url": "/castell-9000-%EC%97%B0%ED%95%84%EC%9D%98-%EB%B3%80%EC%B2%9C%EC%82%AC"
+    }
+    ,
+    
+    "faber-castell-9000-hb-ec-8b-a0-ed-98-95": {
+        "title": "Faber-Castell 9000 HB (신형)",
+            "author": "ecrire06",
+            "category": "",
+            "content": "    죽기 전에 한 번은 꼭 서봐야 할 연필 - PENCIL MANIA 님의 블로그Faber-Castell 사의 Castell 9000 연필 소개는 이 문장 만으로도 충분하다. 아직 이 연필을 표현할 더 좋은 문구는 떠오르지 않는다. Castell 9000 연필은 워낙 유명해서 조금만 검색해도 금방 정보들이 나오지만, 너무 중복되지 않는 선에서 나의 느낌을 적어보려 한다.Castell 9000은 내가 가장 좋아하는 녀석이다. 이 연필 덕분에 지금의 '연필 수집' 취미를 가지게 되었다. 전에는 국산 연필만 쓰다가 이 연필을 사용하고 나서는 연필 세계에 눈을 떴다.다른 연필에 비해서 더 단단하고 사각거리는 느낌은 이 연필의 매력 포인트라고 할 수 있다. 내가 느끼기에는 Tombow Mono J 2H가 Faber-Castell 9000 HB랑 비슷한 진하기를 보여준다. 경도 취향은 계속 바뀌어 왔지만 Castell 9000 HB를 빼놓은 적은 없었다. 이 연필이 아직까지도 사랑받는 이유를 알 것 같다.연필 표면은 수성 도료로 덮여있다. 적당히 두꺼워서 쉽게 갈라지거나 벗겨지는 현상은 경험하지 못했다. 'Water-based Varnish' 옆에 독일어로 'Wasserlack'라고 쓰여 있다. 독일어로 'water varnish' 또는 'water-based paint'를 의미한다. 같은 의미를 두 번 쓴 건 독일인의 자존심, pride인 걸까?수성 도료로 도색되어 있어서 유성 도료에 비해서 덜 미끄러진다. 잡았을 때 손에 착 감기는 느낌이 든다. 쓰다 보면 연필과 손가락에 페인트가 묻어 나온다는 평이 있다. 손에 땀이 극도로 적은 나는 Castell 9000 5자루를 몽당연필로 만드는 동안 경험해보지 못했다.xPENCIL MANIA 님의 말처럼 누구든지 '죽기 전에 한 번은 꼭 써봐야 할 연필'이다. 근처 문구점에 찾아가서 1,000원을 투자하고 9000만큼의 매력을 느껴보길 바란다.",
+        "url": "/faber-castell-9000-hb-%EC%8B%A0%ED%98%95"
+    }
+    
+    
+    };
+</script>
+<script src="assets/js/lunr.js"></script>
+<script src="assets/js/search.js"></script>
+            </section>
+
+        </article>
+
+    </div>
+</main>
+
+<!-- /post -->
+
+<!-- The #contentFor helper here will send everything inside it up to the matching #block helper found in default.hbs -->
+<script>
+$(function() {
+    var $postContent = $(".post-full-content");
+    $postContent.fitVids();
+});
+</script>
+
+
+
+        <!-- Previous/next page links - displayed on every page -->
+        
+
+        <!-- The footer at the very bottom of the screen -->
+        <footer class="site-footer outer">
+            <div class="site-footer-content inner">
+                <section class="copyright"><a href="http://localhost:4000/">Ecrire06</a> &copy; 2021</section>
+                <section class="poweredby">Proudly published with <a href="https://jekyllrb.com/">Jekyll</a> &
+                    <a href="https://pages.github.com/" target="_blank" rel="noopener">GitHub Pages</a> using
+                    <a href="https://github.com/jekyller/jasper2" target="_blank" rel="noopener">Jasper2</a></section>
+                <nav class="site-footer-nav">
+                    <a href="/">Latest Posts</a>
+                    
+                    
+                    <a href="https://ghost.org" target="_blank" rel="noopener">Ghost</a>
+                </nav>
+            </div>
+        </footer>
+
+    </div>
+
+    <!-- The big email subscribe modal content -->
+    
+        <div id="subscribe" class="subscribe-overlay">
+            <a class="subscribe-overlay-close" href="#"></a>
+            <div class="subscribe-overlay-content">
+                
+                    <img class="subscribe-overlay-logo" 
+                         src="/assets/images/blog-icon.png" 
+                         alt="Ecrire06" />
+                
+                <h1 class="subscribe-overlay-title">Search Ecrire06</h1>
+                <p class="subscribe-overlay-description">
+                Ecrire06 블로그에서 무엇을 찾고싶나요 </p>
+                <span id="searchform" method="post" action="/subscribe/" class="">
+    <input class="confirm" type="hidden" name="confirm"  />
+    <input class="location" type="hidden" name="location"  />
+    <input class="referrer" type="hidden" name="referrer"  />
+
+    <div class="form-group">
+        <input class="subscribe-email" onkeyup="myFunc()" 
+               id="searchtext" type="text" name="searchtext"  
+               placeholder="Search..." />
+    </div>
+    <script type="text/javascript">
+        function myFunc() {
+            if(event.keyCode == 13) {
+                var url = encodeURIComponent($("#searchtext").val());
+                location.href = "/search.html?query=" + url;
+            }
+        }
+    </script>
+</span>
+            </div>
+        </div>
+    
+
+    <!-- highlight.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.10.0/components/prism-abap.min.js"></script>
+    <script>$(document).ready(function() {
+      $('pre code').each(function(i, block) {
+        hljs.highlightBlock(block);
+      });
+    });</script>
+
+    <!-- jQuery + Fitvids, which makes all video embeds responsive -->
+    <script
+        src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous">
+    </script>
+    <script type="text/javascript" src="/assets/js/jquery.fitvids.js"></script>
+    <script type="text/javascript" src="https://demo.ghost.io/assets/js/jquery.fitvids.js?v=724281a32e"></script>
+
+
+    <!-- Paginator increased to "infinit" in _config.yml -->
+    <!-- if paginator.posts  -->
+    <!-- <script>
+        var maxPages = parseInt('');
+    </script>
+    <script src="/assets/js/infinitescroll.js"></script> -->
+    <!-- /endif -->
+
+    
+
+
+    <!-- Add Google Analytics  -->
+    <!-- Google Analytics Tracking code -->
+ <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'G-LNRDZQG1HF', 'auto');
+  ga('send', 'pageview');
+
+ </script>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LNRDZQG1HF"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-LNRDZQG1HF');
+</script>
+
+    <!-- The #block helper will pull in data from the #contentFor other template files. In this case, there's some JavaScript which we only want to use in post.hbs, but it needs to be included down here, after jQuery has already loaded. -->
+    
+        <script>
+$(function() {
+    var $postContent = $(".post-full-content");
+    $postContent.fitVids();
+});
+</script>
+
+    
+
+    <!-- Ghost outputs important scripts and data with this tag - it should always be the very last thing before the closing body tag -->
+    <!-- ghost_foot -->
+
+</body>
+</html>

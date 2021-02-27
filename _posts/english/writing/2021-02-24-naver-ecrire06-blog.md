@@ -4,7 +4,7 @@ current: post
 cover:  assets/images/naverecrire06.jpg
 navigation: True
 title: The Spring is Just Around the Corner!
-date: 2021-02-24 09:05:00
+date: 2021-02-24 20:00:00
 tags: [writing]
 class: post-template
 subclass: 'post'
